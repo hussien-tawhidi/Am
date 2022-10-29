@@ -1,0 +1,123 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $dark-color;
+  color: $light-color;
+  height: 45px;
+  position: relative;
+  .headerImg {
+    width: 25px;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .searchIcon {
+    margin: 0 1rem;
+  }
+  .logo {
+    margin-right: 2rem;
+  }
+  .menu {
+    margin: 1.5rem;
+    a {
+      opacity: 0.8;
+      transition: all 0.3s ease-in-out;
+      margin: 0 1rem;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-weight: 300;
+      cursor: pointer;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+// search container components styles
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  color: black;
+  z-index: $searchIndex;
+  display: flex;
+  width: 30%;
+  margin: 0 auto;
+  opacity: 0;
+  display: none;
+  .searchInput {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    color: $light-color;
+    padding: 10px;
+    img {
+      opacity: .8;
+      transition: all .3s ease-in-out;
+      height: 30px;
+      object-fit: cover;
+      cursor: pointer;
+      &:hover{
+        opacity: 1;
+      }
+    }
+    input {
+      color: $light-color;
+      background: transparent;
+      border: none;
+      outline: none;
+      width: 90%;
+      padding: 10px;
+      background: transparent;
+      &::placeholder {
+        color: $light-color;
+        opacity: 0.6;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 300;
+      }
+    }
+    .close {
+      font-size: 40px;
+      cursor: pointer;
+      opacity: .7;
+      transition: all .3s ease-in-out;
+      &:hover{
+        opacity: 1;
+      }
+    }
+  }
+  .QuickLinkConainer {
+    color: $dark-color;
+    padding: 1rem 2rem;
+    background-color: $light-color;
+    .title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    .quickLinks {
+      display: flex;
+      flex-direction: column;
+      padding-left: 1rem;
+      a {
+        font-size: 14px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  &.showSearchContainer{
+    opacity: 1;
+   display: flex;
+  }
+}
