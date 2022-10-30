@@ -1,5 +1,5 @@
 import React from "react";
-import { searchContaineDate } from "../../data/FakeData";
+import { searchContaineDate } from "../../../data/FakeData";
 
 export default function SearchContainer({
   searchContainer,

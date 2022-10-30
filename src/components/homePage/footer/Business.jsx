@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { shopAndLearn } from "../../data/FakeData";
-export default function FooterCard() {
+import {  business } from "../../../data/FakeData";
+export default function Business() {
   const [footerMenu, setFooterMenu] = useState(false);
 
   const onFooterMenu = () => {
@@ -9,7 +9,7 @@ export default function FooterCard() {
   return (
     <div className="footerCard">
       <h1 className="titleSubTitle">
-        shop and learn{" "}
+        with business
         <span
           className={footerMenu ? "icon showFooterMenu" : "icon"}
           onClick={onFooterMenu}
@@ -17,8 +17,14 @@ export default function FooterCard() {
           +
         </span>
       </h1>
-      <div className={footerMenu?"footerCardMenuConent showFooterCardMenuConent":"footerCardMenuConent"}>
-        {shopAndLearn.map((learn) => (
+      <div
+        className={
+          footerMenu
+            ? "footerCardMenuConent showFooterCardMenuConent"
+            : "footerCardMenuConent"
+        }
+      >
+        {business.map((learn) => (
           <>
             <div className="footerLinks">
               <a href="/">{learn.title}</a>

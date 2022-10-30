@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import {  business } from "../../data/FakeData";
-export default function Business() {
+import { appleValue } from "../../../data/FakeData";
+export default function AppleValues() {
   const [footerMenu, setFooterMenu] = useState(false);
 
   const onFooterMenu = () => {
@@ -9,7 +9,7 @@ export default function Business() {
   return (
     <div className="footerCard">
       <h1 className="titleSubTitle">
-        with business
+        apple values
         <span
           className={footerMenu ? "icon showFooterMenu" : "icon"}
           onClick={onFooterMenu}
@@ -24,7 +24,7 @@ export default function Business() {
             : "footerCardMenuConent"
         }
       >
-        {business.map((learn) => (
+        {appleValue.map((learn) => (
           <>
             <div className="footerLinks">
               <a href="/">{learn.title}</a>

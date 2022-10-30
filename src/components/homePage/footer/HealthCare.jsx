@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { aboutUs } from "../../data/FakeData";
-export default function AboutUs() {
+import { healthCate } from "../../../data/FakeData";
+export default function HealthCare() {
   const [footerMenu, setFooterMenu] = useState(false);
 
   const onFooterMenu = () => {
@@ -9,7 +9,7 @@ export default function AboutUs() {
   return (
     <div className="footerCard">
       <h1 className="titleSubTitle">
-        Abouts
+        HealthCare
         <span
           className={footerMenu ? "icon showFooterMenu" : "icon"}
           onClick={onFooterMenu}
@@ -24,7 +24,7 @@ export default function AboutUs() {
             : "footerCardMenuConent"
         }
       >
-        {aboutUs.map((learn) => (
+        {healthCate.map((learn) => (
           <>
             <div className="footerLinks">
               <a href="/">{learn.title}</a>

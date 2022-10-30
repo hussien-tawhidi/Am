@@ -1,14 +1,15 @@
+// home page data base
 export const headerData = [
-  { id: 1, title: "store", linkTo: "/" },
-  { id: 2, title: "Mac", linkTo: "/" },
-  { id: 3, title: "Iphone", linkTo: "/" },
-  { id: 4, title: "Samsung", linkTo: "/" },
-  { id: 5, title: "Microsoft", linkTo: "/" },
-  { id: 6, title: "Ipad", linkTo: "/" },
-  { id: 7, title: "Airpod", linkTo: "/" },
-  { id: 8, title: "Watch", linkTo: "/" },
-  { id: 9, title: "Accessories", linkTo: "/" },
-  { id: 10, title: "Support", linkTo: "/" },
+  { id: 1, title: "store", linkTo: "/store" },
+  { id: 2, title: "Mac", linkTo: "/mac" },
+  { id: 3, title: "Iphone", linkTo: "/iphone" },
+  { id: 4, title: "Samsung", linkTo: "/samsung" },
+  { id: 5, title: "Microsoft", linkTo: "/microsoft" },
+  { id: 6, title: "Ipad", linkTo: "/ipad" },
+  { id: 7, title: "Airpod", linkTo: "/airpods" },
+  { id: 8, title: "Watch", linkTo: "/watch" },
+  { id: 9, title: "Accessories", linkTo: "/accesseories" },
+  { id: 10, title: "Support", linkTo: "/support" },
 ];
 
 export const searchContaineDate = [

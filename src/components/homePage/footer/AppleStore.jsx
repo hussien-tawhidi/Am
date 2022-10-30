@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { appleValue } from "../../data/FakeData";
-export default function AppleValues() {
+import { appleStore } from "../../../data/FakeData";
+export default function AppleStore() {
   const [footerMenu, setFooterMenu] = useState(false);
 
   const onFooterMenu = () => {
@@ -9,7 +9,7 @@ export default function AppleValues() {
   return (
     <div className="footerCard">
       <h1 className="titleSubTitle">
-        apple values
+        apple store
         <span
           className={footerMenu ? "icon showFooterMenu" : "icon"}
           onClick={onFooterMenu}
@@ -24,7 +24,7 @@ export default function AppleValues() {
             : "footerCardMenuConent"
         }
       >
-        {appleValue.map((learn) => (
+        {appleStore.map((learn) => (
           <>
             <div className="footerLinks">
               <a href="/">{learn.title}</a>

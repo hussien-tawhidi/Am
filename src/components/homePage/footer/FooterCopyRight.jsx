@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function FooterCopyRight() {
   return (
     <div className="footerCopyRight">

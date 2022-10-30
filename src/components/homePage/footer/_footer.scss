@@ -1,6 +1,6 @@
 .para {
   font-size: 12px;
-  width: 80%;
+  width: 100%;
   color: $dark-color;
   p {
     opacity: 0.7;
@@ -8,6 +8,7 @@
   }
 }
 .footerContainer {
+  border-top: 1px solid rgb(0, 0, 0,0.3);
   margin-top: 1rem;
   color: $dark-color;
   text-transform: capitalize;
@@ -137,10 +138,9 @@
     p {
       font-size: 12px;
     }
-    .copyRightLinks{
+    .copyRightLinks {
       display: flex;
-      a{
-        
+      a {
         margin: 5px;
         padding: 2px;
       }
@@ -149,15 +149,12 @@
 }
 @media (max-width: $xsm-size) {
   .footerCopyRight {
-   
-
-    .copyRightLinks{
+    .copyRightLinks {
       display: flex;
       // flex-direction: column;
       flex-wrap: wrap;
-      a{
+      a {
         width: 40%;
-
       }
     }
   }

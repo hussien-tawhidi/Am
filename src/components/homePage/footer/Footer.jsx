@@ -1,6 +1,5 @@
 import FooterCard from "./ShopAndLearn";
 import FooterCopyRight from "./FooterCopyRight";
-import Paragraph from "./Paragraph";
 import Services from "./Services";
 import FooterAccount from "./FooterAcount";
 import AppleStore from "./AppleStore";
@@ -11,15 +10,10 @@ import AppleValues from "./AppleValues";
 import AboutUs from "./AboutUs";
 
 export default function Footer() {
-  // const [footerMenu, setFooterMenu] = useState(false);
-
-  // const onFooterMenu = () => {
-  //   setFooterMenu(!footerMenu);
-  // };
   return (
     <div className="container">
       <div className="footerContainer">
-        <Paragraph />
+       
         <div className="row">
           <div className="col-lg-2 col-md-4 col-12">
             <div className="single-footer-menu">
@@ -58,7 +52,7 @@ export default function Footer() {
               <AppleValues />
             </div>
           </div>
-          
+
           <div className="col-lg-2 col-md-4 col-12">
             <div className="single-footer-menu">
               <AboutUs />

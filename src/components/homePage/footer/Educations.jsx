@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { acount } from "../../data/FakeData";
-export default function FooterAccount() {
+import {education } from "../../../data/FakeData";
+export default function Education() {
   const [footerMenu, setFooterMenu] = useState(false);
 
   const onFooterMenu = () => {
@@ -9,7 +9,7 @@ export default function FooterAccount() {
   return (
     <div className="footerCard">
       <h1 className="titleSubTitle">
-       account
+       education
         <span
           className={footerMenu ? "icon showFooterMenu" : "icon"}
           onClick={onFooterMenu}
@@ -19,7 +19,7 @@ export default function FooterAccount() {
       </h1>
       <div className={footerMenu?"footerCardMenuConent showFooterCardMenuConent":"footerCardMenuConent"}>
 
-      {acount.map((learn) => (
+      {education.map((learn) => (
         <>
           <div className="footerLinks">
             <a href="/">{learn.title}</a>

@@ -1,16 +1,19 @@
-import { headerData } from "../../data/FakeData";
-
-export default function MobielMenu({onMobile,mobiel}) {
-  
+import { headerData } from "../../../data/FakeData";
+import { Link } from "react-router-dom";
+export default function MobielMenu({ onMobile, mobiel }) {
   return (
     <div className="mobileContainer">
       <div className="mobileMenu ">
         <div className="icon" onClick={onMobile}>
-          <span className={mobiel?"line1 close":"line1"}></span>
-          <span className={mobiel?"line2 close":"line2"}></span>
+          <span className={mobiel ? "line1 close" : "line1"}></span>
+          <span className={mobiel ? "line2 close" : "line2"}></span>
         </div>
         <img src="/assets/logo.png" alt="" />
-        <img src="/assets/icons/shoppingcard.png" alt="" className={mobiel?"  hide":""}/>
+        <img
+          src="/assets/icons/shoppingcard.png"
+          alt=""
+          className={mobiel ? "  hide" : ""}
+        />
       </div>
       <div className={mobiel ? "menu showMobileMenu" : "menu  "}>
         <div className="mobileSearch">
@@ -20,7 +23,9 @@ export default function MobielMenu({onMobile,mobiel}) {
         <div className="menuLinks">
           {headerData.map((head) => (
             <>
-              <a href="/" className={mobiel?"show":""}>{head.title}</a>
+              <Link to={head.linkTo} className={mobiel ? "show" : ""}>
+                {head.title}
+              </Link>
             </>
           ))}
         </div>

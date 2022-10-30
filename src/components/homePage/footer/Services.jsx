@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { appleStore } from "../../data/FakeData";
-export default function AppleStore() {
+import { serVices } from "../../../data/FakeData";
+export default function Services() {
   const [footerMenu, setFooterMenu] = useState(false);
 
   const onFooterMenu = () => {
@@ -9,7 +9,7 @@ export default function AppleStore() {
   return (
     <div className="footerCard">
       <h1 className="titleSubTitle">
-        apple store
+        services
         <span
           className={footerMenu ? "icon showFooterMenu" : "icon"}
           onClick={onFooterMenu}
@@ -24,7 +24,7 @@ export default function AppleStore() {
             : "footerCardMenuConent"
         }
       >
-        {appleStore.map((learn) => (
+        {serVices.map((learn) => (
           <>
             <div className="footerLinks">
               <a href="/">{learn.title}</a>

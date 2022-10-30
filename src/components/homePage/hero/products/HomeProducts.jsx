@@ -1,5 +1,5 @@
 import React from "react";
-import { heroCardData } from "../../../data/FakeData";
+import { heroCardData } from "../../../../data/FakeData";
 import HeroProductsCard from "./HeroProductsCard";
 
 export default function HomeProducts() {
