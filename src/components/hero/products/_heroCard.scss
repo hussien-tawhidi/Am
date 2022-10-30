@@ -1,0 +1,47 @@
+.heroCard {
+  position: relative;
+  padding: 2rem;
+  overflow: hidden;
+  color: $dark-color;
+  text-align: center;
+  .text {
+    margin-top: 2rem;
+    .title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0.4rem;
+      h5 {
+        font-size: 30px;
+        font-weight: 800;
+        text-transform: capitalize;
+        margin-left: 5px;
+      }
+      .logo {
+        width: 30px;
+      }
+    }
+    p {
+      font-size: 20px;
+      text-transform: capitalize;
+    }
+    .links {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .heroImg{
+    height: 60vh;
+
+  }
+}
+.homeProducts{
+  overflow: hidden;
+}
+@media (max-width:$lg-size) {
+  .heroCard{
+    .heroImg{
+      height: 40vh;
+    }
+  }
+}

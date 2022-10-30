@@ -6,6 +6,7 @@
   color: $light-color;
   height: 45px;
   position: relative;
+  z-index: $headerIndex;
   .headerImg {
     width: 25px;
     opacity: 0.8;
@@ -20,104 +21,125 @@
   }
   .logo {
     margin-right: 2rem;
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    &.hideHeaderSingleMenu {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+  }
+  .header-icons {
+    img {
+      opacity: 1;
+      transform: translateX(0);
+      transition: all 0.2s ease-in-out;
+      &.hideHeaderSingleMenu {
+        opacity: 0;
+        transform: translateX(50px);
+        pointer-events: none;
+        &:nth-child(1) {
+          transition-delay: 550ms;
+        }
+        &:nth-child(2) {
+          transition-delay: 600ms;
+        }
+      }
+    }
   }
   .menu {
     margin: 1.5rem;
+    overflow: hidden;
     a {
       opacity: 0.8;
-      transition: all 0.3s ease-in-out;
       margin: 0 1rem;
       text-transform: capitalize;
       font-size: 14px;
       font-weight: 300;
       cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      &.hideHeaderSingleMenu {
+        opacity: 0;
+        pointer-events: none;
+        &:nth-child(1) {
+          transition-delay: 50ms;
+        }
+        &:nth-child(2) {
+          transition-delay: 100ms;
+        }
+        &:nth-child(3) {
+          transition-delay: 150ms;
+        }
+        &:nth-child(4) {
+          transition-delay: 200ms;
+        }
+
+        &:nth-child(5) {
+          transition-delay: 250ms;
+        }
+
+        &:nth-child(6) {
+          transition-delay: 300ms;
+        }
+
+        &:nth-child(7) {
+          transition-delay: 350ms;
+        }
+
+        &:nth-child(8) {
+          transition-delay: 400ms;
+        }
+
+        &:nth-child(9) {
+          transition-delay: 450ms;
+        }
+        &:nth-child(10) {
+          transition-delay: 500ms;
+        }
+      }
+
       &:hover {
         opacity: 1;
+        color: inherit;
       }
     }
   }
 }
 // search container components styles
-.searchContainer {
-  display: flex;
-  flex-direction: column;
+
+.headerContainer{
+  z-index: $headerIndex;
   position: fixed;
   top: 0;
-  right: 0;
   left: 0;
-  color: black;
-  z-index: $searchIndex;
-  display: flex;
-  width: 30%;
-  margin: 0 auto;
+  right: 0;
+  .overlay{
+    z-index: $overlayIndex;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s ease-in-out;
+    &.showOverlay{
+      opacity: 1;
+      pointer-events: visible;
+    }
+  }
+}
+.mobileMenu {
+  pointer-events: none;
   opacity: 0;
-  display: none;
-  .searchInput {
-    display: flex;
-    align-items: center;
-    height: 45px;
-    display: flex;
-    justify-content: space-between;
-    color: $light-color;
-    padding: 10px;
-    img {
-      opacity: .8;
-      transition: all .3s ease-in-out;
-      height: 30px;
-      object-fit: cover;
-      cursor: pointer;
-      &:hover{
-        opacity: 1;
-      }
-    }
-    input {
-      color: $light-color;
-      background: transparent;
-      border: none;
-      outline: none;
-      width: 90%;
-      padding: 10px;
-      background: transparent;
-      &::placeholder {
-        color: $light-color;
-        opacity: 0.6;
-        text-transform: capitalize;
-        font-size: 14px;
-        font-weight: 300;
-      }
-    }
-    .close {
-      font-size: 40px;
-      cursor: pointer;
-      opacity: .7;
-      transition: all .3s ease-in-out;
-      &:hover{
-        opacity: 1;
-      }
-    }
-  }
-  .QuickLinkConainer {
-    color: $dark-color;
-    padding: 1rem 2rem;
-    background-color: $light-color;
-    .title {
-      font-size: 18px;
-      font-weight: 600;
-      margin-bottom: 1rem;
-    }
-    .quickLinks {
-      display: flex;
-      flex-direction: column;
-      padding-left: 1rem;
-      a {
-        font-size: 14px;
-        text-transform: capitalize;
-        margin-bottom: 10px;
-      }
-    }
-  }
-  &.showSearchContainer{
-    opacity: 1;
-   display: flex;
+}
+@media (min-width:$lg-size) {
+  .mobileContainer{
+    pointer-events: none;
+    opacity: 0;
+    display: none;
   }
 }

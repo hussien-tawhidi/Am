@@ -13,24 +13,44 @@ export default function SearchContainer({
           : "searchContainer"
       }
     >
-      <div className="searchInput">
-        <img src="/assets/icons/searchIcon.png" alt="" />
-        <input type="text" placeholder="search in am.com" />
-        <span className="close" onClick={showSearchContainer}>
+      <div
+        className={
+          searchContainer ? "searchInput showSearchInput" : "searchInput"
+        }
+      >
+        <img
+          src="/assets/icons/searchIcon.png"
+          alt=""
+          className={searchContainer ? "inputImage" : ""}
+        />
+        <input
+          type="text"
+          placeholder="Search in am.com"
+          className={searchContainer ? "showInput" : ""}
+        />
+        <span
+          className={searchContainer ? "close showCloseBtn" : "close"}
+          onClick={showSearchContainer}
+        >
           x
         </span>
       </div>
       <div className="QuickLinkConainer">
-        <p className="title" onClick={searchContainer}>
+        <p
+          className={searchContainer ? "title showTitle" : "title"}
+          onClick={searchContainer}
+        >
           QuickLinks
         </p>
         <div className="quickLinks">
           {searchContaineDate.map((search) => (
-            <>
-              <a href={search.linkTo} key={search.id}>
+            <div key={search.id}>
+              <p
+                className={searchContainer?"link showQuikLinks":"link"}
+              >
                 {search.title}
-              </a>
-            </>
+              </p>
+            </div>
           ))}
         </div>
       </div>

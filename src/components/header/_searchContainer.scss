@@ -1,0 +1,158 @@
+.searchContainer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: $searchIndex;
+  display: flex;
+  width: 30%;
+  margin: 0 auto;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+  z-index: $searchIndex;
+  .searchInput {
+    transform: translateX(100px);
+    display: flex;
+    align-items: center;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    color: $light-color;
+    padding: 10px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+
+    img {
+      transition: all 0.3s ease-in-out;
+      height: 30px;
+      object-fit: cover;
+      cursor: pointer;
+      opacity: 0;
+      transform: translateX(50px);
+      &:hover {
+        opacity: 1;
+      }
+      &.inputImage {
+        transform: translateX(0);
+        opacity: 0.8;
+        transition-delay: 0.7s;
+      }
+    }
+    input {
+      color: $light-color;
+      background: transparent;
+      border: none;
+      outline: none;
+      width: 90%;
+      padding: 10px;
+      background: transparent;
+      opacity: 0;
+      transform: translateX(50px);
+      transition: all 0.2s ease-in-out;
+      &::placeholder {
+        color: $light-color;
+        opacity: 0.6;
+        font-size: 14px;
+        font-weight: 100;
+      }
+      &.showInput {
+        opacity: 1;
+        transform: translateX(0);
+        transition-delay: 0.9s;
+      }
+    }
+    .close {
+      font-size: 40px;
+      cursor: pointer;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      font-weight: 100;
+      transform: translateX(50px);
+      &:hover {
+        opacity: 1;
+      }
+      &.showCloseBtn {
+        opacity: 0.7;
+        transform: translateX(0);
+        transition-delay: 1s;
+      }
+    }
+    &.showSearchInput {
+      opacity: 1;
+      transition: all 0.2s ease-in-out;
+      transform: translateX(0);
+    }
+  }
+  .QuickLinkConainer {
+    color: $dark-color;
+    padding: 1rem 2rem;
+    background-color: $light-color;
+    border-radius: 0 0 10px 10px;
+    .title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      opacity: 0;
+      transform: translateX(100%);
+      transition: all 0.4s ease-in-out;
+      border-bottom: 1px solid $dark-color;
+      &.showTitle {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    .quickLinks {
+      display: flex;
+      flex-direction: column;
+      padding-left: 1rem;
+      opacity: 0;
+      transform: translateX(100px);
+      .link {
+        font-size: 14px;
+        text-transform: capitalize;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+        transform: scale();
+        margin-bottom: 15px;
+        &.showQuikLinks {
+          &:nth-child(1) {
+            transition-delay: 700ms;
+            opacity: 1;
+          }
+          &:nth-child(2) {
+            transition-delay: 800ms;
+          }
+          &:nth-child(3) {
+            transition-delay: 900ms;
+          }
+          &:nth-child(4) {
+        
+            transition-delay: 1000ms;
+          }
+          &:nth-child(5) {
+            transition-delay: 1100ms;
+          }
+          &:nth-child(6) {
+            transition-delay: 1200ms;
+          }
+          &:nth-child(7) {
+            transition-delay: 1300ms;
+          }
+        }
+      }
+      &.quickLinks {
+        opacity: 1;
+        transform: translateX(0);
+        transition: all 0.3s ease-in-out;
+      }
+    }
+  }
+  &.showSearchContainer {
+    opacity: 1;
+    pointer-events: visible;
+    transition: all 0.2s ease-in-out;
+  }
+}

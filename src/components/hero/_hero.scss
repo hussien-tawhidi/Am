@@ -1,0 +1,220 @@
+.hero {
+  width: 100%;
+  position: relative;
+}
+.airPod {
+  margin: 2%;
+  overflow: hidden;
+  position: relative;
+  height: 90vh;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $dark-color;
+  text-align: center;
+  .imageText {
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    z-index: 1;
+  }
+  .imageAirPod {
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    z-index: 2;
+  }
+  .price {
+    position: absolute;
+    top: 60vh;
+    bottom: 0;
+
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .texts {
+    margin-top: 2rem;
+    display: flex;
+    z-index: 3;
+    position: absolute;
+    bottom: 5vh;
+    left: auto;
+    right: auto;
+  }
+}
+// ipad styles
+.ipad {
+  width: 100%;
+  overflow: hidden;
+  height: 70vh;
+  position: relative;
+  background-color: $dark-black;
+  .heroImg {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    width: 65%;
+    z-index: 1;
+  }
+  .text {
+    width: 30%;
+    color: $light-color;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+    z-index: 10;
+    position: relative;
+    h6 {
+      font-size: 50px;
+      font-weight: 800;
+    }
+    p {
+      display: flex;
+      align-items: center;
+      font-size: 30px;
+      text-transform: capitalize;
+      img {
+        margin-left: 5px;
+      }
+    }
+    .links {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+@media (max-width: $xl-size) {
+  .airPod {
+    height: 80vh;
+    .imageText {
+      left: auto;
+      right: auto;
+      width: 80%;
+    }
+  }
+}
+@media (max-width: $lg-size) {
+  .ipad {
+    display: flex;
+    justify-content: center;
+    .heroImg {
+      bottom: 0;
+      margin: 0 auto;
+      left: auto;
+      right: auto;
+      width: 800px;
+    }
+    .text {
+      align-items: center;
+      margin: 2rem auto;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
+  .airPod {
+    height: 60vh;
+    .texts {
+      bottom: 2vh;
+    }
+    .price {
+      top: 10vh;
+      z-index: 3;
+    }
+    .imageAirPod {
+      width: 30vw;
+    }
+  }
+}
+// ipad intro
+
+@media (max-width: $md-size) {
+  .ipad {
+    .heroImg {
+      width: 600px;
+    }
+    .text {
+      width: 80%;
+      h6 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 25px;
+      }
+    }
+  }
+  .airPod {
+    .texts {
+      bottom: 2vh;
+    }
+    .price {
+      top: 15vh;
+    }
+    .imageAirPod {
+      width: 40vw;
+    }
+  }
+  .buyNow {
+    padding: 10px 15px;
+  }
+}
+@media (max-width: $sm-size) {
+  .buyNow {
+    padding: 7px 12px;
+  }
+  .airPod {
+    .texts {
+    }
+    .price {
+      top: 2vh;
+    }
+    .imageAirPod {
+      width: 50vw;
+    }
+  }
+}
+@media (max-width: $xsm-size) {
+  .ipad {
+    height: 60vh;
+    .heroImg {
+      width: 500px;
+    }
+    .text {
+      display: flex;
+      align-items: center;
+      width: 80%;
+      img{
+        width: 30px;
+      }
+      h6 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+  .airPod {
+    height: 50vh;
+    .texts {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .price {
+      top: 2vh;
+    }
+    .imageAirPod {
+      width: 60vw;
+    }
+  }
+  .buyNow {
+    font-size: 12px;
+  }
+}

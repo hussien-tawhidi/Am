@@ -1,6 +1,18 @@
 $dark-color:#323233;
+$dark-black:#030303;
 $light-color:#fbfbfb;
+$card-bg:#ffffff;
+$blue-color:#0071e3;
 
 // z-indexes
-$headerIndex:100;
-$searchIndex:99;
+$searchIndex:100;
+$mobileIndex:100;
+$overlayIndex:99;
+$headerIndex:98;
+
+// responsiive size
+$xl-size:1200px;
+$lg-size:992px;
+$md-size:768px;
+$sm-size:580px;
+$xsm-size:400px;
