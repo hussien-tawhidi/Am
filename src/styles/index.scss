@@ -6,6 +6,12 @@
 @import "../components/homePage/hero/hero";
 @import "../components/homePage/hero/products/heroCard";
 @import "../components/homePage/footer/footer";
+@import "../components/ourStore/ourStoreTitle/storeHeader";
+@import "../components/ourStore/storeMenu/storeMenu";
+@import "../components/ourStore/latesonOurStore/lastesOnStore";
+@import "../components/ourStore/cards/storeCard";
+@import "../components/ourStore/storeAccessories/accessories";
+@import "../components/ourStore/endPoint/endPoint";
 
 html,
 body {
@@ -42,7 +48,7 @@ a {
   font-size: 20px;
   text-transform: capitalize;
   margin-right: 1rem;
-  opacity: .9;
+  opacity: 0.9;
   &:hover {
     opacity: 1;
   }
@@ -55,7 +61,7 @@ a {
   text-transform: capitalize;
   font-size: 20px;
   padding: 10px 5px;
-  opacity: .9;
+  opacity: 0.9;
   .icon {
     font-size: 14px;
     font-weight: 100;
@@ -69,12 +75,13 @@ a {
     opacity: 1;
   }
 }
-.mainContant{
+.mainContant {
   margin-top: 45px;
 }
 
-
-#app { height: 100% }
+#app {
+  height: 100%;
+}
 html,
 body {
   position: relative;
@@ -82,7 +89,6 @@ body {
 }
 
 body {
-  background: #eee;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -98,7 +104,6 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -121,14 +126,30 @@ body {
   height: 100%;
   object-fit: cover;
 }
-// .swiper-button-next {
-//   background-image: url("../../public/arrow.png");
-//   background-repeat: no-repeat;
-//   background-size: 100% auto;
-//   background-position: center;
-// }
+.swiper-button-next {
+  background-image: url("../../public/arrow.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
 
+.swiper-button-next::after {
+  display: none;
+}
+.swiper-button-prev {
+  background-image: url("../../public/arrowLeft.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
 
-// .swiper-button-next::after {
-//   display: none;
-// }
+.swiper-button-prev::after {
+  display: none;
+}
+@media (max-width: $md-size) {
+
+.swiper-button-next ,
+  .swiper-button-prev {
+    background-size: 50% auto;
+  }
+}

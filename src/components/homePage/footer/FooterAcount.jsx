@@ -9,7 +9,7 @@ export default function FooterAccount() {
   return (
     <div className="footerCard">
       <h1 className="titleSubTitle">
-       account
+        account
         <span
           className={footerMenu ? "icon showFooterMenu" : "icon"}
           onClick={onFooterMenu}
@@ -17,15 +17,18 @@ export default function FooterAccount() {
           +
         </span>
       </h1>
-      <div className={footerMenu?"footerCardMenuConent showFooterCardMenuConent":"footerCardMenuConent"}>
-
-      {acount.map((learn) => (
-        <>
-          <div className="footerLinks">
+      <div
+        className={
+          footerMenu
+            ? "footerCardMenuConent showFooterCardMenuConent"
+            : "footerCardMenuConent"
+        }
+      >
+        {acount.map((learn) => (
+          <div className="footerLinks" key={learn.id}>
             <a href="/">{learn.title}</a>
           </div>
-        </>
-      ))}
+        ))}
       </div>
     </div>
   );

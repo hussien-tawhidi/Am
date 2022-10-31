@@ -1,0 +1,117 @@
+.latesOnStore {
+  margin-top: 2rem;
+}
+.mainStoreTitle {
+  .title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 2rem 0;
+    span {
+      opacity: 0.6;
+    }
+  }
+}
+.latest-on-store-card {
+  width: 100%;
+  overflow: hidden;
+  height: 65vh;
+  border-radius: 20px;
+  margin-left: 1rem;
+  position: relative;
+  .mainImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .text {
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 30vh;
+    z-index: 4;
+    color: $light-color;
+    padding: 1.5rem;
+    .model {
+      margin: 10px 0;
+      font-size: 18px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+    .slogan {
+      font-size: 25px;
+      font-weight: 900;
+      text-transform: capitalize;
+      margin: 5px 0;
+    }
+    .price {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+}
+.light {
+  .text {
+    color: $dark-color;
+    .model {
+    }
+  }
+}
+@media (max-width: $lg-size) {
+  .latest-on-store-card {
+    height: 60vh;
+    .text {
+      .model {
+        margin: 5px 0;
+      }
+      .slogan {
+        margin: 2px 0;
+        font-size: 20px;
+      }
+      .price {
+        font-size: 12px;
+        font-size: 300;
+      }
+    }
+  }
+}
+@media (max-width: $md-size) {
+  .latest-on-store-card {
+    height: 50vh;
+    .text {
+      padding: 10px;
+      .model {
+        font-size: 14px;
+        font-weight: 400;
+      }
+      .slogan {
+        font-size: 18px;
+      }
+      .price {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: $xsm-size) {
+  .latest-on-store-card {
+    height: 40vh;
+    .text {
+      .model {
+        font-size: 12px;
+        font-weight: 300;
+        margin: 0;
+      }
+      .slogan {
+        font-size: 15px;
+      }
+      .price {
+        font-size: 10px;
+      }
+    }
+  }
+}

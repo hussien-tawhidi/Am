@@ -25,11 +25,10 @@ export default function Business() {
         }
       >
         {business.map((learn) => (
-          <>
-            <div className="footerLinks">
+      
+            <div className="footerLinks" key={learn.id}>
               <a href="/">{learn.title}</a>
-            </div>
-          </>
+      </div>
         ))}
       </div>
     </div>

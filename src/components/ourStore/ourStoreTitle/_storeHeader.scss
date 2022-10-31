@@ -1,0 +1,144 @@
+.storeTitle {
+  overflow: hidden;
+  padding: 4rem 0;
+  .title {
+    color: $dark-color;
+    width: 60%;
+    margin: auto;
+    padding-top: 2rem;
+    font-size: 40px;
+    font-weight: 900;
+    span {
+      opacity: 0.5;
+    }
+  }
+  .messages {
+    .single-message {
+      display: flex;
+      align-items: center;
+      margin-top: 2rem;
+      img {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+      .ask {
+        opacity: 0.9;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+      .job {
+        font-size: 14px;
+        font-weight: 600;
+        color: $blue-color;
+        display: flex;
+        align-items: center;
+        .icon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 5px;
+        }
+      }
+      .customeMe {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: $lg-size) {
+  .storeTitle {
+    .title {
+      width: 80%;
+      font-size: 35px;
+    }
+  }
+}
+@media (max-width: $md-size) {
+  .storeTitle {
+    padding: 2rem 0;
+    .title {
+      width: 90%;
+      margin: 0 auto;
+      font-size: 30px;
+    }
+    .messages {
+      .single-message {
+        margin-top: 1rem;
+        img {
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+        }
+        .ask {
+          font-size: 14px;
+        }
+        .job {
+          font-size: 12px;
+        }
+        .customeMe {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: $sm-size) {
+  .storeTitle {
+    .title {
+      width: 100%;
+      padding-left: 10px;
+      font-size: 20px;
+    }
+    .messages {
+      .single-message {
+        margin-top: 0.5rem;
+        img {
+          width: 25px;
+          height: 25px;
+        }
+        .ask {
+          font-size: 12px;
+        }
+        .job {
+          font-size: 10px;
+        }
+        .customeMe {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: $xsm-size) {
+  .storeTitle {
+    padding: 1rem 0;
+    .title{
+      font-size: 22px;
+    }
+    .messages {
+      .single-message {
+        flex-direction: column;
+      
+        .job {
+       
+          display: flex;
+          justify-content: center;
+    
+        }
+        .customeMe {
+          width: 25px;
+          height:25px;
+        }
+      }
+    }
+  }
+}

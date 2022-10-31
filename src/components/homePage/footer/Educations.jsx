@@ -20,11 +20,11 @@ export default function Education() {
       <div className={footerMenu?"footerCardMenuConent showFooterCardMenuConent":"footerCardMenuConent"}>
 
       {education.map((learn) => (
-        <>
-          <div className="footerLinks">
+
+          <div className="footerLinks" key={learn.id}>
             <a href="/">{learn.title}</a>
           </div>
-        </>
+       
       ))}
       </div>
     </div>

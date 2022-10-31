@@ -22,11 +22,11 @@ export default function MobielMenu({ onMobile, mobiel }) {
         </div>
         <div className="menuLinks">
           {headerData.map((head) => (
-            <>
+            <span key={head.id}>
               <Link to={head.linkTo} className={mobiel ? "show" : ""}>
                 {head.title}
               </Link>
-            </>
+            </span>
           ))}
         </div>
       </div>

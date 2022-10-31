@@ -17,13 +17,17 @@ export default function FooterCard() {
           +
         </span>
       </h1>
-      <div className={footerMenu?"footerCardMenuConent showFooterCardMenuConent":"footerCardMenuConent"}>
+      <div
+        className={
+          footerMenu
+            ? "footerCardMenuConent showFooterCardMenuConent"
+            : "footerCardMenuConent"
+        }
+      >
         {shopAndLearn.map((learn) => (
-          <>
-            <div className="footerLinks">
-              <a href="/">{learn.title}</a>
-            </div>
-          </>
+          <div className="footerLinks" key={learn.id}>
+            <a href="/">{learn.title}</a>
+          </div>
         ))}
       </div>
     </div>

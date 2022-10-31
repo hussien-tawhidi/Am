@@ -25,11 +25,11 @@ export default function AppleValues() {
         }
       >
         {appleValue.map((learn) => (
-          <>
-            <div className="footerLinks">
+      
+            <div className="footerLinks" key={learn.id}>
               <a href="/">{learn.title}</a>
             </div>
-          </>
+         
         ))}
       </div>
     </div>
