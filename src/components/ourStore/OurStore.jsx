@@ -1,18 +1,18 @@
 import Title from "../homePage/header/Title";
-import LastOnOurStore from "./latesonOurStore/LastOnOurStore";
-import StoreHeader from "./ourStoreTitle/StoreHeader";
-import StoreCards from "./cards/StoreCards";
-import StoreMenu from "./storeMenu/StoreMenu";
-import StoreAccessories from "./storeAccessories/StoreAccessories";
+import LastOnOurStore from "./storeSubFiles/latesonOurStore/LastOnOurStore";
+import StoreHeader from "./storeSubFiles/ourStoreTitle/StoreHeader";
+import StoreCards from "./storeSubFiles/cards/StoreCards";
+import StoreMenu from "./storeSubFiles/storeMenu/StoreMenu";
+import StoreAccessories from "./storeSubFiles/storeAccessories/StoreAccessories";
 import {
   accessoriesData,
   appleExperieonce,
   loadAndClear,
   specialStore,
 } from "../../data/ourStoreDate";
-import StoreTitle from "./storUtilitis/StoreTitle";
-import AppleExperience from "./appleExperience/AppleExperience";
-import StoreEndingPara from "./endPoint/StoreEndingPara";
+import StoreTitle from "./storeSubFiles/storUtilitis/StoreTitle";
+import AppleExperience from "./storeSubFiles/appleExperience/AppleExperience";
+import StoreEndingPara from "./storeSubFiles/endPoint/StoreEndingPara";
 export default function OurStore() {
   return (
     <div className="">

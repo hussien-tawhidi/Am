@@ -1,12 +1,11 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { latesOnStoreData } from "../../../data/ourStoreDate";
+import { latesOnStoreData } from "../../../../data/ourStoreDate";
 import LatesOnStoreCard from "./LatestOnStoreCard";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import StoreTitle from "../storUtilitis/StoreTitle";
-import { Autoplay } from "swiper";
 
 export default function LatesOnStore() {
   return (

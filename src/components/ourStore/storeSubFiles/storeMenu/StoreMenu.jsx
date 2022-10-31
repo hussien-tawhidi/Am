@@ -1,5 +1,5 @@
 import React from "react";
-import { menu } from "../../../data/ourStoreDate";
+import { menu } from "../../../../data/ourStoreDate";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";

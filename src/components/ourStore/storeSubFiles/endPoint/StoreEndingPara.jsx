@@ -1,5 +1,5 @@
 import React from "react";
-import { endPointData } from "../../../data/ourStoreDate";
+import { endPointData } from "../../../../data/ourStoreDate";
 
 export default function StoreEndingPara() {
   return (
