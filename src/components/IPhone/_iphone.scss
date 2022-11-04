@@ -1,0 +1,105 @@
+.iphoneContainer {
+  background-color: $light-color;
+  color: $dark-color;
+  .mainTitle {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    padding: 3rem 0;
+  }
+}
+.iphoneDetails {
+  padding-bottom: 2rem;
+}
+.iphoneLGTitle{
+  margin: 5rem 0 1rem 0;
+  text-align: center;
+  font-weight: 800;
+  color: $dark-color;
+  font-size: 50px;
+}
+.iphone-banner {
+  margin-top: 2rem;
+  background-image: url("../../../public/assets/IPhone/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .text {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    h6 {
+      font-size: 40px;
+      font-weight: 700;
+      margin: 0 auto;
+    }
+    p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    .link {
+      margin-top: 1rem;
+    }
+  }
+}
+@media (max-width: $xl-size) {
+  .iphone-banner {
+    .text {
+      width: 50%;
+    }
+  }
+}
+@media (max-width: $lg-size) {
+    .iphoneContainer{
+        .mainTitle{
+            font-size: 35px;
+        }
+    }
+  .iphone-banner {
+    height: 50vh;
+    .text {
+      h6 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: $md-size) {
+  .iphoneLGTitle{
+    font-size: 30px;
+  }
+  .iphone-banner {
+  background-image: url("../../../public/assets/IPhone/bannerRotate.jpg");
+    height: 80vh;
+ background-size: cover;
+    background-repeat: no-repeat;
+    .text {
+      width: 70%;
+      h6 {
+        font-size: 35px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media (max-width: $xsm-size) {
+  .iphone-banner {
+    height: 60vh;
+    .text {
+      width: 90%;
+      h6 {
+        width: 70%;
+        font-size: 30px;
+      }
+    }
+  }
+}

@@ -12,7 +12,7 @@ export default function Ipad() {
           <a href="/" className="more">
             learn more{" "}
             <div className="icon">
-              <i class="fa-solid fa-angle-right"></i>
+              <i className="fa-solid fa-angle-right"></i>
             </div>
           </a>
           <a href="/" className="buyNow">

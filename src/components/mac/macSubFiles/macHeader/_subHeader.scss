@@ -1,0 +1,78 @@
+.subHeader {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  .singleSubHeader {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .subHeaderImg {
+      height: 50px;
+      width: auto;
+      margin: 0 auto;
+    }
+    .text {
+      height: 50px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-top: 1rem;
+      span {
+        text-transform: uppercase;
+        font-size: 10px;
+        color: $orange-color;
+      }
+    }
+  }
+}
+.mobieMacHeader {
+  display: none;
+  pointer-events: none;
+  height: 100%;
+  .text {
+    height: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    span {
+      text-transform: uppercase;
+      font-size: 10px;
+      color: $orange-color;
+    }
+  }
+  .subHeaderImg {
+    height: 50px;
+  }
+}
+@media (max-width: $xl-size) {
+  .subHeader {
+    width: 95%;
+  }
+}
+@media (max-width: $lg-size) {
+  .subHeader {
+    display: none;
+    pointer-events: none;
+  }
+  .mobieMacHeader {
+    display: flex;
+    pointer-events: visible;
+    .singleHeader {
+      .subHeaderImg {
+        height: 40px;
+      }
+      margin: 10px 0;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}

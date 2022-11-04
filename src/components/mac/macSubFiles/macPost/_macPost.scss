@@ -1,0 +1,115 @@
+.macPost {
+  height: 70vh;
+  position: relative;
+  background-color: #f2f2f2;
+  color: $dark-color;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  &.iphoneDarkBg {
+    background-color: black;
+    margin-top: 2rem;
+  }
+  &.iphonePost {
+    background-color: #fff;
+    margin-top: 2rem;
+  }
+  img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+  .texts {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    &.lightColor {
+      color: $light-color;
+    }
+    .subTitle {
+      font-size: 20px;
+      font-weight: 900;
+    }
+    .title {
+      width: 70%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 900;
+    }
+    .buy {
+      background-color: $blue-color;
+      color: $light-color;
+      padding: 5px 7px;
+      border-radius: 20%;
+      margin-top: 1rem;
+      cursor: pointer;
+    }
+    .text {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .link {
+      color: $blue-color;
+      font-size: 16px;
+      text-transform: capitalize;
+    }
+  }
+}
+@media (max-width: $lg-size) {
+  .macPost {
+    height: 60vh;
+    .texts {
+      .subTitle {
+        font-size: 18px;
+      }
+      .title {
+        font-size: 30px;
+        width: 90%;
+      }
+      .text {
+        width: 90%;
+      }
+      .link {
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media (max-width: $sm-size) {
+  .macPost {
+    &.iphonePost,
+    &.iphoneDarkBg {
+      height: 70vh;
+    }
+  }
+}
+@media (max-width: $xsm-size) {
+  .macPost {
+    height: 55vh;
+    margin-top: 1rem;
+    &.iphonePost,
+    &.iphoneDarkBg {
+      height: 60vh;
+    }
+
+    .texts {
+      .title {
+        width: 100%;
+      }
+      .text {
+        width: 90%;
+      }
+      .link {
+        font-size: 14px;
+      }
+    }
+  }
+}

@@ -23,8 +23,8 @@ export default function AppleExperience({ experience }) {
           },
         }}
       >
-        {experience.map((e) => (
-          <SwiperSlide>
+        {experience.map((e,index) => (
+          <SwiperSlide key={index}>
             <AccessoriesCard
               title={e.title}
               image={e.image}

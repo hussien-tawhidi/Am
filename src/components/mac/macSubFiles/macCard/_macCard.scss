@@ -1,0 +1,111 @@
+.macCard {
+  width: 100%;
+  position: relative;
+  background-color: $dark-black;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  color: $light-color;
+  &.colorDark {
+    background: transparent;
+    color: $dark-color;
+  }
+  img {
+    height: auto;
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: auto;
+    margin: 0 auto;
+  }
+  .texts {
+    margin-top: 4rem;
+    text-align: center;
+    position: relative;
+    .new {
+      text-transform: uppercase;
+      color: $orange-color;
+      font-weight: 700;
+    }
+    
+    .model {
+      font-size: 50px;
+      font-weight: 900;
+    }
+    .slogan{
+        font-size: 25px ;
+        font-weight: 900;
+    }
+    .price {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    .buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+@media (max-width: $lg-size) {
+  .macCard {
+    img {
+      width: 80%;
+    }
+    .texts {
+      .model {
+        font-size: 35px;
+      }
+    }
+  }
+}
+@media (max-width: $md-size) {
+  .macCard {
+    height: 70vh;
+    img {
+      width: 80%;
+    }
+    .texts {
+      .model {
+        font-size: 30px;
+      }
+      .price {
+        font-size: 16px;
+      }
+      .buttons {
+        flex-direction: column;
+        .buyNow {
+          font-size: 12px;
+          padding: 7px 15px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: $sm-size) {
+  .macCard {
+    height: 55vh;
+    img {
+      width: 90%;
+    }
+    .texts {
+      margin-top: 2rem;
+      .model {
+        font-size: 25px;
+      }
+      .price {
+        font-size: 14px;
+      }
+      .buttons {
+        .buyNow {
+          font-size: 12px;
+          padding: 7px 15px;
+        }
+        .more {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

@@ -22,7 +22,7 @@ export default function HeroProductsCard({
           <a href="/" className="more">
             <span>learn more</span>{" "}
             <div className="icon">
-              <i class="fa-solid fa-angle-right"></i>
+              <i className="fa-solid fa-angle-right"></i>
             </div>
           </a>
         </div>

@@ -1,0 +1,116 @@
+.get-mor-on-iPhone {
+  display: flex;
+  align-items: center;
+  height: 60vh;
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  &.direction {
+    flex-direction: row-reverse;
+  }
+  .hero-img {
+    width: 450px;
+    margin: 0 auto 0 3rem;
+  }
+  .texts {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    .buttons {
+      text-align: center;
+    }
+    img {
+      width: 250px;
+    }
+    h3 {
+      font-size: 35px;
+      font-weight: 900;
+      width: 50%;
+      text-align: center;
+      margin: 0 auto;
+    }
+    p {
+      width: 50%;
+      margin: 1rem auto;
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: $xl-size) {
+  .get-mor-on-iPhone {
+    .hero-img {
+      width: 350px;
+    }
+    .texts {
+      img {
+        width: 200px;
+      }
+    }
+  }
+}
+@media (max-width: $lg-size) {
+  .get-mor-on-iPhone {
+    height: 50vh;
+    .hero-img {
+      width: 250px;
+    }
+    .texts {
+      img {
+        width: 150px;
+      }
+      p {
+        width: 80%;
+      }
+    }
+  }
+}
+@media (max-width: $md-size) {
+  .get-mor-on-iPhone {
+    height: 55vh;
+    flex-direction: column-reverse;
+    &.direction {
+      flex-direction: column-reverse;
+    }
+    .hero-img {
+      margin: 0 auto;
+    }
+    .texts {
+      .buttons {
+        display: flex;
+        text-align: center;
+      }
+      h3{
+        font-size: 30px;
+        width: 80%;
+       
+    }
+      img {
+        width: 150px;
+      }
+      p {
+        width: 80%;
+      }
+    }
+  }
+}
+@media (max-width: $xsm-size) {
+  .get-mor-on-iPhone {
+    .texts {
+        h3{
+            font-size: 25px;
+            width: 90%;
+           
+        }
+      img {
+        width: 120px;
+      }
+      p {
+        width: 90%;
+      }
+    }
+  }
+}

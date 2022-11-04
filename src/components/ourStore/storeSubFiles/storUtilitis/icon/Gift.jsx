@@ -4,7 +4,7 @@ export default function Gift() {
   return (
     <div className="storeCard">
       <svg
-        enable-background="new 0 0 36 56"
+        enableBackground="new 0 0 36 56"
         viewBox="0 0 36 56"
         className="as-svgicon as-svgicon-appgift as-svgicon-elevated gift"
         aria-hidden="true"

@@ -1,0 +1,110 @@
+.iphoneAccessories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin-top: 2rem;
+  position: relative;
+  &.accessories1 {
+    flex-direction: row-reverse;
+  }
+  img {
+    margin-top: 1rem;
+    height: 100%;
+    width: 60%;
+  }
+  .texts {
+    color: $dark-color;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    h5 {
+      font-size: 50px;
+      font-weight: 600;
+    }
+    p {
+      width: 80%;
+      margin: 10px auto;
+      font-size: 18px;
+    }
+    .buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+.iphone-accessoriesTitle {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 60px;
+  font-weight: 700;
+}
+@media (max-width:$lg-size) {
+    .iphoneAccessories{
+       img{
+        width: 50%;
+       }
+       .texts{
+        h5{
+            font-size: 40px;
+        }
+        p{
+            width: 90%;
+            font-size: 14px;
+        }
+        .buttons{
+            flex-direction: column-reverse;
+            .more,
+            .buyNow{
+                margin: 5px;
+                padding: 5px;
+                font-size: 16px;
+            }
+        }
+       }
+    }
+}
+@media (max-width:$md-size) {
+    .iphone-accessoriesTitle {
+
+        font-size: 45px;
+    }
+    .iphoneAccessories{
+        flex-direction: column-reverse;
+        padding-top: 2rem;
+        &.accessories1 {
+            flex-direction: column-reverse;
+          }
+       img{
+        width: 50%;
+       }
+       .texts{
+      width: 100%;
+        .buttons{
+            flex-direction:row;
+        }
+       }
+    }
+}
+@media (max-width:$xsm-size) {
+    .iphone-accessoriesTitle {
+
+        font-size: 35px;
+    }
+    .iphoneAccessories{
+        padding-top: 10px;
+       img{
+       margin: 0;
+       }
+       .texts{
+        h5{
+            font-size: 35px;
+        }
+        .buttons{
+            margin-top: 5px;
+            flex-direction:row;
+        }
+       }
+    }
+}

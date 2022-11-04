@@ -6,8 +6,8 @@ export default function HomeProducts() {
   return (
     <div className="homeProducts">
       <div className="row">
-        {heroCardData.map((hero) => (
-          <div className="col-md-6 col-12">
+        {heroCardData.map((hero,index) => (
+          <div className="col-md-6 col-12" key={index}>
         
               <HeroProductsCard
                 heroImg={hero.image}

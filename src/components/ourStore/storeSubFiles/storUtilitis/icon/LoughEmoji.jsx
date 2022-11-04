@@ -7,7 +7,7 @@ export default function LoughEmoji() {
         height="35"
         viewBox="0 0 35 35"
         width="35"
-        class="as-svgicon as-svgicon-personalization as-svgicon-elevated as-svgicon-personalizationelevated"
+        className="as-svgicon as-svgicon-personalization as-svgicon-elevated as-svgicon-personalizationelevated"
         role="img"
         aria-hidden="true"
       >

@@ -1,0 +1,132 @@
+.macBanners {
+  color: $light-color;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: border-box;
+  margin-bottom: 2rem;
+  &.bannerThree {
+    color: $dark-black;
+    background-image: url("../../../../../public/assets/mac/macos.jpg");
+    background-position: right;
+    background-color: $light-color;
+  }
+  &.bannerOne {
+    background-color: $dark-black;
+    background-image: url("../../../../../public/assets/mac/bannerOne.jpg");
+  }
+  &.bannerTow {
+    background-color: #f2f2f2;
+    background-image: url("../../../../../public/assets/mac/bannerTow.jpg");
+    color: $dark-color;
+  }
+  .banner-texts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    h6 {
+      font-size: 22px;
+      font-weight: 800;
+    }
+    h2 {
+      font-size: 45px;
+      margin: 10px 0;
+    }
+    p {
+      width: 50%;
+      margin: 0 auto;
+    }
+    a {
+      margin-top: 1rem;
+      text-transform: capitalize;
+      font-size: 16px;
+      font-weight: 500;
+      color: $blue-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span {
+        margin-left: 10px;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+@media (max-width: $xl-size) {
+  .bannerThree,
+  .bannerTow,
+  .bannerOne {
+    height: 450px;
+    background-size: 100%;
+    background-position: bottom;
+    .banner-texts {
+      width: 100%;
+      justify-content: flex-start;
+      height: 100%;
+      margin-top: 1rem;
+      h2 {
+        font-size: 30px;
+      }
+      h6 {
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media (max-width: $md-size) {
+  .bannerThree,
+  .bannerTow,
+  .bannerOne {
+    height: 350px;
+    .banner-texts {
+      margin-top: 1.5rem;
+      h2 {
+        font-size: 25px;
+        margin: 5px 0;
+      }
+      h6 {
+        font-size: 14px;
+      }
+      p {
+        width: 80%;
+      }
+      a {
+        margin-top: 7px;
+        font-size: 12px;
+      }
+    }
+  }
+}
+@media (max-width: $xsm-size) {
+  .bannerThree,
+  .bannerTow,
+  .bannerOne {
+    height: 300px;
+    background-size: 95%;
+    .banner-texts {
+      margin-top: 1.5rem;
+      h2 {
+        font-size: 25px;
+        margin: 5px 0;
+      }
+      h6 {
+        font-size: 14px;
+      }
+      p {
+        width: 80%;
+      }
+      a {
+        margin-top: 7px;
+        font-size: 12px;
+      }
+    }
+  }
+}

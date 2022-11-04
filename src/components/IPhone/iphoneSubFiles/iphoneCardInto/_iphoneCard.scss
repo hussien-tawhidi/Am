@@ -1,0 +1,212 @@
+.iphone-card {
+  color: $dark-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding-top: 2rem;
+  height: 120vh;
+  background-size: 90vh;
+  color: $dark-color;
+  &.lightBg {
+    background-image: url("../../../../../public/assets/IPhone/iphone_14.jpg");
+  }
+  &.airpods {
+    margin-top: 2rem;
+    background-size: 95%;
+    height: 90vh;
+    background-image: url("../../../../../public/assets/IPhone/airpods.jpg");
+    background-color: #fff;
+  }
+  &.darkBg {
+    background-color: black;
+    color: $light-color;
+    background-image: url("../../../../../public/assets/IPhone/iphone_14_pro.jpg");
+  }
+  &.ios16 {
+    background-color: #fff;
+    height: 80vh;
+    background-size: 70%;
+    background-image: url("../../../../../public/assets/IPhone/ios16.jpg");
+  }
+  .texts {
+    padding-top: 1rem;
+    &.textClass {
+      padding-top: 7rem;
+    }
+    &.card3TextClass {
+      width: 40%;
+      margin: 0 auto;
+    }
+    .price {
+      font-size: 16px;
+      width: 80%;
+      margin: 1rem auto;
+      text-align: center;
+    }
+    span {
+      font-size: 14px;
+      opacity: 0.8;
+      text-transform: capitalize;
+    }
+    .model {
+      font-size: 25px;
+      margin: 10px 0;
+      font-weight: 600;
+    }
+    .title {
+      font-size: 50px;
+      font-weight: 700;
+      &.textGradeint {
+        background: #3ca3cf;
+        background: linear-gradient(to right, #3ca3cf 20%, #ee445e 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    .buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      .buyNow {
+        background-color: $blue-color;
+        color: $light-color;
+        padding: 5px 10px;
+      }
+      .more {
+        span {
+          font-size: 25px;
+          font-weight: 600;
+          margin-left: 2rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: $lg-size) {
+  .iphone-card {
+    &.ios16 {
+      height: 57vh;
+      background-size: 70%;
+    }
+    &.airpods {
+      height: 70vh;
+    }
+    height: 100vh;
+    background-size: 70vh;
+    .texts {
+      &.card3TextClass {
+        width: 60%;
+      }
+      .model {
+        font-size: 22px;
+        margin: 5px 0;
+      }
+      .price {
+        width: 100%;
+      }
+      .title {
+        font-size: 40px;
+      }
+      .buttons {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: $md-size) {
+  .iphone-card {
+    &.ios16 {
+      height: 50vh;
+
+    }
+  }
+}
+@media (max-width: $sm-size) {
+  .iphone-card {
+    &.ios16 {
+      background-size: 80%;
+    }
+    &.airpods {
+      height: 60vh;
+    }
+    height: 80vh;
+    background-size: 50vh;
+    .texts {
+      &.card3TextClass {
+        width: 80%;
+      }
+      &.textClass {
+        padding-top: 3rem;
+      }
+      .model {
+        font-size: 20px;
+      }
+      .title {
+        font-size: 30px;
+      }
+      .buttons {
+        flex-direction: column;
+        text-align: center;
+        .buyNow {
+          font-size: 14px;
+        }
+        .more {
+          span {
+            text-align: center;
+            font-size: 16px;
+            margin: 0;
+          }
+        }
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+@media (max-width: $xsm-size) {
+  .iphone-card {
+    height: 70vh;
+    background-size: 40vh;
+    &.ios16 {
+      height: 45vh;
+      background-size: 100%;
+    }
+    &.airpods {
+      height: 50vh;
+      background-size: 100%;
+    }
+    .texts {
+      &.card3TextClass {
+        width: 90%;
+      }
+      .model {
+        margin: 3px 0;
+      }
+      .title {
+        font-size: 30px;
+      }
+      .buttons {
+        flex-direction: column;
+        text-align: center;
+        .buyNow {
+          font-size: 14px;
+        }
+        .more {
+          span {
+            text-align: center;
+            font-size: 16px;
+            margin: 0;
+          }
+        }
+        margin-top: 1rem;
+      }
+    }
+  }
+}

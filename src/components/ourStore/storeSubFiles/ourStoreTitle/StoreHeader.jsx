@@ -35,9 +35,9 @@ export default function StoreHeader() {
            <p className="ask">Visit an Apple Store</p>
               <p className="job">
                 find one near you{" "}
-                <div className="icon">
+                <span className="icon">
                   <i className="fa-solid fa-angle-right"></i>
-                </div>
+                </span>
               </p>
            </div>
             </div>

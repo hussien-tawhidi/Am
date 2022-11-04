@@ -1,10 +1,13 @@
 import React from 'react'
-import MacHeaderCard from './MacHeaderCard'
+import { macHeader } from '../../../../data/MacData'
+import SubHeaderDescktop from './SubHeaderDescktop'
+import SubHeaderMobile from './SubHeaderMobile'
 
 export default function MacHeader() {
   return (
     <div className='mac-header'>
-      <MacHeaderCard/>
+    <SubHeaderMobile subHeaderMobile={macHeader}/>
+    <SubHeaderDescktop subHeaderDescktop={macHeader}/>
     </div>
   )
 }
