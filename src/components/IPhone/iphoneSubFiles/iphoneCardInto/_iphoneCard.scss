@@ -15,6 +15,14 @@
   &.lightBg {
     background-image: url("../../../../../public/assets/IPhone/iphone_14.jpg");
   }
+  &.samsungIntroCard {
+    background-image: url("../../../../../public/assets/samsung/Hero.png");
+  }
+  &.samsungIntroCard2 {
+    color: $light-color;
+    background-color: #070707;
+    background-image: url("../../../../../public/assets/samsung/5g.png");
+  }
   &.airpods {
     margin-top: 2rem;
     background-size: 95%;
@@ -66,6 +74,13 @@
         background: linear-gradient(to right, #3ca3cf 20%, #ee445e 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+      }
+      &.textGradeintOrange {
+        background: #3ca3cf;
+        background: linear-gradient(to right, #3ca3cf 20%, #ff5100 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 900;
       }
     }
 
@@ -125,7 +140,6 @@
   .iphone-card {
     &.ios16 {
       height: 50vh;
-
     }
   }
 }

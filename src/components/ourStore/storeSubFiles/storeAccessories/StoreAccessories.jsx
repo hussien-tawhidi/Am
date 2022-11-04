@@ -9,11 +9,11 @@ export default function StoreAccessories({
   image,
   accessoriesData,
   exploreImage,
-  exploreTitle
+  exploreTitle,
+  bg,
 }) {
   return (
     <div>
-     
       <Swiper
         spaceBetween={10}
         hashNavigation={{
@@ -35,7 +35,7 @@ export default function StoreAccessories({
         }}
       >
         <SwiperSlide>
-          <div className="accessoriesCard">
+          <div className={`accessoriesCard ${bg}`}>
             <div className="textIntro">
               <p className="title">{intoTitle}</p>
               <p className="text">{text}</p>
@@ -56,17 +56,14 @@ export default function StoreAccessories({
               color6={access.color6}
               price={access.price}
               newText={access.new}
+              bg={access.bg}
             />
           </SwiperSlide>
         ))}
         <SwiperSlide data-hash="slide1">
           <div className="accessoriesCard">
             <p className="exploreTitle">{exploreTitle}</p>
-            <img
-              src={exploreImage}
-              alt=""
-              className="heroImg seeAll"
-            />
+            <img src={exploreImage} alt="" className="heroImg seeAll" />
           </div>
         </SwiperSlide>
       </Swiper>

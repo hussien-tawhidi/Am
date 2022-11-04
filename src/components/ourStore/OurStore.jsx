@@ -7,6 +7,7 @@ import StoreAccessories from "./storeSubFiles/storeAccessories/StoreAccessories"
 import {
   accessoriesData,
   appleExperieonce,
+  latesOnStoreData,
   loadAndClear,
   specialStore,
 } from "../../data/ourStoreDate";
@@ -19,7 +20,7 @@ export default function OurStore() {
       <Title title="Am | Our Store" />
       <StoreHeader />
       <StoreMenu />
-      <LastOnOurStore />
+      <LastOnOurStore  latesOnStoreData={latesOnStoreData}/>
       <StoreCards />
 
       <StoreTitle
@@ -44,7 +45,7 @@ export default function OurStore() {
         image="/assets/store/loud.jpg"
         intoTitle="Get for 6 month apple music for free"
         text="Included with purchase of select AirPods and Beats products, and HomePod mini.**"
-        exploreImage="/assets/store/handsFree.png"
+        exploreImage="/assets/store/beat.jpg"
         exploreTitle="see all "
       />
       <StoreTitle

@@ -37,6 +37,7 @@ export default function AppleExperience({ experience }) {
               textLightColor={e.textLightColor}
               darkBg={e.darkBg}
               darkerBg={e.darkerBg}
+              bg={e.bgLight}
             />
           </SwiperSlide>
         ))}

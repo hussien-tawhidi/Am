@@ -4,9 +4,21 @@
   border-radius: 10px;
   position: relative;
   height: 50vh;
+  width: 100%;
+  &.bgLight {
+    background-color: #fff;
+    color: $dark-color;
+    -webkit-box-shadow: -1px 5px 15px -5px #000000;
+    box-shadow: -1px 5px 15px -5px #000000;
+    margin: 1rem ;
+  }
   &.lightBg {
+    background-color: #fff;
     height: 70vh;
     border-radius: 20px;
+    -webkit-box-shadow: -1px 5px 15px -5px #000000;
+    box-shadow: -1px 5px 15px -5px #000000;
+    margin: 1rem;
   }
   &.darkBg {
     background-color: #1d1d1f;
@@ -14,11 +26,15 @@
   &.darkerBg {
     background-color: #000;
   }
-  width: 100%;
+
   .exploreTitle {
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 25px;
     opacity: 0.8;
+    position: relative;
+    z-index: 10;
+    text-align: left;
+    font-weight: 700;
   }
   .heroImg {
     height: auto;
@@ -36,9 +52,10 @@
       margin: 0 auto;
       z-index: 1;
     }
-
+    
     &.seeAll {
       position: absolute;
+      z-index: 1;
       bottom: 0;
       left: 0;
       right: 0;
@@ -91,12 +108,17 @@
   .textIntro {
     text-align: left;
     padding: 1rem;
+    position: relative;
+    z-index: 10;
+    color: $dark-color;
     .title {
       margin-bottom: 5px;
       font-size: 20px;
+      font-weight: 800;
     }
     .text {
       opacity: 0.7;
+      font-size: 14px;
     }
   }
 }

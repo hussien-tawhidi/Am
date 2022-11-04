@@ -2,7 +2,6 @@ import React from "react";
 import {
   cardIntro2Data,
   cardIntroData,
-  iphoneAccessoriesData,
   iphoneBannerData,
   iphoneEndingPara,
   iPhoneSubHeader,

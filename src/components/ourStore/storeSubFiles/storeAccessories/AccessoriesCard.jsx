@@ -24,9 +24,10 @@ export default function AccessoriesCard({
   textLightColor,
   darkBg,
   darkerBg,
+  bg,
 }) {
   return (
-    <div className={`accessoriesCard ${lightBg} ${darkBg} ${darkerBg}`}>
+    <div className={`accessoriesCard ${lightBg} ${darkBg} ${darkerBg} ${bg}`}>
       <img src={image} alt="" className={`heroImg ${experienceClass} ${appleSpecailPr}`} />
       <div className="colors">
         <img src={color1} alt="" />

@@ -136,6 +136,7 @@ export const accessoriesData = [
 
 export const loadAndClear = [
   {
+    bg: "bgLight",
     id: 1,
     title: "airPod pro (2nd generation)",
     new: "new",
@@ -143,6 +144,7 @@ export const loadAndClear = [
     image: "/assets/store/a-2g.jpg",
   },
   {
+    bg: "bgLight",
     id: 2,
     title: "airPod pro (3nd generation) with lighting chargin case",
     new: "fee engraving",
@@ -150,6 +152,7 @@ export const loadAndClear = [
     image: "/assets/store/a-3g.jpg",
   },
   {
+    bg: "bgLight",
     id: 3,
     title:
       "Beats Studio Buds – True Wireless Noise Cancelling Earphones – Black",
@@ -157,6 +160,7 @@ export const loadAndClear = [
     image: "/assets/store/beat.jpg",
   },
   {
+    bg: "bgLight",
     id: 4,
     title: "airPod pro (3nd generation) with magsafe chargin case",
     new: "fee engraving",
@@ -164,6 +168,7 @@ export const loadAndClear = [
     image: "/assets/store/a-3g1.jpg",
   },
   {
+    bg: "bgLight",
     id: 5,
     title: "HomPod mini-blue",
     new: "new",

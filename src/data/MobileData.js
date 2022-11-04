@@ -30,7 +30,7 @@ export const iPhoneSubHeader = [
 export const cardIntroData = [
   {
     id: 1,
-    model: "iPhone 14",
+    model: "Galaxy Z Fold4",
     title: "Big and bigger.",
     newText: "new",
     bgBlue: "bgBlue",
@@ -48,14 +48,14 @@ export const cardIntro2Data = [
     buyNow: "buyNow",
     textClass: "textClass",
     id: 1,
-    model: "iPhone 14 pro",
+    model: "Galaxy flip",
     title: "Pro. Beyond.",
     newText: "new",
     bgBlue: "bgBlue",
     bg: "darkBg",
     buy: "buy",
     textGradeint: "",
-    price: "From $41.62/mo. for 24 mo. or $999 before trade‑in",
+    price: "FFrom $299.99 with eligible trade-inᶿ or $8.33/mo for 36 months",
   },
 ];
 export const cardIntro3Data = [

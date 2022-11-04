@@ -1,13 +1,11 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { latesOnStoreData } from "../../../../data/ourStoreDate";
 import LatesOnStoreCard from "./LatestOnStoreCard";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import StoreTitle from "../storUtilitis/StoreTitle";
-
-export default function LatesOnStore() {
+export default function LatesOnStore({latesOnStoreData}) {
   return (
     <div className="latesOnStore">
       <StoreTitle dark="The latests." light="Take a look at what’s new, right now."/>
