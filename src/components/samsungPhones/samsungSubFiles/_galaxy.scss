@@ -1,0 +1,259 @@
+.galaxy-flip-video-banner {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  &.lightColor {
+    height: 100vh;
+    .texts {
+      color: $light-color;
+      width: 50%;
+      p {
+        font-size: 50px;
+        font-weight: 900;
+      }
+      a {
+        font-weight: 900;
+      }
+    }
+  }
+  &.flexDirection {
+    height: 50vh;
+    background-color: #f8f8f8;
+    .texts {
+      width: 30%;
+      color: $dark-color;
+      h1 {
+        background: transparent;
+        color: $dark-color;
+      }
+    }
+  }
+  img,
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+    border: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  img {
+    left: auto;
+    width: auto;
+    height: auto;
+  }
+  .texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    left: 10%;
+    z-index: 5;
+    height: 100%;
+    color: $dark-color;
+    text-transform: capitalize;
+    color: #b97fe0;
+    h6 {
+      font-size: 25px;
+      font-weight: 600;
+    }
+    h1 {
+      font-size: 90px;
+      font-weight: 900;
+      &.textGradeient {
+        background: #121fcf;
+        background: linear-gradient(to right, #ab3ff3 0%, #b97fe0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      &.noTextGradeient {
+        background: transparent;
+      }
+    }
+    h3 {
+      font-size: 40px;
+      font-weight: 900;
+      &.subTextGradeient {
+        text-align: right;
+        background: #121fcf;
+        background: linear-gradient(to right, #ab3ff3 0%, #b97fe0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+    p {
+      font-weight: normal;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    a {
+      color: $blue-color;
+      font-size: 20px;
+      font-weight: 500;
+      .icon {
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+.mainTitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 900;
+  padding: 2rem 0;
+  color: $dark-color;
+}
+.samsungPara {
+  margin-top: 2rem;
+}
+@media (max-width: $lg-size) {
+  .galaxy-flip-video-banner {
+    &.lightColor {
+      height: 80vh;
+      .texts {
+        width: 60%;
+        p {
+          font-size: 40px;
+        }
+      }
+    }
+    &.flexDirection {
+      height: 40vh;
+      .texts {
+        width: 40%;
+      }
+    }
+    height: 50vh;
+    .texts {
+      h6 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      h1 {
+        font-size: 50px;
+      }
+      h3 {
+        font-size: 25px;
+      }
+      p {
+        font-size: 16px;
+        margin-top: 5px;
+      }
+      a {
+        font-size: 16px;
+        .icon {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: $md-size) {
+  .galaxy-flip-video-banner {
+    &.lightColor {
+      height: 60vh;
+      .texts {
+        width: 80%;
+        p {
+          font-size: 30px;
+        }
+      }
+    }
+    &.flexDirection {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 50vh;
+      img {
+        top: auto;
+        bottom: 0;
+        margin: 0 auto;
+      }
+      .texts {
+        margin: 0 auto;
+        width: 80%;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+        height: 80%;
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 0 2rem;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 1px 15px -2px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 1px 15px -2px rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+}
+@media (max-width: $sm-size) {
+  .galaxy-flip-video-banner {
+    &.lightColor {
+      height: 50vh;
+      .texts {
+        position: relative;
+        left: 0;
+        right: auto;
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+        p {
+          font-size: 16px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+@media (max-width: $xsm-size) {
+  .galaxy-flip-video-banner {
+    &.lightColor {
+      height: 30vh;
+      .texts {
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+    height: 40vh;
+    &.flexDirection {
+      height: 40vh;
+      .texts {
+        padding: 0 1rem;
+      }
+    }
+    .texts {
+      h6 {
+        font-size: 16px;
+      }
+      h1 {
+        font-size: 35px;
+      }
+      h3 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}

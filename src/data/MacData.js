@@ -29,6 +29,7 @@ export const cardIntroData1 = [
     colorDark: "colorDark",
   },
 ];
+
 export const cardIntroData = [
   {
     id: 1,
@@ -299,6 +300,7 @@ export const bannerOne = [
     link: " watch film",
   },
 ];
+
 export const bannerTow = [
   {
     title: "Get 3% Daily Cash back with Apple Card.",
@@ -320,6 +322,7 @@ export const macPostOne = [
     buy: "buy",
   },
 ];
+
 export const macPostTow = [
   {
     mainClass: "postTow",
@@ -331,6 +334,7 @@ export const macPostTow = [
     link: "link",
   },
 ];
+
 export const macAmacDataOne = [
   {
     mainClass: "postTow",
@@ -341,6 +345,7 @@ export const macAmacDataOne = [
     link: "link",
   },
 ];
+
 export const macAmacDataTow = [
   {
     mainClass: "postTow",
@@ -351,6 +356,7 @@ export const macAmacDataTow = [
     link: "link",
   },
 ];
+
 export const bannerThree = [
   {
     subTitle: "macOS Ventura",
@@ -504,6 +510,7 @@ export const macBanner2 = [
     icon: <i className="fa-solid fa-angle-right"></i>,
   },
 ];
+
 export const macBanner3 = [
   {
     macBannerThreeBg: "macBannerThreeBg",

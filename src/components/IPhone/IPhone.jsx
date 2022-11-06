@@ -18,9 +18,11 @@ import Banner from "./iphoneSubFiles/Banner";
 import IPhoneAccessories from "./iphoneSubFiles/iphoneAccessories/IPhoneAccessories";
 import WayMakeAnIphone from "./iphoneSubFiles/wayMakeAnIPhone/WayMakeAnIphone";
 import GetMoreOnIPhone from "./iphoneSubFiles/getMoreOniPhone/GetMoreOnIPhone";
+import Title from "../homePage/header/Title";
 export default function IPhone() {
   return (
     <div className="IPhone">
+      <Title title="AM | iPhone"/>
       <SubHeaderDescktop subHeaderDescktop={iPhoneSubHeader} />
       <SubHeaderMobile subHeaderMobile={iPhoneSubHeader} />
       <GetDailyOff />

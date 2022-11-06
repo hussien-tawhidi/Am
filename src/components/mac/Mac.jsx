@@ -23,7 +23,7 @@ import Title from "../homePage/header/Title"
 export default function Mac() {
   return (
     <div>
-      <Title title="AM - Mac"/>
+      <Title title="AM |Mac Prodcuts"/>
       <MacHeader />
       <GetDiallyOff />
       <MacCard cardIntroData={cardIntroData1} />

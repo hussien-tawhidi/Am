@@ -5,7 +5,7 @@ export const headerData = [
   { id: 3, title: "Iphone", linkTo: "/iphone" },
   { id: 4, title: "Samsung", linkTo: "/samsung" },
   { id: 5, title: "Microsoft", linkTo: "/microsoft" },
-  { id: 6, title: "Ipad", linkTo: "/ipad" },
+  { id: 6, title: "Huawei", linkTo: "/huawei" },
   { id: 7, title: "Airpod", linkTo: "/airpods" },
   { id: 8, title: "Watch", linkTo: "/watch" },
   { id: 9, title: "Accessories", linkTo: "/accesseories" },
@@ -163,15 +163,18 @@ export const business = [
   { id: 1, title: "with business", linkTo: "" },
   { id: 2, title: "shop for business", linkTo: "" },
 ];
+
 export const education = [
   { id: 1, title: "for education", linkTo: "" },
   { id: 2, title: "for collages", linkTo: "" },
 ];
+
 export const healthCate = [
   { id: 1, title: "for health care", linkTo: "" },
   { id: 2, title: "health on apple watch", linkTo: "" },
   { id: 3, title: "health record on smart phones", linkTo: "" },
 ];
+
 export const appleValue = [
   { id: 1, title: "Accessibility", linkTo: "" },
   { id: 2, title: "Education", linkTo: "" },

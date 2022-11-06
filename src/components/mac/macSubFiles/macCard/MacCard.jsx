@@ -19,7 +19,7 @@ export default function Card({cardIntroData}) {
               <a href="/" className="more">
                 <span>learn more</span>{" "}
                 <div className="icon">
-                  <i className="fa-solid fa-angle-right"></i>
+                  
                 </div>
               </a>
             </div>

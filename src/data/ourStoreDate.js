@@ -10,7 +10,6 @@ export const menu = [
   { id: 9, title: "microsoft", image: "/assets/store/microsoft.png" },
 ];
 
-// latest on our store data
 export const latesOnStoreData = [
   {
     id: 1,
@@ -85,8 +84,6 @@ export const accessoriesData = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
-    color4: "/assets/store/color4.jpg",
-    color5: "/assets/store/color5.jpg",
   },
   {
     id: 2,
@@ -97,8 +94,6 @@ export const accessoriesData = [
     color1: "/assets/store/color6.jpg",
     color2: "/assets/store/color7.jpg",
     color3: "/assets/store/color8.jpg",
-    color4: "/assets/store/color9.jpg",
-    color5: "/assets/store/color10.jpg",
   },
   {
     id: 3,
@@ -106,10 +101,9 @@ export const accessoriesData = [
     new: "new",
     title: "Smart Folio for iPad (10th generation) - Sky",
     price: "79.00$",
+    color1: "/assets/store/color5.jpg",
     color2: "/assets/store/color9.jpg",
     color3: "/assets/store/color10.jpg",
-    color4: "/assets/store/color12.jpg",
-    color5: "/assets/store/color11.jpg",
   },
   {
     id: 4,
@@ -117,9 +111,9 @@ export const accessoriesData = [
     new: "new",
     title: "Folio for iPad (10th&nbsp;generation) - US English",
     price: "249.00$",
+    color1: "/assets/store/color4.jpg",
     color2: "/assets/store/color9.jpg",
-    color4: "/assets/store/color3.jpg",
-    color5: "/assets/store/color11.jpg",
+    color3: "/assets/store/color11.jpg",
   },
   {
     id: 5,
@@ -127,10 +121,9 @@ export const accessoriesData = [
     new: "new",
     title: "Beats Studio3 Wireless Headphones",
     price: "349.55$",
+    color1: "/assets/store/color7.jpg",
     color2: "/assets/store/color2.jpg",
-    color4: "/assets/store/color3.jpg",
-    color5: "/assets/store/color4.jpg",
-    color6: "/assets/store/color11.jpg",
+    color3: "/assets/store/color3.jpg",
   },
 ];
 

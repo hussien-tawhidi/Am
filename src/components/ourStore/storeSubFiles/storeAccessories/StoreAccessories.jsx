@@ -51,9 +51,6 @@ export default function StoreAccessories({
               color1={access.color1}
               color2={access.color2}
               color3={access.color3}
-              color4={access.color4}
-              color5={access.color5}
-              color6={access.color6}
               price={access.price}
               newText={access.new}
               bg={access.bg}

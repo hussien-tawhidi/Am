@@ -58,6 +58,7 @@ export const cardIntro2Data = [
     price: "FFrom $299.99 with eligible trade-inᶿ or $8.33/mo for 36 months",
   },
 ];
+
 export const cardIntro3Data = [
   {
     card3TextClass: "card3TextClass",
@@ -68,6 +69,7 @@ export const cardIntro3Data = [
     bg: "airpods",
   },
 ];
+
 export const cardIntro4Data = [
   {
     id: 1,
@@ -77,6 +79,7 @@ export const cardIntro4Data = [
     bg: "ios16",
   },
 ];
+
 export const iphoneDetails = [
   {
     id: 1,
@@ -286,6 +289,7 @@ export const iphonePostOne = [
     mainImg: "/assets/IPhone/switching_to_iphone.jpg",
   },
 ];
+
 export const iphonePostTow = [
   {
     iphonePost: "iphoneDarkBg",
@@ -296,6 +300,7 @@ export const iphonePostTow = [
     mainImg: "/assets/IPhone/privacy_update.jpg",
   },
 ];
+
 export const iphoneLastCards = [
   {
     id: 1,

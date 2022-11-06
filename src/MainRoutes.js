@@ -6,6 +6,8 @@ import Footer from "./components/homePage/footer/Footer";
 import Mac from "./components/mac/Mac";
 import IPhone from "./components/IPhone/IPhone";
 import SamsungPhones from "./components/samsungPhones/SamsungPhones";
+import Microsoft from "./components/microsoft/Microsoft";
+import Huawei from "./components/huawei/Huawei";
 export default function MainRoutes() {
   return (
     <div className="routes">
@@ -17,6 +19,8 @@ export default function MainRoutes() {
           <Route path="/mac" element={<Mac />} />
           <Route path="/iphone" element={<IPhone />} />
           <Route path="/samsung" element={<SamsungPhones />} />
+          <Route path="/microsoft" element={<Microsoft />} />
+          <Route path="/huawei" element={<Huawei/> } />
         </Routes>
       </main>
       <Footer />
