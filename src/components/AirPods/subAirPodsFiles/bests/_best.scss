@@ -1,0 +1,24 @@
+.airPodBestsCard {
+  width: 100%;
+  overflow: hidden;
+  .single {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      margin: 0 auto;
+      object-fit: over;
+      transform: scale(1);
+      transition: all .3s ease-in-out;
+    }
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

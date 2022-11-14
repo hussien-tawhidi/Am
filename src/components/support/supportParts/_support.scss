@@ -1,0 +1,55 @@
+.support-banner {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: $light-color;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  h1 {
+    font-size: 50px;
+    position: absolute;
+    top: 10%;
+    left: auto;
+    right: auto;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+}
+@media (max-width: $lg-size) {
+  .support-banner {
+    h1 {
+      font-size: 40px;
+    }
+  }
+}
+@media (max-width: $md-size) {
+  .support-banner {
+    h1 {
+      font-size: 30px;
+    }
+  }
+}
+@media (max-width: $sm-size) {
+  .support-banner {
+    text-align: left;
+    h1 {
+      width: 50%;
+      left: 10%;
+      font-size: 25px;
+
+    }
+  }
+}
+@media (max-width: $xsm-size) {
+  .support-banner {
+    h1 {
+      
+      font-size: 16px;
+
+    }
+  }
+}

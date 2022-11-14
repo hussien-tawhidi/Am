@@ -19,6 +19,22 @@
       }
     }
   }
+  &.watchVideo {
+    height: 70vh;
+    background-color: $light-color;
+    .texts {
+      color: $dark-color;
+      width: 30%;
+    }
+    video {
+      height: 70vh;
+      width: auto;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      left: auto;
+    }
+  }
   &.flexDirection {
     height: 50vh;
     background-color: #f8f8f8;
@@ -125,6 +141,13 @@
 }
 @media (max-width: $lg-size) {
   .galaxy-flip-video-banner {
+    &.watchVideo {
+      height: 60vh;
+      video {
+        top: auto;
+        height: 50vh;
+      }
+    }
     &.lightColor {
       height: 80vh;
       .texts {
@@ -167,6 +190,14 @@
 }
 @media (max-width: $md-size) {
   .galaxy-flip-video-banner {
+    &.watchVideo {
+      video {
+        height: 40vh;
+      }
+      .texts{
+        width: 40%;
+      }
+    }
     &.lightColor {
       height: 60vh;
       .texts {
@@ -207,6 +238,21 @@
 }
 @media (max-width: $sm-size) {
   .galaxy-flip-video-banner {
+    &.watchVideo {
+      height: 70vh;
+      .texts{
+        position: relative;
+        width: 70%;
+        left: auto;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+       justify-content: flex-start;
+        margin: auto;
+        padding: 2rem;
+      }
+    }
+    
     &.lightColor {
       height: 50vh;
       .texts {
@@ -226,6 +272,15 @@
 }
 @media (max-width: $xsm-size) {
   .galaxy-flip-video-banner {
+    &.watchVideo {
+   video{
+    height: 30vh;
+   }
+      .texts{
+        width: 80%;
+     
+      }
+    }
     &.lightColor {
       height: 30vh;
       .texts {

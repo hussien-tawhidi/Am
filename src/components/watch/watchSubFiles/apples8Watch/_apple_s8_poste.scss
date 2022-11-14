@@ -1,0 +1,105 @@
+.apple-s8-poster {
+  width: 100%;
+  background-color: black;
+  color: $light-color;
+  .imageBottom,
+  .imageTop {
+    width: 900px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+  .imageBottom {
+    margin: 0 auto;
+  }
+  .texts {
+    .textbold {
+      margin: -5rem 0 0 10rem;
+      .miniTitle {
+        font-size: 20px;
+        font-weight: 900;
+      }
+      .lgTitle {
+        font-size: 70px;
+        width: 30%;
+        font-weight: 800;
+      }
+    }
+    .textThick {
+      width: 50%;
+      padding-right: 20%;
+      font-size: 20px;
+      font-weight: 600;
+      margin: 10rem 0 3rem auto;
+      .thick {
+        opacity: 0.6;
+      }
+    }
+  }
+}
+@media (max-width: $xl-size) {
+  .apple-s8-poster {
+    .imageBottom,
+    .imageTop {
+      width: 700px;
+    }
+    .texts {
+      .textbold {
+        margin: -2rem 0 0 5rem;
+        .miniTitle {
+          font-size: 18px;
+        }
+        .lgTitle {
+          font-size: 60px;
+          width: 40%;
+        }
+      }
+      .textThick {
+        width: 60%;
+      }
+    }
+  }
+}
+@media (max-width: $lg-size) {
+  .apple-s8-poster {
+    .imageTop {
+      width: 600px;
+    }
+  }
+}
+@media (max-width: $md-size) {
+  .apple-s8-poster {
+    .imageTop,
+    .imageBottom {
+      width: 100%;
+    }
+    .texts {
+      .textbold {
+        margin: 3rem 0 0 2rem;
+        .lgTitle {
+          width: 80%;
+        }
+      }
+      .textThick {
+        width: 80%;
+        margin: 5rem auto 1rem auto;
+        padding: 0;
+      }
+    }
+  }
+}
+@media (max-width: $xsm-size) {
+  .apple-s8-poster {
+    .texts {
+      .textbold {
+        .lgTitle {
+          font-size: 40px;
+        }
+      }
+      .textThick {
+      font-size: 16px;
+      }
+    }
+  }
+}

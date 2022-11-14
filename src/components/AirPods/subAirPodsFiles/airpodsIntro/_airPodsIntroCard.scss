@@ -1,0 +1,97 @@
+.introCard {
+  background-image: url("../../../../../public/assets/AirPods/airpods_3rd_gen__dhy5bknhvtqq_large.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  .texts {
+    color: $dark-color;
+    text-align: center;
+    .title {
+      font-size: 130px;
+      font-weight: 700;
+    }
+    .generation {
+      font-size: 22px;
+      font-weight: 900;
+    }
+    .price {
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+  .buttons {
+    position: absolute;
+    bottom: 5%;
+    left: auto;
+    right: auto;
+    display: flex;
+    align-items: center;
+    .buyNow {
+      background-color: $blue-color;
+      color: $light-color;
+      padding: 5px 10px;
+    }
+  }
+}
+@media (max-width:$lg-size) {
+    .introCard{
+        height: 85vh;
+        .texts{
+            .title{
+                font-size: 100px;
+            }
+            .generation {
+                font-size: 20px;
+              }
+              .price {
+                font-size: 14px;
+              }
+        }
+    }
+}
+@media (max-width:$md-size) {
+    .introCard{
+        height: 75vh;
+        .texts{
+            .title{
+                font-size: 85px;
+            }
+        
+        }
+    }
+}
+@media (max-width:$sm-size) {
+    .introCard{
+        height: 50vh;
+        .texts{
+            .title{
+                font-size: 60px;
+            }
+        
+            .generation {
+                font-size: 18;
+              }
+              .price {
+                font-size: 12px;
+              }
+        }
+        .buttons{
+            .buyNow{
+                font-size: 12px;
+            }.more{
+                font-size: 12px;
+                .icon{
+                    font-size: 10px;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

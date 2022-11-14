@@ -1,0 +1,25 @@
+.singleWatchApp {
+  overflow: hidden;
+  background-color: $light-color;
+  color: $dark-color;
+  .heroImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .texts {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    .title {
+      font-size: 30px;
+      font-weight: 700;
+    }
+    .desc {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+  }
+}

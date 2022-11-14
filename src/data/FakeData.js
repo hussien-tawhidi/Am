@@ -8,7 +8,7 @@ export const headerData = [
   { id: 6, title: "Huawei", linkTo: "/huawei" },
   { id: 7, title: "Airpod", linkTo: "/airpods" },
   { id: 8, title: "Watch", linkTo: "/watch" },
-  { id: 9, title: "Accessories", linkTo: "/accesseories" },
+  { id: 9, title: "Accessories", linkTo: "/accessories" },
   { id: 10, title: "Support", linkTo: "/support" },
 ];
 

@@ -1,0 +1,119 @@
+.watchCardIntro {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  padding-top: 2rem;
+ 
+  .texts {
+    text-align: center;
+    color: $dark-color;
+    .miniLogo {
+      width: 120px;
+      height: auto;
+    }
+    .title {
+      font-weight: 600;
+      margin: 1rem 0;
+      font-size: 40px;
+    }
+    .price {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .buyNow{
+            background-color: $blue-color;
+            color: $light-color;
+            padding: 4px 7px;
+        }
+    }
+  }
+}
+@media (max-width:$xl-size) {
+    .watchCardIntro{
+        .heroImage{
+            width: 80rem;
+          }
+    }
+}
+@media (max-width:$lg-size) {
+    .watchCardIntro{
+        .heroImage{
+            width: 70rem;
+          }
+    }
+}
+@media (max-width:$md-size) {
+    .watchCardIntro{
+        .heroImage{
+            width: 60rem;
+          }
+    }
+}
+@media (max-width:$sm-size) {
+    .watchCardIntro{
+        .heroImage{
+            width: 50rem;
+          }
+          .texts {
+            .miniLogo {
+              width: 100px;
+            }
+            .title {
+              margin: .5rem 0;
+              font-size: 30px;
+            }
+            .price {
+              font-size: 16px;
+            }
+            .buttons{
+                .buyNow{
+                    font-size: 12px;
+                }
+                .more{
+                    font-size: 16px;
+                    .icon{
+                        font-size: 10px;
+                    }
+                }
+            }
+          }
+    }
+}
+@media (max-width:$xsm-size) {
+    .watchCardIntro{
+        .heroImage{
+            width: 40rem;
+          }
+          .texts {
+            .miniLogo {
+              width: 80px;
+            }
+            .title {
+              margin: .3em 0;
+              font-size: 25px;
+            }
+            .price {
+              font-size: 12px;
+            }
+            .buttons{
+                .buyNow{
+                    font-size: 12px;
+                }
+                .more{
+                    font-size: 16px;
+                    .icon{
+                        font-size: 10px;
+                    }
+                }
+            }
+          }
+    }
+}

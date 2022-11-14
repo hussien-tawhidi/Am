@@ -1,0 +1,294 @@
+.samsungCard {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #0062ad;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      0deg,
+      rgb(0, 0, 0) -5%,
+      rgba(0, 213, 255, 0) 10%
+    );
+  }
+  .heroImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150vh;
+    object-fit: cover;
+    margin-top: 7rem;
+  }
+
+  .texts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: $light-color;
+    display: flex;
+    align-items: center;
+    height: 47vh;
+    .topTexts {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .title {
+        width: 40%;
+        margin-left: 10rem;
+        span {
+          font-size: 16px;
+          font-weight: 500;
+        }
+        h4 {
+          font-size: 55px;
+          font-weight: 700;
+        }
+      }
+      .desc {
+        width: 40%;
+        padding: 2rem;
+        font-size: 16px;
+        line-height: 27px;
+      }
+    }
+  }
+  .samsungCardCustome {
+    position: absolute;
+    right: 5%;
+    bottom: 25%;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    overflow: hidden;
+    background: rgb(2, 0, 36);
+    color: $light-color;
+    border-radius: 10px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      336deg,
+      rgba(207, 207, 207, 0.7) 0%,
+      rgba(0, 213, 255, 0) 100%
+    );
+    .imagesTop {
+      position: absolute;
+      top: -35%;
+      right: 10%;
+      height: 40vh;
+    }
+    .imagesBottom {
+      height: 40vh;
+      position: absolute;
+      bottom: -5%;
+      right: -10%;
+    }
+
+    .miniTitle {
+      padding-left: 1rem;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .lgTitle {
+      padding-left: 1rem;
+      font-size: 40px;
+      font-weight: 700;
+      width: 50%;
+    }
+    .cardDesc {
+      padding-left: 1rem;
+      width: 50%;
+      margin: 1rem 0;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    button {
+      margin: 1rem;
+      border: none;
+      padding: 7px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+}
+@media (max-width: $xl-size) {
+  .samsungCard {
+    .texts {
+      height: 40vh;
+      .topTexts {
+        .title {
+          margin-left: 5rem;
+        }
+        .desc {
+          padding: 1rem;
+        }
+      }
+    }
+    .heroImage {
+      margin-top: 0rem;
+    }
+  }
+}
+@media (max-width: $lg-size) {
+  .samsungCard {
+    .texts {
+      height: 30vh;
+      .topTexts {
+        .title {
+          margin-left: 1rem;
+          width: 50%;
+          span {
+            font-size: 12px;
+          }
+          h4 {
+            font-size: 40px;
+          }
+        }
+        .desc {
+          width: 50%;
+          font-size: 14px;
+          line-height: 25px;
+        }
+      }
+    }
+    .heroImage {
+      margin-top: 0rem;
+    }
+  }
+}
+@media (max-width: $md-size) {
+  .samsungCard {
+    padding-top: 2rem;
+    .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    .samsungCardCustome,
+    .heroImage,
+    .texts {
+      position: relative;
+      left: 0;
+      right: 0;
+    }
+    .heroImage {
+      height: 100vh;
+    }
+  }
+}
+@media (max-width: $sm-size) {
+  .samsungCard {
+    .heroImage {
+      height: 80vh;
+    }
+    .footer {
+      .texts {
+        .topTexts {
+          display: flex;
+          flex-direction: column;
+          .title {
+            width: 100%;
+          }
+          .desc {
+            width: 100%;
+          }
+        }
+      }
+      .samsungCardCustome {
+        margin-top: 2rem;
+        width: 400px;
+        height: 400px;
+        .imagesBottom,
+        .imagesTop {
+          height: 30vh;
+        }
+        .imagesTop {
+          top: -20%;
+        }
+        .miniTitle {
+          font-size: 14px;
+        }
+        .lgTitle {
+          font-size: 30px;
+          width: 70%;
+        }
+        .cardDesc {
+          width: 60%;
+          font-size: 14px;
+        }
+        button {
+          padding: 5px 15px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: $sm-size) {
+  .samsungCard {
+    .heroImage {
+      height: 60vh;
+    }
+    .footer {
+      .texts {
+        .topTexts {
+          .title {
+            h4 {
+              font-size: 30px;
+            }
+          }
+          .desc {
+            padding: 5px;
+            font-size: 14px;
+          }
+        }
+      }
+      .samsungCardCustome {
+        margin-top: 1rem;
+        width: 300px;
+        height: 400px;
+        .imagesBottom,
+        .imagesTop {
+          height: 30vh;
+        }
+        .imagesTop {
+          top: -20%;
+        }
+        .miniTitle {
+          font-size: 14px;
+        }
+        .lgTitle {
+          font-size: 30px;
+          width: 70%;
+        }
+        .cardDesc {
+          width: 60%;
+          font-size: 14px;
+        }
+        button {
+          padding: 5px 15px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

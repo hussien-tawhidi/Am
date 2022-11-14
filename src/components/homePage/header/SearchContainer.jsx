@@ -42,14 +42,15 @@ export default function SearchContainer({
         >
           QuickLinks
         </p>
-        <div className="quickLinks">
+        <div>
           {searchContaineDate.map((search) => (
-            <div key={search.id}>
-              <p
-                className={searchContainer?"link showQuikLinks":"link"}
+            <div key={search.id} className={searchContainer?"quickLinks showquickLinks":"quickLinks"}>
+              <a
+                href="/"
+                className="headeLinks"
               >
                 {search.title}
-              </p>
+              </a>
             </div>
           ))}
         </div>

@@ -35,6 +35,11 @@
   display: none;
   pointer-events: none;
   height: 100%;
+  &.showHeader{
+    display: flex;
+    margin: 5rem 0 0 0;
+    pointer-events: visible;
+  }
   .text {
     height: 50px;
     align-items: center;

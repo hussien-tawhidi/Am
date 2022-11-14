@@ -1,0 +1,281 @@
+export const iPhoneSubHeader = [
+  {
+    id: 1,
+    image: "/assets/IPhone/iphone_14.jpg",
+    title: "for iPhone",
+  },
+  {
+    id: 2,
+    image: "/assets/huawei/accessories.png",
+    title: "for Huawei",
+  },
+  {
+    id: 3,
+    image: "/assets/mac/macIntro.png",
+    title: "for Mac",
+  },
+  {
+    id: 4,
+    image: "/assets/microsoft/computer.png",
+    title: "for Microsoft",
+  },
+  {
+    id: 5,
+    image: "/assets/samsung/flip.png",
+    title: "for Samsungs",
+  },
+  {
+    id: 6,
+    image: "/assets/accessories/MU7T2_GEO_US.png",
+    title: "cable and charger",
+  },
+  {
+    id: 7,
+    image: "/assets/samsung/vectore/shopAll.png",
+    title: "for all",
+  },
+];
+
+export const bannerData = [
+  {
+    id: 1,
+    title: "Accessories",
+    desc: "Snap on a case, wallet, wireless charger, or battery pack...",
+    image: "/assets/accessories/iphone_accessorires_banner-4.jpg",
+  },
+];
+
+export const accessoriesProducts = [
+  {
+    id: 1,
+    category: "iphone",
+    image: "/assets/accessories/iphone14case.png",
+    price: "$49",
+    title: "iPhone 14 Clear Case with MagSafe",
+    color1: "/assets/store/color7.jpg",
+    color2: "/assets/store/color8.jpg",
+    color3: "/assets/store/color10.jpg",
+    newText: "New",
+  },
+  {
+    id: 2,
+    category: "iphone",
+    image: "/assets/accessories/MPPY3.png",
+    price: "$59",
+    title: "iPhone Leather Wallet with MagSafe",
+    color1: "/assets/store/color5.jpg",
+    color2: "/assets/store/color6.jpg",
+    color3: "/assets/store/color1.jpg",
+    newText: "New",
+  },
+  {
+    id: 3,
+    category: "iphone",
+    image: "/assets/accessories/MPT83.png",
+    price: "$49",
+    title: "iPhone 14 Plus Silicone Case with MagSafe",
+    color1: "/assets/store/color5.jpg",
+    color2: "/assets/store/color6.jpg",
+    color3: "/assets/store/color1.jpg",
+    newText: "New",
+  },
+  {
+    id: 4,
+    category: "iphone",
+    image: "/assets/accessories/MQD83.png",
+    price: "$249",
+    title: "AirPods Pro (2nd generation)",
+    color1: "/assets/store/color5.jpg",
+    color2: "/assets/store/color6.jpg",
+    color3: "/assets/store/color1.jpg",
+    newText: "New",
+  },
+  // *************************************************************************************************
+  {
+    id: 5,
+    category: "cable&charger",
+    image: "/assets/accessories/MU7T2_GEO_US.png",
+    price: "$19",
+    title: "20W USB-C Power Adapter",
+    newText: "New",
+  },
+  {
+    id: 6,
+    category: "cable&charger",
+    image: "/assets/accessories/MHXH3.png",
+    price: "$39",
+    title: "MagSafe Charger",
+    newText: "New",
+  },
+  {
+    id: 7,
+    category: "cable&charger",
+    image: "/assets/accessories/MM0A3.png",
+    price: "$19",
+    title: "USB-C to Lightning Cable (1 m)",
+    newText: "New",
+  },
+  {
+    id: 8,
+    category: "cable&charger",
+    image: "/assets/accessories/MJWY3.png",
+    price: "$99",
+    title: "MagSafe Battery Pack",
+    newText: "New",
+  },
+  // *************************************************************************************************
+  {
+    id: 9,
+    category: "mac",
+    image: "/assets/accessories/MNWM3.png",
+    price: "$99",
+    title: "35W Dual USB-C Port Compact Power Adapter",
+    newText: "New",
+  },
+  {
+    id: 10,
+    category: "mac",
+    image: "/assets/accessories/MMMR3.png",
+    price: "$199",
+    title: "Magic Keyboard with Touch ID and Numeric Keypad",
+    newText: "New",
+  },
+  {
+    id: 11,
+    category: "mac",
+    image: "/assets/accessories/MMMP3.png",
+    price: "$149",
+    title: "Magic trackPack",
+    newText: "New",
+  },
+  {
+    id: 12,
+    category: "mac",
+    image: "/assets/accessories/MMMQ3.png",
+    price: "$99",
+    title: "Magic mouse",
+    newText: "New",
+  },
+  // *************************************************************************************************
+  {
+    id: 13,
+    category: "microsoft",
+    image: "/assets/accessories/RE4AUlT.webp",
+    price: "$199",
+    title: "Surface EarBudes ",
+    newText: "New",
+  },
+  {
+    id: 14,
+    category: "microsoft",
+    image: "/assets/accessories/RE4Ha5h.webp",
+    price: "$399",
+    title: "Sonose Move ",
+    newText: "",
+  },
+  {
+    id: 15,
+    category: "microsoft",
+    image: "/assets/accessories/RE4Hczi.webp",
+    price: "$219",
+    title: "Sonose One ",
+    newText: "",
+  },
+  {
+    id: 16,
+    category: "microsoft",
+    image: "/assets/accessories/RWTgv9.webp",
+    price: "$79",
+    title: "Microsoft Presentor+ ",
+    newText: "",
+  },
+  // *************************************************************************************************
+  {
+    id: 17,
+    category: "samsung",
+    image: "/assets/accessories/GP-TOF721AMDYW-1600x1200.webp",
+    price: "$15.99",
+    title: "Galaxy Z Flip4 Cheeseduck Insert",
+    newText: "New",
+  },
+  {
+    id: 18,
+    category: "samsung",
+    image: "/assets/accessories/GP-TOU022AM7JW-1600x1200.webp",
+    price: "$22.99",
+    title: "Galaxy Z Fold4 Duck Grip, Black",
+    newText: "New",
+  },
+  {
+    id: 19,
+    category: "samsung",
+    image: "/assets/accessories/GP-TOU022AM0BW-1600x1200.webp",
+    price: "$22.99",
+    title: "Galaxy Z Flip4 TinyTAN Strap",
+    newText: "New",
+  },
+  {
+    id: 20,
+    category: "samsung",
+    image:
+      "/assets/accessories/01Milanese_Band_Large_Silver_Front-Gallery-1600x1200.webp",
+    price: "$99.99",
+    title: "Galaxy Watch4 / Watch5 Milanese Band, M/L, Silver",
+    newText: "New",
+  },
+  // *************************************************************************************************
+  {
+    id: 21,
+    category: "huawei",
+    image: "/assets/accessories/blue.png",
+    price: "$55.99",
+    title:
+      "HUAWEI Smart Magnetic Keyboard (Compatible with HUAWEI MatePad Pro 11-inch)",
+    newText: "New",
+  },
+  {
+    id: 22,
+    category: "huawei",
+    image: "/assets/accessories/deep-sea-blue.png",
+    price: "$88.99",
+    title:
+      "HUAWEI MatePad Pro Folio Cover (Compatible with HUAWEI MatePad Pro 11-inch)",
+    newText: "New",
+  },
+  {
+    id: 23,
+    category: "huawei",
+    image: "/assets/accessories/black.png",
+    price: "$22.99",
+    title: "HUAWEI Stylish Backpack",
+    newText: "",
+  },
+  {
+    id: 24,
+    category: "huawei",
+    image: "/assets/accessories/mate-xs-2-stand-pu-case-black.png",
+    price: "$36.99",
+    title: "HUAWEI Mate Xs 2 Stand PU Case",
+    newText: "",
+  },
+];
+
+export const endingPara = [
+  {
+    id: 1,
+    desc: "§ Apple Card Monthly Installments (ACMI) is a 0% APR payment option available only in the U.S. to select at checkout for certain Apple products purchased at Apple Store locations, apple.com, the Apple Store app, or by calling 1-800-MY-APPLE, and is subject to credit approval and credit limit. See https://support.apple.com/kb/HT211204(Opens in a new window) for more information about eligible products. Variable APRs for Apple Card other than ACMI range from 13.99% to 24.99% based on creditworthiness. Rates as of October 1, 2022. If you choose the pay-in-full or one-time-payment option for an ACMI-eligible purchase instead of choosing ACMI as the payment option at checkout, that purchase will be subject to the variable APR assigned to your Apple Card. Taxes and shipping are not included in ACMI and are subject to your card’s variable APR. See the Apple Card Customer Agreement(Opens in a new window) for more information. ACMI is not available for purchases made online at the following special stores: Apple Employee Purchase Plan; participating corporate Employee Purchase Programs; Apple at Work for small businesses; Government, and Veterans and Military Purchase Programs, or on refurbished devices. iPhone activation required on iPhone purchases made at an Apple Store with one of these national carriers: AT&T, Sprint, Verizon, or T-Mobile.",
+  },
+  {
+    id: 2,
+    desc: "To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone or iPad with the latest version of iOS or iPadOS. Update to the latest version by going to Settings > General > Software Update. Tap Download and Install.",
+  },
+  { id: 3, desc: "Available for qualifying applicants in the United States." },
+  {
+    id: 4,
+    desc: "Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.",
+  },
+  {
+    id: 5,
+    desc: "†† We approximate your location from your internet IP address by matching it to a geographic region or from the location entered during your previous visit to Apple.",
+  },
+];

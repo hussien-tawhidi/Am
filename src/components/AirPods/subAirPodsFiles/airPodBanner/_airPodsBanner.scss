@@ -1,0 +1,88 @@
+.singAirPodleBanner {
+  background-color: #000;
+  color: $light-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  overflow: hidden;
+  h1 {
+    font-size: 200px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: #000;
+    font-weight: 700;
+    background: #ff0000;
+    background: -webkit-linear-gradient(to right, #000000, #ffffff);
+    background: linear-gradient(to right, #000000, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    opacity: 0.1;
+    z-index: 0;
+  }
+  img {
+    overflow: hidden;
+    padding: 2rem 0;
+    width: 400px;
+    position: relative;
+    z-index: 2;
+  }
+  .texts {
+    position: relative;
+    z-index: 2;
+    padding: 0 5rem 2rem 0;
+    h6 {
+      font-size: 50px;
+      font-weight: 900;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: $lg-size) {
+  .singAirPodleBanner {
+    h1 {
+      font-size: 150px;
+    }
+    .texts {
+      h6 {
+        font-size: 35px;
+      }
+    }
+  }
+}
+@media (max-width: $sm-size) {
+  .singAirPodleBanner {
+    h1 {
+      font-size: 100px;
+    }
+    .texts {
+      padding-right: 1rem;
+      h6 {
+        font-size: 30px;
+      }
+    }
+  }
+}
+@media (max-width: $xsm-size) {
+  .singAirPodleBanner {
+    h1 {
+      font-size: 100px;
+    }
+    .texts {
+      width: 300px;
+      h6 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}

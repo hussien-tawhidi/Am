@@ -36,8 +36,8 @@ a {
   font-size: 20px;
   text-transform: capitalize;
   margin-right: 1rem;
- 
-  &.bgBlue{
+
+  &.bgBlue {
     background-color: $blue-color;
     color: $light-color;
     opacity: 1;
@@ -130,24 +130,42 @@ body {
 .swiper-button-prev::after {
   display: none;
 }
-.dailyOff{
+.dailyOff {
   text-align: center;
   background-color: $light-color;
   padding: 5px;
   color: $dark-color;
-  p{
+  p {
     font-size: 12px;
   }
-  a{
+  a {
     color: $blue-color;
     text-transform: capitalize;
-  
   }
 }
-@media (max-width: $md-size) {
 
-.swiper-button-next ,
+.huawie {
+  background-color: $light-color;
+}
+@media (max-width: $md-size) {
+  .swiper-button-next,
   .swiper-button-prev {
     background-size: 50% auto;
   }
+}
+
+.airPodSlide {
+  margin: 4rem 0;
+}
+.hotsell {
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  color: $dark-color;
+}
+.watchesPara{
+  background-color: $light-color;
+  padding: 1.5rem 0 ;
 }

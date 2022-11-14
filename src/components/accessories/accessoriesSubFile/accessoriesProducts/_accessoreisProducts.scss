@@ -1,0 +1,70 @@
+
+.singleAccessorriesProducts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 5px -1px #000000;
+  box-shadow: 0px 0px 5px -1px #000000;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 55vh;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    -webkit-box-shadow: 2px 2px 15px -5px #000000;
+    box-shadow: 2px 2px 15px -5px #000000;
+    .texts{
+        color: $blue-color;
+    }
+  }
+  .heroImage {
+    height: 30vh;
+    width: auto;
+  }
+  .colors {
+    img {
+      width: 20px;
+      // padding: ;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 10px;
+    }
+  }
+  .texts {
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    color: $dark-color;
+    transition: all .3s ease-in-out;
+    span {
+      color: $orange-color;
+    }
+    h6 {
+      font-size: 20px;
+      opacity: .6;
+      font-weight: 700;
+    }
+    p {
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+}
+.endingPartOfAccessories{
+  background-color: $light-color;
+  margin-top: 5rem;
+}
+.accessories-products{
+  margin-top: 5rem;
+}
+.filterAccessoriesTitle {
+  font-size: 25px;
+  font-weight: 800;
+  opacity: 0.8;
+  text-transform: capitalize;
+  margin: 1rem 0;
+}
+.accessoriesFilter{
+margin-bottom: 2rem;
+}

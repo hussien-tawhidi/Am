@@ -1,0 +1,41 @@
+.singleBanner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .bannerTexts {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    top: auto;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+    .more{
+      color: inherit;
+    }
+    h3 {
+      text-transform: capitalize;
+      font-size: 70px;
+      font-weight: 900;
+    }
+    p{
+        font-size: 25px;
+        font-weight: normal;
+        margin: 10px 0;
+    }
+  }
+}

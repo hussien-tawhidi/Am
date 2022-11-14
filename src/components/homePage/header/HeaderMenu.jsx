@@ -5,18 +5,19 @@ import { headerData } from "../../../data/FakeData";
 export default function HeaderMenu({ showSearchContainer, searchContainer }) {
   return (
     <div className="header">
-      <Link to="/" className={searchContainer ? "logo hideHeaderSingleMenu" : "logo"}>
+      <Link
+        to="/"
+        className={searchContainer ? "logo hideHeaderSingleMenu" : "logo"}
+      >
         <img src="/assets/logo.png" alt="logo" className="headerImg" />
       </Link>
       <div className="menu">
         {headerData.map((header) => (
-          <span key={header.id}>
-            <Link
-              to={header.linkTo}
-              className={searchContainer ? "hideHeaderSingleMenu" : ""}
-            >
-              {header.title}
-            </Link>
+          <span
+            key={header.id}
+            className={searchContainer ? "menuLinks hideMenuLinks" : "menuLinks"}
+          >
+            <Link to={header.linkTo}>{header.title}</Link>
           </span>
         ))}
       </div>

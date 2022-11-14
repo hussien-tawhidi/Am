@@ -23,6 +23,15 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    &.imageNotFull {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 350px;
+      width: auto;
+      margin: 0 auto;
+    }
   }
   .text {
     text-align: left;
@@ -81,6 +90,11 @@
 @media (max-width: $md-size) {
   .latest-on-store-card {
     height: 50vh;
+    .mainImg {
+      &.imageNotFull {
+        height: 250px;
+      }
+    }
     .text {
       padding: 10px;
       .model {
@@ -100,6 +114,11 @@
 @media (max-width: $xsm-size) {
   .latest-on-store-card {
     height: 40vh;
+    .mainImg {
+      &.imageNotFull {
+        height: 220px;
+      }
+    }
     .text {
       .model {
         font-size: 12px;
