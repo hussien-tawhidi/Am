@@ -42,6 +42,7 @@ export default function Descktop({ noteBookeDetailsData }) {
               wightTitle={filterItem.wightTitle}
               fingerPrint={filterItem.fingerPrint}
               fingerPrintImage={filterItem.fingerPrintImage}
+              linkTo={filterItem.linkTo}
             />
       </div>
           ))}

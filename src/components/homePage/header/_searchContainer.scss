@@ -11,7 +11,8 @@
   margin: 0 auto;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity .5s ease-in-out;
+  transition-delay: 1s;
   z-index: $searchIndex;
   .searchInput {
     transform: translateX(100px);
@@ -26,7 +27,7 @@
     transition: all 0.3s ease-in-out;
 
     img {
-      transition: all 0.3s ease-in-out;
+      transition: all 1s ease-in-out;
       height: 30px;
       object-fit: cover;
       cursor: pointer;
@@ -35,10 +36,11 @@
       &:hover {
         opacity: 1;
       }
+      transition-delay: 1s;
       &.inputImage {
         transform: translateX(0);
         opacity: 0.8;
-        transition-delay: 0.7s;
+        transition-delay: 1s;
       }
     }
     input {
@@ -51,24 +53,24 @@
       background: transparent;
       opacity: 0;
       transform: translateX(50px);
-      transition: all 0.2s ease-in-out;
+      transition: all 1s ease-in-out;
       &::placeholder {
         color: $light-color;
         opacity: 0.6;
         font-size: 14px;
-        font-weight: 100;
+        
       }
       &.showInput {
+        transition-delay: 1.2s;
         opacity: 1;
         transform: translateX(0);
-        transition-delay: 0.9s;
       }
     }
     .close {
       font-size: 40px;
       cursor: pointer;
       opacity: 0;
-      transition: all 0.3s ease-in-out;
+      transition: all 1s ease-in-out;
       font-weight: 100;
       transform: translateX(50px);
       &:hover {
@@ -77,7 +79,7 @@
       &.showCloseBtn {
         opacity: 0.7;
         transform: translateX(0);
-        transition-delay: 1s;
+        transition-delay: 1.5s;
       }
     }
     &.showSearchInput {
@@ -97,7 +99,7 @@
       margin-bottom: 1rem;
       opacity: 0;
       transform: translateX(100%);
-      transition: all 0.4s ease-in-out;
+      transition: all 1s ease-in-out;
       border-bottom: 1px solid $dark-color;
       &.showTitle {
         opacity: 1;
@@ -110,8 +112,26 @@
       flex-direction: column;
       align-items: flex-start;
       opacity: 0;
-      transition: all .7s ease-in-out;
       transform: translateX(200px);
+      transition: all 1s ease-in-out;
+      &:nth-child(1) {
+        transition-delay: 400ms;
+      }
+      &:nth-child(2) {
+        transition-delay: 500ms;
+      }
+      &:nth-child(3) {
+        transition-delay: 600ms;
+      }
+      &:nth-child(4) {
+        transition-delay: 700ms;
+      }
+      &:nth-child(5) {
+        transition-delay: 800ms;
+      }
+      &:nth-child(6) {
+        transition-delay: 900ms;
+      }
       a {
         font-size: 14px;
         text-transform: capitalize;
@@ -145,6 +165,6 @@
   &.showSearchContainer {
     opacity: 1;
     pointer-events: visible;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
 }

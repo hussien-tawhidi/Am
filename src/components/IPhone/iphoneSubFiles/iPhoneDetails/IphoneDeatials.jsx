@@ -37,6 +37,7 @@ export default function IphoneDeatials() {
               iphoneClassBg={iphone.iphoneClassBg}
               sosHightClass={iphone.sosHightClass}
               cameraHightClass={iphone.cameraHightClass}
+              linkTo={iphone.linkTo}
             />
           </div>
         ))}

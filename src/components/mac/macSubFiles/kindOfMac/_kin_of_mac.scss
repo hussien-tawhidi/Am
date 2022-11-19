@@ -19,7 +19,7 @@
       opacity: 0.6;
       position: relative;
       transition: all 0.3s ease-in-out;
-
+      cursor: pointer;
       &.activeBtn {
         transition: all 0.3s ease-in-out;
         opacity: 1;
@@ -118,7 +118,7 @@
       &.sosHightClass {
         height: 13vh;
       }
-      &.cameraHightClass{
+      &.cameraHightClass {
         height: 17vh;
       }
       .subTitle {

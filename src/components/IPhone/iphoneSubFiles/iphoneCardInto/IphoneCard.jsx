@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function IphoneCard({ iphoneCardInfo }) {
   return (
     <>
       {iphoneCardInfo.map((card) => (
-        <div className={`iphone-card ${card.bg}`} key={card.id}>
+        <Link to={`/products/${card.LinkTo}`} className={`iphone-card ${card.bg}`} key={card.id}>
           <div className={`texts ${card.textClass} ${card.card3TextClass}`}>
             <span>{card.newText}</span>
             <p className="model">{card.model}</p>
@@ -22,7 +23,7 @@ export default function IphoneCard({ iphoneCardInfo }) {
               </a>
             </div>
           </div>
-        </div>
+        </Link>
       ))}
     </>
   );

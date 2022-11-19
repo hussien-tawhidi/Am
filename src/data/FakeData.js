@@ -1,4 +1,3 @@
-// home page data base
 export const headerData = [
   { id: 1, title: "store", linkTo: "/store" },
   { id: 2, title: "Mac", linkTo: "/mac" },
@@ -21,6 +20,65 @@ export const searchContaineDate = [
   { id: 6, title: "Gift", linkTo: "/" },
 ];
 
+export const appleEeventCard = [
+  {
+    id: 1,
+    title: "Apple Shopping Event",
+    desc: "From November 25 to 28, get an Apple Gift Card when you buy an eligible product.",
+    linkText: "Get an early look",
+    image: "/assets/homeImages/hero_2022.jpg",
+  },
+];
+
+export const s22title = [
+  {
+    id: 1,
+    miniTitle: "camera",
+    camerIcon: <i className="fa-solid fa-angle-down"></i>,
+    lgTitle: "Make nights epic with Nightography",
+    mdTitle: "Get the big picture",
+    cameraImage:
+      "/assets/homeImages/galaxy-s22-ultra_highlights_pro-grade.webp",
+  },
+];
+
+export const s22backCamera = [
+  {
+    id: 1,
+    desc:
+      "With the massive pixel sensors and shape-shifting pixels, this phone has our most advanced Pro-grade Camera yet, packing the power of a professional's kit in one handheld device. Shoot into the night without sacrificing quality.",
+    frontCameraP: "40MP",
+    frontCameraText: "selfie camera",
+    frontCameraImage:
+      "/assets/homeImages/galaxy-s22-ultra_highlights_pro-grade_front_motion.png",
+  },
+];
+
+export const s22fronCamera = [
+  {
+    id: 1,
+    camera1title: "12MP",
+    camera1text: "Ultra Wide Camera",
+    camera2title: "108MP",
+    camera2text: "Wide-angle Camera",
+    camera3title: "10MP 3x Optical Zoom",
+    camera3text: "Telephoto Camera 2",
+    camera4title: "10MP 10x Optical Zoom",
+    camera4text: "Telephoto Camera 1",
+
+    frontCameraImage:
+      "/assets/homeImages/galaxy-s22-ultra_highlights_pro-grade_back_motion.png",
+  },
+];
+
+export const heroIntroCardData = [
+  { id: 1123, price: "$203.99", linkTo: "headphone-detials" },
+];
+
+export const heroIpadCardData = [
+  { id: 1123, price: "$780.99", linkTo: "ipad-detials" },
+];
+
 export const heroCardData = [
   {
     id: 1,
@@ -29,6 +87,7 @@ export const heroCardData = [
     model: "promax 512G",
     image: "/assets/homeImages/iphone_14.png",
     logo: "/assets/appleLogo.png",
+    linkTo: "iphone14-details",
   },
   {
     id: 2,
@@ -36,6 +95,7 @@ export const heroCardData = [
     slogan: "get memoey upgrade with us",
     model: "s22 256G",
     image: "/assets/homeImages/s22.png",
+    linkTo: "samsung-s22-details",
   },
   {
     id: 3,
@@ -43,6 +103,7 @@ export const heroCardData = [
     slogan: "cool and smarter",
     model: "z flip 4 1T",
     image: "/assets/homeImages/zFlip4.png",
+    linkTo: "galaxy-z-flip-4-details",
   },
   {
     id: 4,
@@ -51,6 +112,7 @@ export const heroCardData = [
     model: "s8",
     image: "/assets/homeImages/w.jpg",
     logo: "/assets/appleLogo.png",
+    linkTo: "apple=watch-ultra-details",
   },
   {
     id: 5,
@@ -59,6 +121,7 @@ export const heroCardData = [
     model: "From $169",
     image: "/assets/homeImages/airpod.png",
     logo: "/assets/homeImages/appleLogo.png",
+    linkTo: "airpod-details",
   },
   {
     id: 6,
@@ -67,6 +130,7 @@ export const heroCardData = [
     model: "iphone13 256G",
     image: "/assets/homeImages/iphone_13.png",
     logo: "/assets/homeImages/appleLogo.png",
+    linkTo: "iphone13-details",
   },
   {
     id: 7,
@@ -75,6 +139,7 @@ export const heroCardData = [
     model: "now you all need is a phone",
     image: "/assets/homeImages/fitness.jpg",
     logo: "/assets/homeImages/appleLogo.png",
+    linkTo: "fitness+",
   },
   {
     id: 8,
@@ -83,6 +148,7 @@ export const heroCardData = [
     model: " width every purchase",
     image: "/assets/homeImages/icard.png",
     logo: "/assets/appleLogo.png",
+    linkTo: "icard",
   },
 ];
 
@@ -115,7 +181,6 @@ export const footerPatagraph = [
   },
 ];
 
-// footer data
 export const shopAndLearn = [
   { id: 1, title: "store", linkTo: "/store" },
   { id: 2, title: "mac", linkTo: "/mac" },

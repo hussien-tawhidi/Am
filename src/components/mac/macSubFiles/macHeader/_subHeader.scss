@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     .subHeaderImg {
       height: 50px;
       width: auto;
@@ -29,13 +30,16 @@
         color: $orange-color;
       }
     }
+    &:hover {
+      color: $blue-color;
+    }
   }
 }
 .mobieMacHeader {
   display: none;
   pointer-events: none;
   height: 100%;
-  &.showHeader{
+  &.showHeader {
     display: flex;
     margin: 5rem 0 0 0;
     pointer-events: visible;

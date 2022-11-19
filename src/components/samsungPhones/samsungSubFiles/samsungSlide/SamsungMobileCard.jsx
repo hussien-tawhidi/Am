@@ -40,6 +40,7 @@ export default function SamsungMobileCard({ samsungMobile }) {
               price={access.price}
               newText={access.new}
               bg={access.bg}
+              linkTo={access.linkTo}
             />
           </SwiperSlide>
         ))}

@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import { searchContaineDate } from "../../../data/FakeData";
 
 export default function SearchContainer({
@@ -44,13 +44,15 @@ export default function SearchContainer({
         </p>
         <div>
           {searchContaineDate.map((search) => (
-            <div key={search.id} className={searchContainer?"quickLinks showquickLinks":"quickLinks"}>
-              <a
-                href="/"
-                className="headeLinks"
-              >
+            <div
+              key={search.id}
+              className={
+                searchContainer ? "quickLinks showquickLinks" : "quickLinks"
+              }
+            >
+              <Link to="/" className="headeLinks" onClick={showSearchContainer}>
                 {search.title}
-              </a>
+              </Link>
             </div>
           ))}
         </div>

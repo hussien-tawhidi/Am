@@ -1,13 +1,48 @@
 export const menu = [
-  { id: 1, title: "mac", image: "/assets/store/mac.png" },
-  { id: 2, title: "iphone", image: "/assets/store/iphone.png" },
-  { id: 3, title: "gallaxy z fold", image: "/assets/store/fold.png" },
-  { id: 4, title: "headPhone", image: "/assets/store/handsFree.png" },
-  { id: 5, title: "watch", image: "/assets/store/watch.png" },
-  { id: 6, title: "iPad", image: "/assets/store/ipad.png" },
-  { id: 7, title: "accessories", image: "/assets/store/accessories.png" },
-  { id: 8, title: "headPhone", image: "/assets/store/headPhone.png" },
-  { id: 9, title: "microsoft", image: "/assets/store/microsoft.png" },
+  { id: 1, linkto: "/mac", title: "mac", image: "/assets/store/mac.png" },
+  {
+    id: 2,
+    linkto: "/iphone",
+    title: "iphone",
+    image: "/assets/store/iphone.png",
+  },
+  {
+    id: 3,
+    linkto: "/samsung",
+    title: "samsung",
+    image: "/assets/store/fold.png",
+  },
+  {
+    id: 4,
+    linkto: "/airpods",
+    title: "headPhone",
+    image: "/assets/store/handsFree.png",
+  },
+  {
+    id: 5,
+    linkto: "/watches",
+    title: "watch",
+    image: "/assets/store/watch.png",
+  },
+  { id: 6, linkto: "/mac", title: "iPad", image: "/assets/store/ipad.png" },
+  {
+    id: 7,
+    linkto: "/accessories",
+    title: "accessories",
+    image: "/assets/store/accessories.png",
+  },
+  {
+    id: 8,
+    linkto: "/airpods",
+    title: "headPhone",
+    image: "/assets/store/headPhone.png",
+  },
+  {
+    id: 9,
+    linkto: "/microsoft",
+    title: "microsoft",
+    image: "/assets/store/microsoft.png",
+  },
 ];
 
 export const latesOnStoreData = [
@@ -18,6 +53,7 @@ export const latesOnStoreData = [
     priceDetials: "From $999.00 or $41.62/mo for 24/mo*",
     image: "/assets/store/iphone14.jpg",
     bg: "",
+    linkto: "/iphone",
   },
   {
     id: 2,
@@ -25,14 +61,16 @@ export const latesOnStoreData = [
     slogan: "feel the music live",
     priceDetials: "From $249.00 or $41.50/mo for 6/mo",
     image: "/assets/store/a-pro.jpg",
+    linkto: "/airpods",
   },
   {
     id: 3,
     model: "galaxy watch 5",
     slogan: "future is for you",
     priceDetials: "From $255.00 or $44.50/mo for 6/mo",
-    image: "/assets/store/galaxy-watch5.jpg",
+    image: "/assets/store/galaxy-watch5.png",
     bg: "light",
+    linkto: "/watch",
   },
   {
     id: 4,
@@ -41,6 +79,7 @@ export const latesOnStoreData = [
     priceDetials: "From $780.00 or $66.50/mo for 24/mo",
     image: "/assets/store/bigandbigger.jpg",
     bg: "light",
+    linkto: "/iphone",
   },
   {
     id: 5,
@@ -48,6 +87,7 @@ export const latesOnStoreData = [
     slogan: "supercharged by m2",
     priceDetials: "From $799.00 or $66.58/mo for 12/mo",
     image: "/assets/store/ipad.jpg",
+    linkto: "/mac",
   },
   {
     id: 6,
@@ -56,6 +96,7 @@ export const latesOnStoreData = [
     priceDetials: "From $449.00 or $37.00/mo for 12/mo",
     image: "/assets/store/tablet.jpg",
     bg: "light",
+    linkto: "/mac",
   },
   {
     id: 7,
@@ -63,6 +104,7 @@ export const latesOnStoreData = [
     slogan: "every where is with you",
     priceDetials: "From $399.00 or $16.00/mo for 12/mo",
     image: "/assets/store/watchs-s-8.jpg",
+    linkto: "/watch",
   },
   {
     id: 8,
@@ -71,6 +113,7 @@ export const latesOnStoreData = [
     priceDetials: "From $1500.00 or $80.30/mo for 24/mo",
     image: "/assets/store/zfold4.jpg",
     bg: "light",
+    linkto: "/samsung",
   },
 ];
 
@@ -84,6 +127,7 @@ export const accessoriesData = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
+    LinkTo: "iphone14-pro-details",
   },
   {
     id: 2,
@@ -94,6 +138,7 @@ export const accessoriesData = [
     color1: "/assets/store/color6.jpg",
     color2: "/assets/store/color7.jpg",
     color3: "/assets/store/color8.jpg",
+    LinkTo: "iphone12-selicon-details",
   },
   {
     id: 3,
@@ -104,6 +149,7 @@ export const accessoriesData = [
     color1: "/assets/store/color5.jpg",
     color2: "/assets/store/color9.jpg",
     color3: "/assets/store/color10.jpg",
+    LinkTo: "for-ipad-accessories-details",
   },
   {
     id: 4,
@@ -114,6 +160,7 @@ export const accessoriesData = [
     color1: "/assets/store/color4.jpg",
     color2: "/assets/store/color9.jpg",
     color3: "/assets/store/color11.jpg",
+    LinkTo: "mkeyboard-details",
   },
   {
     id: 5,
@@ -124,6 +171,7 @@ export const accessoriesData = [
     color1: "/assets/store/color7.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
+    LinkTo: "headphone-details",
   },
 ];
 
@@ -135,6 +183,7 @@ export const loadAndClear = [
     new: "new",
     price: "249.00$",
     image: "/assets/store/a-2g.jpg",
+    LinkTo: "airpod-2nd-generation-pro-details",
   },
   {
     bg: "bgLight",
@@ -143,6 +192,7 @@ export const loadAndClear = [
     new: "fee engraving",
     price: "169.00$",
     image: "/assets/store/a-3g.jpg",
+    LinkTo: "airpod-3nd-generation-pro-details",
   },
   {
     bg: "bgLight",
@@ -151,6 +201,7 @@ export const loadAndClear = [
       "Beats Studio Buds – True Wireless Noise Cancelling Earphones – Black",
     price: "149.99$",
     image: "/assets/store/beat.jpg",
+    LinkTo: "beats-studio-buds-details",
   },
   {
     bg: "bgLight",
@@ -159,6 +210,7 @@ export const loadAndClear = [
     new: "fee engraving",
     price: "179.00$",
     image: "/assets/store/a-3g1.jpg",
+    LinkTo: "airpod-3nd-generation-pro-details",
   },
   {
     bg: "bgLight",
@@ -167,9 +219,9 @@ export const loadAndClear = [
     new: "new",
     price: "99.00",
     image: "/assets/store/mini.jpg",
+    LinkTo: "home-pods-details",
   },
 ];
-
 export const appleExperieonce = [
   {
     id: 1,
@@ -179,6 +231,7 @@ export const appleExperieonce = [
     experienceClass: "experienceClass",
     lightBg: "lightBg",
     upText: "upText",
+    LinkTo: "/",
   },
   {
     id: 2,

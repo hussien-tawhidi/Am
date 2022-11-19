@@ -22,7 +22,6 @@ export default function OurStore() {
       <StoreMenu />
       <LastOnOurStore  latesOnStoreData={latesOnStoreData}/>
       <StoreCards />
-
       <StoreTitle
         dark="Accessories."
         light=" Essentials that pair perfectly with your favorite devices."

@@ -1,4 +1,5 @@
-import React from "react";
+
+import { Link } from "react-router-dom";
 
 export default function AccessoriesCard({
   image,
@@ -16,9 +17,10 @@ export default function AccessoriesCard({
   darkBg,
   darkerBg,
   bg,
+  linkTo
 }) {
   return (
-    <div className={`accessoriesCard ${lightBg} ${darkBg} ${darkerBg} ${bg}`}>
+    <Link to={`/products/${linkTo}`} className={`accessoriesCard ${lightBg} ${darkBg} ${darkerBg} ${bg}`}>
       <img src={image} alt="" className={`heroImg ${experienceClass} ${appleSpecailPr}`} />
       <div className="colors">
         <img src={color1} alt="" />
@@ -30,6 +32,6 @@ export default function AccessoriesCard({
         <h6 className="title">{title}</h6>
         <p className="price">{price}</p>
       </div>
-    </div>
+    </Link>
   );
 }

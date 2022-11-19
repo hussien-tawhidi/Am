@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function MobileCategoryCard({ samsungMobiels }) {
   return (
     <div className="row">
@@ -24,12 +26,12 @@ export default function MobileCategoryCard({ samsungMobiels }) {
                 <a href="/" className={`buyNow `}>
                   {mobile.buyNow}
                 </a>
-                <a href="/" className="more">
+                <Link to={`/products/${mobile.linkTo}`} className="more">
                   <span>{mobile.learnMore}</span>{" "}
                   <span className="icon">
                     <i className="fa-solid fa-angle-right"></i>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

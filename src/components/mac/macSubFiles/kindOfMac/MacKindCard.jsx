@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function MacKindCard({
   image,
@@ -37,6 +38,7 @@ export default function MacKindCard({
   inHightClass,
   sosHightClass,
   cameraHightClass,
+  linkTo
 }) {
   return (
     <div className="mac-kind-card">
@@ -59,15 +61,15 @@ export default function MacKindCard({
           <p className="price">{price}</p>
 
           <div className="buttons">
-            <a href="/" className={`buyNow ${bgBlue}`}>
+            <Link to={`/products/$`} href="/" className={`buyNow ${bgBlue}`}>
               buy
-            </a>
-            <a href="/" className="more">
+            </Link>
+            <Link to={`/products/${linkTo}`}  className="more">
               <span>learn more</span>{" "}
               <div className="icon">
                 <i className="fa-solid fa-angle-right"></i>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
+
 export default function SubHeaderMobile({ subHeaderMobile }) {
   return (
     <div className="mobieMacHeader">
@@ -23,13 +25,13 @@ export default function SubHeaderMobile({ subHeaderMobile }) {
       >
         {subHeaderMobile.map((head) => (
           <SwiperSlide key={head.id}>
-            <div className="singleHeader">
+            <Link to={`products/${head.LinkTo}`} className="singleHeader">
               <img src={head.image} alt="" className="subHeaderImg" />
               <div className="text">
                 <p>{head.title}</p>
                 <span>{head.newText}</span>
               </div>
-            </div>
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>

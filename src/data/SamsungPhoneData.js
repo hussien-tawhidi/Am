@@ -4,25 +4,63 @@ export const samsungHeaderData = [
     newText: "new",
     title: "Gallasy Fold",
     image: "/assets/samsung/vectore/fold.png",
+    LinkTo: "galaxy-fold",
   },
   {
     id: 2,
     newText: "new",
     title: "flip",
     image: "/assets/samsung/vectore/flip.png",
+    LinkTo: "galaxy-flip",
   },
-  { id: 3, title: "Gallaxy S", image: "/assets/samsung/vectore/s.png" },
-  { id: 4, title: "Gallaxy Note", image: "/assets/samsung/vectore/note.png" },
-  { id: 5, title: "Compare", image: "/assets/IPhone/compare.svg" },
-  { id: 6, title: "AirPods", image: "/assets/samsung/vectore/airPods.png" },
-  { id: 7, title: "Andriod 12", image: "/assets/samsung/vectore/andriod.png" },
+  {
+    id: 3,
+    title: "Gallaxy S",
+    image: "/assets/samsung/vectore/s.png",
+    LinkTo: "galaxy-s-series",
+  },
+  {
+    id: 4,
+    title: "Gallaxy Note",
+    image: "/assets/samsung/vectore/note.png",
+    LinkTo: "galaxy-note-siries",
+  },
+  {
+    id: 5,
+    title: "Compare",
+    image: "/assets/IPhone/compare.svg",
+    LinkTo: "compare-samsungs",
+  },
+  {
+    id: 6,
+    title: "AirPods",
+    image: "/assets/samsung/vectore/airPods.png",
+    LinkTo: "samsung-airpods",
+  },
+  {
+    id: 7,
+    title: "Andriod 12",
+    image: "/assets/samsung/vectore/andriod.png",
+    LinkTo: "android12",
+  },
   {
     id: 8,
     title: "Accessories",
     image: "/assets/samsung/vectore/accessories.png",
+    LinkTo: "accessories",
   },
-  { id: 9, title: "Watch", image: "/assets/samsung/vectore/watch.png" },
-  { id: 10, title: "All Phones", image: "/assets/samsung/vectore/shopAll.png" },
+  {
+    id: 9,
+    title: "Watch",
+    image: "/assets/samsung/vectore/watch.png",
+    LinkTo: "watches",
+  },
+  {
+    id: 10,
+    title: "All Phones",
+    image: "/assets/samsung/vectore/shopAll.png",
+    LinkTo: "samsung-all-phones",
+  },
 ];
 
 export const samsungCardIntroData = [
@@ -38,6 +76,7 @@ export const samsungCardIntroData = [
     buy: "buy",
     price: "From $17.29/mo. for 24 mo. or $619 before trade‑in",
     buyNow: "buyNow",
+    LinkTo: "galaxy-z-flip-4",
   },
 ];
 
@@ -46,7 +85,7 @@ export const samsungCardIntroData2 = [
     id: 1,
     buyNow: "buyNow",
     textClass: "textClass",
-    model: "Galaxy Z Fold 4",
+    model: "Galaxy Z flip",
     title: "Pro. Beyond.",
     newText: "new",
     bgBlue: "bgBlue",
@@ -54,6 +93,7 @@ export const samsungCardIntroData2 = [
     buy: "buy",
     textGradeint: "",
     price: "From $41.62/mo. for 24 mo. or $999 before trade‑in",
+    LinkTo: "galaxy-z-flip",
   },
 ];
 
@@ -79,7 +119,7 @@ export const latesOnSamsungData = [
     model: "galaxy watch 5",
     slogan: "future is for you",
     priceDetials: "From $255.00 or $44.50/mo for 6/mo",
-    image: "/assets/store/galaxy-watch5.jpg",
+    image: "/assets/store/galaxy-watch5.png",
     bg: "light",
   },
   {
@@ -131,6 +171,7 @@ export const flipVideoBanner = [
     subTitle: "generations",
     slogan: "let's say hello to the world",
     linkTo: "Learn more",
+    LinkTo: "galaxy-z-flip",
     icon: <i className="fa-solid fa-angle-right"></i>,
     bg: "/assets/samsung/video.mp4",
     // classes
@@ -165,6 +206,7 @@ export const samsungMobile = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
+    linkTo: "galaxy-s8+-128G",
   },
   {
     id: 2,
@@ -176,6 +218,7 @@ export const samsungMobile = [
     color1: "/assets/store/color3.jpg",
     color2: "/assets/store/color4.jpg",
     color3: "/assets/store/color5.jpg",
+    linkTo: "galaxy-s8-128G",
   },
   {
     id: 3,
@@ -186,6 +229,7 @@ export const samsungMobile = [
     color1: "/assets/store/color5.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color6.jpg",
+    linkTo: "galaxy-s20-fe",
   },
   {
     id: 4,
@@ -193,6 +237,7 @@ export const samsungMobile = [
     new: "new",
     title: "Get up to $800 off Galaxy S22 Series from AT&amp;T",
     price: "hot offer",
+    linkTo: "galaxy-s22",
   },
   {
     id: 5,
@@ -204,6 +249,7 @@ export const samsungMobile = [
     color1: "/assets/store/color4.jpg",
     color2: "/assets/store/color1.jpg",
     color3: "/assets/store/color8.jpg",
+    linkTo: "galaxy-s7-tab",
   },
 ];
 
@@ -239,6 +285,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color3.jpg",
     color3: "/assets/store/color6.jpg",
+    linkTo: "galaxy-z-fold",
   },
   {
     id: 2,
@@ -254,6 +301,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color2.jpg",
     color2: "/assets/store/color5.jpg",
     color3: "/assets/store/color9.jpg",
+    linkTo: "galaxy-z-flip-4",
   },
   {
     id: 3,
@@ -263,12 +311,13 @@ export const filterSamsungMobiel = [
     learnMore: "Learn more",
     image: "/assets/samsung/1.webp",
     buyNow: "Buy Now",
-    title: "galaxy z flip 4",
+    title: "galaxy A73",
     beforePrice: "$299.99",
     nowPrice: "from $244.99",
     color1: "/assets/store/color2.jpg",
     color2: "/assets/store/color5.jpg",
     color3: "/assets/store/color9.jpg",
+    linkTo: "galaxy-a73",
   },
   {
     id: 4,
@@ -284,6 +333,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color3.jpg",
     color2: "/assets/store/color4.jpg",
     color3: "/assets/store/color5.jpg",
+    linkTo: "galaxy-z-flip",
   },
   {
     id: 5,
@@ -299,6 +349,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
+    linkTo: "galaxy-s22",
   },
   {
     id: 6,
@@ -314,6 +365,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color7.jpg",
     color2: "/assets/store/color8.jpg",
     color3: "/assets/store/color9.jpg",
+    linkTo: "galaxy-s21-fe-5g",
   },
   {
     id: 7,
@@ -329,6 +381,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color7.jpg",
     color2: "/assets/store/color8.jpg",
     color3: "/assets/store/color9.jpg",
+    linkTo: "galaxy-s22-ultra",
   },
   {
     id: 8,
@@ -343,6 +396,7 @@ export const filterSamsungMobiel = [
     nowPrice: "from $249.99",
     color1: "/assets/store/color4.jpg",
     color2: "/assets/store/color5.jpg",
+    linkTo: "galaxy-s22+",
   },
   {
     id: 9,
@@ -357,6 +411,7 @@ export const filterSamsungMobiel = [
     nowPrice: "from $619.99",
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
+    linkTo: "galaxy-z-flip",
   },
   {
     id: 10,
@@ -372,6 +427,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color4.jpg",
     color3: "/assets/store/color6.jpg",
+    linkTo: "galaxy-z-fold",
   },
   {
     id: 11,
@@ -387,6 +443,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
+    linkTo: "galaxy-s21+-5g-256gb",
   },
   {
     id: 12,
@@ -402,6 +459,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color3.jpg",
     color2: "/assets/store/color4.jpg",
     color3: "/assets/store/color7.jpg",
+    linkTo: "galaxy-s21-5g-128gb",
   },
   {
     id: 13,
@@ -418,6 +476,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
+    linkTo: "galaxy-s20-se-5g",
   },
   {
     id: 14,
@@ -433,6 +492,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
+    linkTo: "galaxy-a53-5g",
   },
   {
     id: 15,
@@ -448,6 +508,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color8.jpg",
     color2: "/assets/store/color9.jpg",
     color3: "/assets/store/color10.jpg",
+    linkTo: "galaxy-a42-5g",
   },
   {
     id: 16,
@@ -463,6 +524,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color8.jpg",
     color2: "/assets/store/color11.jpg",
     color3: "/assets/store/color5.jpg",
+    linkTo: "galaxy-a13-5g",
   },
   {
     id: 17,
@@ -478,6 +540,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color8.jpg",
     color2: "/assets/store/color9.jpg",
     color3: "/assets/store/color10.jpg",
+    linkTo: "galaxy-a13",
   },
   {
     id: 18,
@@ -493,6 +556,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
+    linkTo: "galaxy-a12",
   },
   {
     id: 19,
@@ -508,6 +572,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
+    linkTo: "galaxy-a03s",
   },
   {
     id: 20,
@@ -523,6 +588,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color4.jpg",
     color2: "/assets/store/color5.jpg",
     color3: "/assets/store/color6.jpg",
+    linkTo: "galaxy-s20-5g-128gb",
   },
   {
     id: 21,
@@ -538,6 +604,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color3.jpg",
     color2: "/assets/store/color6.jpg",
     color3: "/assets/store/color9.jpg",
+    linkTo: "galaxy-s20+-5g-128gb",
   },
   {
     id: 22,
@@ -553,6 +620,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color3.jpg",
     color2: "/assets/store/color4.jpg",
     color3: "/assets/store/color5.jpg",
+    linkTo: "galaxy-s20-ultra-5g-128gb",
   },
   {
     id: 23,
@@ -569,6 +637,7 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
+    linkTo: "galaxy-s21-ultra-5g-128gb",
   },
 ];
 

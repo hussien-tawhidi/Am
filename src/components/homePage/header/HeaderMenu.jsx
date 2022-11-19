@@ -1,8 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { headerData } from "../../../data/FakeData";
+import ShoppingCardMenu from "../../card/ShoppingCardMenu";
 
-export default function HeaderMenu({ showSearchContainer, searchContainer }) {
+export default function HeaderMenu({
+  showSearchContainer,
+  searchContainer,
+  onShowCardItems,
+  showCardItems,
+}) {
   return (
     <div className="header">
       <Link
@@ -15,7 +21,9 @@ export default function HeaderMenu({ showSearchContainer, searchContainer }) {
         {headerData.map((header) => (
           <span
             key={header.id}
-            className={searchContainer ? "menuLinks hideMenuLinks" : "menuLinks"}
+            className={
+              searchContainer ? "menuLinks hideMenuLinks" : "menuLinks"
+            }
           >
             <Link to={header.linkTo}>{header.title}</Link>
           </span>
@@ -26,21 +34,32 @@ export default function HeaderMenu({ showSearchContainer, searchContainer }) {
           src="/assets/icons/searchIcon.png"
           alt=""
           className={
-            searchContainer
-              ? "headerImg searchIcon hideHeaderSingleMenu"
-              : "headerImg searchIcon"
+            searchContainer ? " searchIcon hideHeaderSingleMenu" : " searchIcon"
           }
           onClick={showSearchContainer}
         />
-        <Link to="/shoppingcard">
+        <div className="headrShoppingCardIcon">
           <img
             src="/assets/icons/shoppingcard.png"
             alt=""
             className={
               searchContainer ? "headerImg hideHeaderSingleMenu" : "headerImg "
             }
+            onClick={onShowCardItems}
           />
-        </Link>
+          <div
+            className={
+              showCardItems
+                ? "shopping-card ShowShopping-card"
+                : "shopping-card "
+            }
+          >
+            <ShoppingCardMenu
+              onShowCardItems={onShowCardItems}
+              showCardItems={showCardItems}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -1,4 +1,6 @@
+import { pageParts } from '../../data/SupportData'
 import Title from '../homePage/header/Title'
+import SupportCard from './supportParts/SupportCard'
 import SupportIntroBanner from './supportParts/SupportIntroBanner'
 
 export default function Support() {
@@ -7,7 +9,7 @@ export default function Support() {
       <Title title="AM | We Support Your"/>
       <SupportIntroBanner/>
       <div className="container">
-        
+        <SupportCard cardData={pageParts}/>
       </div>
     </div>
   )

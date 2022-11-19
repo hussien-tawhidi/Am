@@ -1,6 +1,12 @@
 import { headerData } from "../../../data/FakeData";
 import { Link } from "react-router-dom";
-export default function MobielMenu({ onMobile, mobiel }) {
+import ShoppingCardMenu from "../../card/ShoppingCardMenu";
+export default function MobielMenu({
+  onMobile,
+  mobiel,
+  showCardItems,
+  onShowCardItems,
+}) {
   return (
     <div className="mobileContainer">
       <div className="mobileMenu ">
@@ -9,11 +15,26 @@ export default function MobielMenu({ onMobile, mobiel }) {
           <span className={mobiel ? "line2 close" : "line2"}></span>
         </div>
         <img src="/assets/logo.png" alt="" />
-        <img
-          src="/assets/icons/shoppingcard.png"
-          alt=""
-          className={mobiel ? "  hide" : ""}
-        />
+        <div className="shoppingcard">
+          <img
+            src="/assets/icons/shoppingcard.png"
+            alt=""
+            className={mobiel ? "  hide" : ""}
+            onClick={onShowCardItems}
+          />
+          <div
+            className={
+              showCardItems
+                ? "shopping-card ShowShopping-card"
+                : "shopping-card "
+            }
+          >
+            <ShoppingCardMenu
+              onShowCardItems={onShowCardItems}
+              showCardItems={showCardItems}
+            />
+          </div>
+        </div>
       </div>
       <div className={mobiel ? "menu showMobileMenu" : "menu  "}>
         <div className="mobileSearch">
@@ -23,7 +44,7 @@ export default function MobielMenu({ onMobile, mobiel }) {
         <div className="menuLinks">
           {headerData.map((head) => (
             <span key={head.id} className={mobiel ? "show" : ""}>
-              <Link to={head.linkTo} >
+              <Link to={head.linkTo} onClick={onMobile}>
                 {head.title}
               </Link>
             </span>

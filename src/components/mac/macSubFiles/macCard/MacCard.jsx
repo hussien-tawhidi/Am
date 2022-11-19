@@ -1,10 +1,9 @@
-import React from 'react'
-
+import { Link } from 'react-router-dom'
 export default function Card({cardIntroData}) {
   return (
     <div >
       {cardIntroData.map((c ,index) => (
-        <div className={`macCard ${c.colorDark}`} key={index}>
+        <Link to={`/products/${c.LinkTo}`} className={`macCard ${c.colorDark}`} key={index}>
           <img src={c.image} alt=""/>
           <div className="texts">
             <p className="new">{c.newText}</p>
@@ -24,7 +23,7 @@ export default function Card({cardIntroData}) {
               </a>
             </div>
           </div>
-        </div>
+        </Link>
       ))}
     </div>
   )

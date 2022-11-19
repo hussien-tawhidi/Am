@@ -1,0 +1,101 @@
+.appleCardEvenet {
+  background-color: rgb(0, 0, 0);
+  color: $light-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  padding-top: 1rem;
+  .texts {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    position: absolute;
+    top: 5rem;
+    left: auto;
+    right: auto;
+    h6 {
+      font-size: 50px;
+      font-weight: 800;
+    }
+    p {
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: 500;
+      opacity: 0.7;
+    }
+    .link {
+      font-size: 18px;
+      color: $blue-color;
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      .text-link {
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .icon {
+        display: flex;
+        align-items: flex-end;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        margin-left: 5px;
+        height: 100%;
+        padding-top: 3px;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .heroImages {
+    width: auto;
+    height: 100%;
+  }
+}
+@media (max-width: $lg-size) {
+  .appleCardEvenet {
+    height: 80vh;
+    .texts {
+      width: 60%;
+      z-index: 3;
+    }
+    .heroImages {
+      z-index: 1;
+      height: 70vh;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
+@media (max-width: $md-size) {
+  .appleCardEvenet {
+    .texts {
+      width: 90%;
+    }
+    .heroImages {
+      height: 55vh;
+    }
+  }
+}
+@media (max-width: $sm-size) {
+  .appleCardEvenet {
+    .texts {
+        h6{
+            font-size: 40px;
+        }
+        p{
+            font-size: 16px;
+        }
+
+    }
+    .heroImages {
+      height: 45vh;
+    }
+  }
+}

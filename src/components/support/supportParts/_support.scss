@@ -19,6 +19,73 @@
     text-transform: capitalize;
   }
 }
+.supportCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  margin: 1rem 0;
+  cursor: pointer;
+  border-radius: 10px;
+  .heroImage {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+  }
+  .texts {
+    z-index: 10;
+    position: absolute;
+    bottom: 5%;
+    left: auto;
+    right: auto;
+    width: 100%;
+    color: $light-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    a {
+      font-size: 25px;
+      text-transform: capitalize;
+      font-weight: 700;
+      color: inherit;
+    }
+    .icon {
+      font-size: 40px;
+    }
+  }
+  &:hover {
+    .texts {
+      bottom: 20%;
+      color: $blue-color;
+    }
+    &::after {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    .heroImage {
+      transform: scale(1);
+    }
+  }
+}
 @media (max-width: $lg-size) {
   .support-banner {
     h1 {
@@ -40,16 +107,13 @@
       width: 50%;
       left: 10%;
       font-size: 25px;
-
     }
   }
 }
 @media (max-width: $xsm-size) {
   .support-banner {
     h1 {
-      
       font-size: 16px;
-
     }
   }
 }

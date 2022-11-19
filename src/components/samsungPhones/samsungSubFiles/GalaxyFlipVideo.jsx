@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export default function GalaxyFlipVideo({ samsungBannerData }) {
   return (
@@ -12,10 +13,10 @@ export default function GalaxyFlipVideo({ samsungBannerData }) {
             <h1 className={data.textGradeient}>{data.title}</h1>
             <h3 className={data.subTextGradeient}>{data.subTitle}</h3>
             <p>{data.slogan}</p>
-            <a href="/">
+            <Link to={data.LinkTo} href="/">
               {data.linkTo}
               <span className="icon">{data.icon}</span>
-            </a>
+            </Link>
           </div>
           <img src={data.image} alt="" />
           <video

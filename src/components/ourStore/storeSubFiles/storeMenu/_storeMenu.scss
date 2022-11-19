@@ -1,16 +1,30 @@
 .storeMenu {
   overflow: hidden;
-  .storeImages {
-    width: 70%;
-    margin: 0 auto;
-    object-fit: cover;
-  }
-  p {
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: capitalize;
-    margin-top: 10px;
-    color: $dark-color;
+  .singleStoreMenu {
+    overflow: hidden;
+    .storeImages {
+      transition: all 0.1s ease-in-out;
+      transform: scale(1);
+      width: 70%;
+      margin: 0 auto;
+      object-fit: cover;
+    }
+    p {
+      transition: all 0.1s ease-in-out;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: capitalize;
+      margin-top: 10px;
+      color: $dark-color;
+    }
+    &:hover {
+      .storeImages {
+        transform: scale(1.1);
+      }
+      p {
+        color: $blue-color;
+      }
+    }
   }
 }
 @media (max-width: $md-size) {

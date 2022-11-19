@@ -4,6 +4,7 @@ import MobielMenu from "./MobielMenu";
 import SearchContainer from "./SearchContainer";
 export default function Header() {
   const [searchContainer, setSearchContainer] = useState(false);
+  const [showCardItems, setShowCardItems] = useState(false);
   const [mobiel, setMobile] = useState(false);
   const onMobile = () => {
     setMobile(!mobiel);
@@ -11,20 +12,35 @@ export default function Header() {
   const showSearchContainer = () => {
     setSearchContainer(!searchContainer);
   };
+
+  const onShowCardItems = () => {
+    setShowCardItems(!showCardItems);
+  };
   return (
     <div className="headerContainer">
-      <SearchContainer
-        searchContainer={searchContainer}
-        showSearchContainer={showSearchContainer}
-      />
-      <HeaderMenu
-        showSearchContainer={showSearchContainer}
-        searchContainer={searchContainer}
-      />
-      <MobielMenu mobiel={mobiel} onMobile={onMobile} />
+      <div className="headerMenus">
+        <SearchContainer
+          searchContainer={searchContainer}
+          showSearchContainer={showSearchContainer}
+        />
+        <HeaderMenu
+          showSearchContainer={showSearchContainer}
+          searchContainer={searchContainer}
+          onShowCardItems={onShowCardItems}
+          showCardItems={showCardItems}
+        />
+        <MobielMenu
+          mobiel={mobiel}
+          onMobile={onMobile}
+          showCardItems={showCardItems}
+          onShowCardItems={onShowCardItems}
+        />
+      </div>
       <div
-        className={searchContainer ? "overlay showOverlay" : "overlay"}
-        onClick={showSearchContainer}
+        className={
+          searchContainer || showCardItems ? "overlay showOverlay" : "overlay"
+        }
+        // onClick={showSearchContainer}
       ></div>
     </div>
   );

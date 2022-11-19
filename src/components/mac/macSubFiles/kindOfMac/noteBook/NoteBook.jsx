@@ -9,7 +9,6 @@ export default function NoteBook({ noteBookeDetailsData }) {
         .map((filterItem) => (
           <div className="col-md-3 col-6"  key={filterItem.id}>
             <MacKindCard
-             
               image={filterItem.image}
               color1={filterItem.color1}
               color2={filterItem.color2}
@@ -42,6 +41,7 @@ export default function NoteBook({ noteBookeDetailsData }) {
               wightTitle={filterItem.wightTitle}
               fingerPrint={filterItem.fingerPrint}
               fingerPrintImage={filterItem.fingerPrintImage}
+              linkTo={filterItem.linkTo}
             />
           </div>
         ))}

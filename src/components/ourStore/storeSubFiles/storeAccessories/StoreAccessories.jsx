@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { Link } from "react-router-dom";
 export default function StoreAccessories({
   intoTitle,
   text,
@@ -54,14 +55,15 @@ export default function StoreAccessories({
               price={access.price}
               newText={access.new}
               bg={access.bg}
+              linkTo={access.LinkTo}
             />
           </SwiperSlide>
         ))}
         <SwiperSlide data-hash="slide1">
-          <div className="accessoriesCard">
+          <Link to="/accessories" className="accessoriesCard">
             <p className="exploreTitle">{exploreTitle}</p>
             <img src={exploreImage} alt="" className="heroImg seeAll" />
-          </div>
+          </Link>
         </SwiperSlide>
       </Swiper>
     </div>

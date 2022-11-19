@@ -28,6 +28,25 @@
           opacity: 0;
         }
       }
+      .shoppingcard {
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: 100%;
+        .shopping-card {
+          position: absolute;
+          top: 45px;
+          right: -1rem;
+          opacity: 0;
+          pointer-events: none;
+          transition: opacity 0.8s ease-in-out;
+          transition-delay: 0.5s;
+          &.ShowShopping-card {
+            opacity: 1;
+            pointer-events: visible;
+          }
+        }
+      }
       .icon {
         position: relative;
         width: 30px;
@@ -81,7 +100,7 @@
           padding: 5px 0;
           text-transform: capitalize;
           opacity: 0;
-          transition: all .5s ease-in-out;
+          transition: all 0.5s ease-in-out;
           transform: translateX(-100px);
           &.show {
             opacity: 0.7;

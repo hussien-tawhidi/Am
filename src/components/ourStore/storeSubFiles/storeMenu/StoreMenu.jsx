@@ -1,4 +1,4 @@
-import React from "react";
+import {Link} from "react-router-dom";
 import { menu } from "../../../../data/ourStoreDate";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -37,10 +37,10 @@ export default function StoreMenu() {
       >
         {menu.map((men) => (
           <SwiperSlide data-hash="slide1" key={men.id}>
-            <div >
+            <Link to={men.linkto} className="singleStoreMenu">
               <img src={men.image} alt="" className="storeImages"/>
               <p>{men.title}</p>
-            </div>
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>

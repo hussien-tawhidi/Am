@@ -4,33 +4,81 @@ export const iPhoneSubHeader = [
     newText: "new",
     image: "/assets/IPhone/iphone14Pro.svg",
     title: "iPhone 14 pro",
+    LinkTo: "iphone14-pro-detials",
   },
   {
     id: 2,
     newText: "new",
     image: "/assets/IPhone/iphone14.svg",
     title: "iPhone 14 light",
+    LinkTo: "iphone-14-light-detials",
   },
-  { id: 3, image: "/assets/IPhone/iphone13.svg", title: "iPhone 13" },
-  { id: 4, image: "/assets/IPhone/iphone_se.svg", title: "iPhone SE" },
-  { id: 5, image: "/assets/IPhone/iphone12.svg", title: "iPhone 12" },
-  { id: 6, image: "/assets/IPhone/compare.svg", title: "Compare" },
-  { id: 7, image: "/assets/IPhone/airpods.svg", title: "AirPods" },
-  { id: 8, image: "/assets/IPhone/air_tag.svg", title: "AirTag" },
-  { id: 9, image: "/assets/IPhone/accessories.svg", title: "Accessories" },
+  {
+    id: 3,
+    image: "/assets/IPhone/iphone13.svg",
+    title: "iPhone 13",
+    LinkTo: "iphone-13-detials",
+  },
+  {
+    id: 4,
+    image: "/assets/IPhone/iphone_se.svg",
+    title: "iPhone SE",
+    LinkTo: "iphone-se-2020",
+  },
+  {
+    id: 5,
+    image: "/assets/IPhone/iphone12.svg",
+    title: "iPhone 12",
+    LinkTo: "iphone-12-detials",
+  },
+  {
+    id: 6,
+    image: "/assets/IPhone/compare.svg",
+    title: "Compare",
+    LinkTo: "compare-iphone",
+  },
+  {
+    id: 7,
+    image: "/assets/IPhone/airpods.svg",
+    title: "AirPods",
+    LinkTo: "airpods",
+  },
+  {
+    id: 8,
+    image: "/assets/IPhone/air_tag.svg",
+    title: "AirTag",
+    LinkTo: "airtags",
+  },
+  {
+    id: 9,
+    image: "/assets/IPhone/accessories.svg",
+    title: "Accessories",
+    LinkTo: "accessories",
+  },
   {
     id: 10,
     image: "/assets/IPhone/iphone-apple-card.svg",
     title: "Apple Card",
+    LinkTo: "apple-cards",
   },
-  { id: 11, image: "/assets/IPhone/ios.svg", title: "IOS 16" },
-  { id: 12, image: "/assets/IPhone/shop_iphone.svg", title: "Shop iPhone" },
+  {
+    id: 11,
+    image: "/assets/IPhone/ios.svg",
+    title: "IOS 16",
+    LinkTo: "ios-16-info",
+  },
+  {
+    id: 12,
+    image: "/assets/IPhone/shop_iphone.svg",
+    title: "Shop iPhone",
+    LinkTo: "all-iphone",
+  },
 ];
 
 export const cardIntroData = [
   {
     id: 1,
-    model: "Galaxy Z Fold4",
+    model: "iphone 14 pro",
     title: "Big and bigger.",
     newText: "new",
     bgBlue: "bgBlue",
@@ -40,6 +88,7 @@ export const cardIntroData = [
     buy: "buy",
     price: "From $33.29/mo. for 24 mo. or $799 before trade‑in",
     buyNow: "buyNow",
+    LinkTo: "iphone-14-pro",
   },
 ];
 
@@ -48,7 +97,7 @@ export const cardIntro2Data = [
     buyNow: "buyNow",
     textClass: "textClass",
     id: 1,
-    model: "Galaxy flip",
+    model: "iphone 14 light",
     title: "Pro. Beyond.",
     newText: "new",
     bgBlue: "bgBlue",
@@ -56,6 +105,7 @@ export const cardIntro2Data = [
     buy: "buy",
     textGradeint: "",
     price: "FFrom $299.99 with eligible trade-inᶿ or $8.33/mo for 36 months",
+    LinkTo: "iphone-14-light",
   },
 ];
 
@@ -113,6 +163,7 @@ export const iphoneDetails = [
     bgBlue: "bgBlue",
     iphoneClassBg: "iphoneClassBg",
     sosHightClass: "sosHightClass",
+    linkTo: "iphone-14-pro",
   },
   {
     id: 2,
@@ -145,6 +196,7 @@ export const iphoneDetails = [
     cellular: "Superfast 5G cellular",
     bgBlue: "bgBlue",
     iphoneClassBg: "iphoneClassBg",
+    linkTo: "iphone-14-light",
   },
   {
     id: 3,
@@ -176,6 +228,7 @@ export const iphoneDetails = [
     cellular: "Superfast 5G cellular",
     bgBlue: "bgBlue",
     iphoneClassBg: "iphoneClassBg",
+    linkTo: "iphone-13",
   },
   {
     id: 4,
@@ -206,6 +259,7 @@ export const iphoneDetails = [
     cellular: "Superfast 5G cellular",
     bgBlue: "bgBlue",
     iphoneClassBg: "iphoneClassBg",
+    linkTo: "iphone-se-2020",
   },
 ];
 

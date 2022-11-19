@@ -35,6 +35,7 @@ export default function LatesOnStore({latesOnStoreData}) {
               price={lates.priceDetials}
               slogan={lates.slogan}
               bg={lates.bg}
+              linkto={lates.LinkTo}
               imageNotFull={lates.imageNotFull}
             />
           </SwiperSlide>

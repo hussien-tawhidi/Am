@@ -14,6 +14,7 @@ export default function HomeProducts() {
                 title={hero.title}
                 logo={hero.logo}
                 slogan={hero.slogan}
+                linkTo={hero.linkTo}
               />
          
           </div>

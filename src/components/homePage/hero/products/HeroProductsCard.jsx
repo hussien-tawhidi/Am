@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export default function HeroProductsCard({
   title,
@@ -5,6 +6,7 @@ export default function HeroProductsCard({
   slogan,
   model,
   heroImg,
+  linkTo
 }) {
   return (
     <div className="heroCard">
@@ -16,15 +18,15 @@ export default function HeroProductsCard({
         <p>{slogan}</p>
         <p>{model}</p>
         <div className="links">
-          <a href="/" className="buyNow">
+          <Link to={`/products/`} className="buyNow">
             buy
-          </a>
-          <a href="/" className="more">
+          </Link>
+          <Link to={`/products/${linkTo}`} className="more">
             <span>learn more</span>{" "}
             <div className="icon">
               <i className="fa-solid fa-angle-right"></i>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
       <img src={heroImg} alt="" className="heroImg" />
