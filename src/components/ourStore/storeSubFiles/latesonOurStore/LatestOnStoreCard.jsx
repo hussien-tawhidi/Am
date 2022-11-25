@@ -7,11 +7,11 @@ export default function LatestOnStoreCard({
   price,
   bg,
   imageNotFull,
-  linkto,
+  id
 }) {
  
   return (
-    <Link to={linkto} className={`latest-on-store-card ${bg}`} >
+    <Link to={`/products/${id}`} className={`latest-on-store-card ${bg}`} >
       <img src={image} alt="" className={`mainImg ${imageNotFull}`} />
       <div className="text">
         <p className="model">{model}</p>

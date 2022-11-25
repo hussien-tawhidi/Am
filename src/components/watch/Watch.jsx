@@ -1,4 +1,4 @@
-import React from "react";
+import Footer from "../homePage/footer/Footer";
 import { applWatchVideo, endingWatchPara, watchesApp, watchHeaderData } from "../../data/Watch";
 import GetDiallyOff from "../GetDiallyOff";
 import Title from "../homePage/header/Title";
@@ -36,6 +36,7 @@ export default function Watch() {
           </div>
         ))}
       </div>
+      <Footer pageName="watches"/>
     </div>
   );
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { iphoneDetails } from "../../../../data/MobileData";
 import MacKindCard from "../../../mac/macSubFiles/kindOfMac/MacKindCard";
 
@@ -15,7 +16,7 @@ export default function IphoneDeatials() {
               color2={iphone.color2}
               color3={iphone.color3}
               newText={iphone.newText}
-              productName={iphone.name}
+             title={iphone.title}
               price={iphone.price}
               chipMode={iphone.slogan}
               displayInch={iphone.displayInch}
@@ -38,6 +39,7 @@ export default function IphoneDeatials() {
               sosHightClass={iphone.sosHightClass}
               cameraHightClass={iphone.cameraHightClass}
               linkTo={iphone.linkTo}
+              id={iphone.id}
             />
           </div>
         ))}
@@ -45,7 +47,7 @@ export default function IphoneDeatials() {
 
       <div className="Links">
         <a href="/">Compare all Mac models</a>
-        <a href="/">Shop Mac</a>
+        <Link to="/mac">Shop Mac</Link>
       </div>
     </div>
   );

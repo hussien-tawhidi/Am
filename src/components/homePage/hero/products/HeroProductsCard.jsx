@@ -1,13 +1,22 @@
+import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import { setAddItemToCard } from "../../../../store/cardSlice";
 
 export default function HeroProductsCard({
   title,
   logo,
   slogan,
   model,
-  heroImg,
-  linkTo
+  image,
+  price,
+  id,
 }) {
+  const dispatch = useDispatch();
+  const onAddToCard = () => {
+    const item = { id, title, image, price };
+    dispatch(setAddItemToCard(item));
+  };
+
   return (
     <div className="heroCard">
       <div className="text">
@@ -18,18 +27,16 @@ export default function HeroProductsCard({
         <p>{slogan}</p>
         <p>{model}</p>
         <div className="links">
-          <Link to={`/products/`} className="buyNow">
-            buy
-          </Link>
-          <Link to={`/products/${linkTo}`} className="more">
-            <span>learn more</span>{" "}
+          <div className="buyNow" onClick={onAddToCard}>buy</div>
+          <Link to={`/products/${id}`} className="more">
+            <span>learn more</span>
             <div className="icon">
               <i className="fa-solid fa-angle-right"></i>
             </div>
           </Link>
         </div>
       </div>
-      <img src={heroImg} alt="" className="heroImg" />
+      <img src={image} alt="" className="heroImg" />
     </div>
   );
 }

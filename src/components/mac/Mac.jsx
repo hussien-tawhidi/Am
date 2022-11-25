@@ -20,6 +20,7 @@ import MacCard from "./macSubFiles/macCard/MacCard";
 import MacHeader from "./macSubFiles/macHeader/MacHeader";
 import MacCardContainer from "./macSubFiles/macPost/MacCardContainer";
 import Title from "../homePage/header/Title"
+import Footer from "../homePage/footer/Footer";
 export default function Mac() {
   return (
     <div>
@@ -55,6 +56,7 @@ export default function Mac() {
         </div>
         </div>
       ))}
+      <Footer pageName="Mac"/>
     </div>
   );
 }

@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 export default function AccessoriesCard({
@@ -17,11 +16,18 @@ export default function AccessoriesCard({
   darkBg,
   darkerBg,
   bg,
-  linkTo
+  id,
 }) {
   return (
-    <Link to={`/products/${linkTo}`} className={`accessoriesCard ${lightBg} ${darkBg} ${darkerBg} ${bg}`}>
-      <img src={image} alt="" className={`heroImg ${experienceClass} ${appleSpecailPr}`} />
+    <Link
+      to={`/products/${id}`}
+      className={`accessoriesCard ${lightBg} ${darkBg} ${darkerBg} ${bg}`}
+    >
+      <img
+        src={image}
+        alt=""
+        className={`heroImg ${experienceClass} ${appleSpecailPr}`}
+      />
       <div className="colors">
         <img src={color1} alt="" />
         <img src={color2} alt="" />

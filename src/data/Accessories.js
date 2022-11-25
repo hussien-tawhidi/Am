@@ -47,7 +47,7 @@ export const bannerData = [
 
 export const accessoriesProducts = [
   {
-    id: 1,
+    id: "iphone14-case-0004",
     category: "iphone",
     image: "/assets/accessories/iphone14case.png",
     price: "$49",
@@ -58,7 +58,7 @@ export const accessoriesProducts = [
     newText: "New",
   },
   {
-    id: 2,
+    id: "iphone-leather-0004",
     category: "iphone",
     image: "/assets/accessories/MPPY3.png",
     price: "$59",
@@ -69,7 +69,7 @@ export const accessoriesProducts = [
     newText: "New",
   },
   {
-    id: 3,
+    id: "iphone14-magsafe-0004",
     category: "iphone",
     image: "/assets/accessories/MPT83.png",
     price: "$49",
@@ -80,7 +80,7 @@ export const accessoriesProducts = [
     newText: "New",
   },
   {
-    id: 4,
+    id: "airpod-2nd-0012",
     category: "iphone",
     image: "/assets/accessories/MQD83.png",
     price: "$249",
@@ -92,7 +92,7 @@ export const accessoriesProducts = [
   },
   // *************************************************************************************************
   {
-    id: 5,
+    id: "20w-usb-c-adapter",
     category: "cable&charger",
     image: "/assets/accessories/MU7T2_GEO_US.png",
     price: "$19",
@@ -100,7 +100,7 @@ export const accessoriesProducts = [
     newText: "New",
   },
   {
-    id: 6,
+    id: "magsafe-0004",
     category: "cable&charger",
     image: "/assets/accessories/MHXH3.png",
     price: "$39",
@@ -108,7 +108,7 @@ export const accessoriesProducts = [
     newText: "New",
   },
   {
-    id: 7,
+    id: "usb-c-lighting-cable-1m",
     category: "cable&charger",
     image: "/assets/accessories/MM0A3.png",
     price: "$19",
@@ -116,7 +116,7 @@ export const accessoriesProducts = [
     newText: "New",
   },
   {
-    id: 8,
+    id: "magsafe-battery-pack-0004",
     category: "cable&charger",
     image: "/assets/accessories/MJWY3.png",
     price: "$99",
@@ -125,7 +125,7 @@ export const accessoriesProducts = [
   },
   // *************************************************************************************************
   {
-    id: 9,
+    id: "35w-dual-usb-c-port-0004",
     category: "mac",
     image: "/assets/accessories/MNWM3.png",
     price: "$99",
@@ -133,7 +133,7 @@ export const accessoriesProducts = [
     newText: "New",
   },
   {
-    id: 10,
+    id: "magic-keyboard-touchid",
     category: "mac",
     image: "/assets/accessories/MMMR3.png",
     price: "$199",
@@ -141,7 +141,7 @@ export const accessoriesProducts = [
     newText: "New",
   },
   {
-    id: 11,
+    id: "magic-track-pack",
     category: "mac",
     image: "/assets/accessories/MMMP3.png",
     price: "$149",
@@ -149,7 +149,7 @@ export const accessoriesProducts = [
     newText: "New",
   },
   {
-    id: 12,
+    id: "magic-mous-0004",
     category: "mac",
     image: "/assets/accessories/MMMQ3.png",
     price: "$99",
@@ -158,7 +158,7 @@ export const accessoriesProducts = [
   },
   // *************************************************************************************************
   {
-    id: 13,
+    id: "surface-earbudes-0004",
     category: "microsoft",
     image: "/assets/accessories/RE4AUlT.webp",
     price: "$199",
@@ -166,7 +166,7 @@ export const accessoriesProducts = [
     newText: "New",
   },
   {
-    id: 14,
+    id: "sonsove-movev-0004",
     category: "microsoft",
     image: "/assets/accessories/RE4Ha5h.webp",
     price: "$399",
@@ -174,7 +174,7 @@ export const accessoriesProducts = [
     newText: "",
   },
   {
-    id: 15,
+    id: "sonsove-one",
     category: "microsoft",
     image: "/assets/accessories/RE4Hczi.webp",
     price: "$219",
@@ -182,7 +182,7 @@ export const accessoriesProducts = [
     newText: "",
   },
   {
-    id: 16,
+    id: "microsoft-presentor+0004",
     category: "microsoft",
     image: "/assets/accessories/RWTgv9.webp",
     price: "$79",
@@ -191,7 +191,7 @@ export const accessoriesProducts = [
   },
   // *************************************************************************************************
   {
-    id: 17,
+    id: "galaxy-z-flip-cheeseduck-0004",
     category: "samsung",
     image: "/assets/accessories/GP-TOF721AMDYW-1600x1200.webp",
     price: "$15.99",
@@ -199,7 +199,7 @@ export const accessoriesProducts = [
     newText: "New",
   },
   {
-    id: 18,
+    id: "galaxy-z-flip-cheeseduck-0004",
     category: "samsung",
     image: "/assets/accessories/GP-TOU022AM7JW-1600x1200.webp",
     price: "$22.99",
@@ -207,7 +207,7 @@ export const accessoriesProducts = [
     newText: "New",
   },
   {
-    id: 19,
+    id: "galaxy-z-flip-cheeseduck-0004",
     category: "samsung",
     image: "/assets/accessories/GP-TOU022AM0BW-1600x1200.webp",
     price: "$22.99",
@@ -215,7 +215,7 @@ export const accessoriesProducts = [
     newText: "New",
   },
   {
-    id: 20,
+    id: "galaxy-watch-0004",
     category: "samsung",
     image:
       "/assets/accessories/01Milanese_Band_Large_Silver_Front-Gallery-1600x1200.webp",
@@ -225,7 +225,7 @@ export const accessoriesProducts = [
   },
   // *************************************************************************************************
   {
-    id: 21,
+    id: "huawei-magnetic-keyboard",
     category: "huawei",
     image: "/assets/accessories/blue.png",
     price: "$55.99",
@@ -234,7 +234,7 @@ export const accessoriesProducts = [
     newText: "New",
   },
   {
-    id: 22,
+    id: "huawei-matepad-pro-folio-cover-0004",
     category: "huawei",
     image: "/assets/accessories/deep-sea-blue.png",
     price: "$88.99",
@@ -243,7 +243,7 @@ export const accessoriesProducts = [
     newText: "New",
   },
   {
-    id: 23,
+    id: "huawei-stylish-bacjpack-0004",
     category: "huawei",
     image: "/assets/accessories/black.png",
     price: "$22.99",
@@ -251,7 +251,7 @@ export const accessoriesProducts = [
     newText: "",
   },
   {
-    id: 24,
+    id: "huawei-mate-xs-2-stand-pu-case",
     category: "huawei",
     image: "/assets/accessories/mate-xs-2-stand-pu-case-black.png",
     price: "$36.99",

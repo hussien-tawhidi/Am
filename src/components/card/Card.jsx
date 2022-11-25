@@ -1,7 +1,10 @@
-import React from 'react'
+import Footer from "../homePage/footer/Footer";
 
 export default function Card() {
   return (
-    <div>Card</div>
-  )
+    <div>
+      Card
+      <Footer pageName="card" />
+    </div>
+  );
 }

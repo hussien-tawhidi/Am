@@ -1,4 +1,4 @@
-import React from "react";
+import Footer from "../homePage/footer/Footer";
 import {
   bannerData,
   endingPara,
@@ -30,6 +30,7 @@ export default function Accessories() {
           </div>
         ))}
       </div>
+      <Footer pageName="all accessories"/>
     </div>
   );
 }

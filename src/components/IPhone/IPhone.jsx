@@ -1,4 +1,3 @@
-import React from "react";
 import {
   cardIntro2Data,
   cardIntroData,
@@ -19,15 +18,49 @@ import IPhoneAccessories from "./iphoneSubFiles/iphoneAccessories/IPhoneAccessor
 import WayMakeAnIphone from "./iphoneSubFiles/wayMakeAnIPhone/WayMakeAnIphone";
 import GetMoreOnIPhone from "./iphoneSubFiles/getMoreOniPhone/GetMoreOnIPhone";
 import Title from "../homePage/header/Title";
+import Footer from "../homePage/footer/Footer";
 export default function IPhone() {
+ 
   return (
     <div className="IPhone">
-      <Title title="AM | iPhone"/>
+      <Title title="AM | iPhone" />
       <SubHeaderDescktop subHeaderDescktop={iPhoneSubHeader} />
       <SubHeaderMobile subHeaderMobile={iPhoneSubHeader} />
       <GetDailyOff />
-      <IphoneCard iphoneCardInfo={cardIntroData} />
-      <IphoneCard iphoneCardInfo={cardIntro2Data} />
+      {cardIntroData.map((data) => (
+        <IphoneCard
+          key={data.id}
+          image={data.image}
+          id={data.id}
+          bg={data.bg}
+          textClass={data.textClass}
+          card3TextClass={data.card3TextClass}
+          newText={data.newText}
+          model={data.model}
+          textGradeint={data.textGradeint}
+          title={data.title}
+          price={data.price}
+          buyNow={data.buyNow}
+          priceText={data.priceText}
+        />
+      ))}
+      {cardIntro2Data.map((data) => (
+        <IphoneCard
+          key={data.id}
+          image={data.image}
+          id={data.id}
+          bg={data.bg}
+          textClass={data.textClass}
+          card3TextClass={data.card3TextClass}
+          newText={data.newText}
+          model={data.model}
+          textGradeint={data.textGradeint}
+          title={data.title}
+          price={data.price}
+          priceText={data.priceText}
+          buyNow={data.buyNow}
+        />
+      ))}
       <div className="container iphoneDetails">
         <IphoneDeatials />
       </div>
@@ -48,6 +81,7 @@ export default function IPhone() {
           </div>
         ))}
       </div>
+      <Footer pageName="iphone mobile" />
     </div>
   );
 }

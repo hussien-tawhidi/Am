@@ -44,8 +44,9 @@
         right: 0;
         opacity: 0;
         pointer-events: none;
-        transition: opacity 1.2s ease-in-out;
+        transition: opacity 1.9s ease-in-out;
         &.ShowShopping-card {
+          transition: opacity .3s ease-in-out;
           transition-delay: 0.1s;
           opacity: 1;
           pointer-events: visible;

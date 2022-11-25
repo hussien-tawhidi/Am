@@ -34,7 +34,6 @@
       width: 50%;
     }
     .links {
-      // background-color: rebeccapurple;
       display: flex;
       align-items: center;
       .buuNow {
@@ -45,6 +44,7 @@
         cursor: pointer;
       }
       .more {
+        cursor: pointer;
         font-size: 16px;
         margin-left: 1rem;
         color: inherit;
@@ -102,7 +102,7 @@
     .texts {
       margin-left: 1rem;
       width: 90%;
-      h6{
+      h6 {
         font-size: 30px;
       }
       p {

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function AudioAccessories({
   audioSlideData,
   numberOfproduct,
@@ -7,13 +9,10 @@ export default function AudioAccessories({
     <div className="container">
       <div className="row">
         <div className="microsoftLgTitle audio-title">
-          <h2>
-            {title}
-           
-          </h2>
+          <h2>{title}</h2>
           <div className="text">
             <p>{numberOfproduct}</p>
-            <a href="/">See All</a>
+            <Link to="/accessories">See All</Link>
           </div>
         </div>
         {audioSlideData.map((audio) => (
@@ -25,7 +24,7 @@ export default function AudioAccessories({
                 <p className="price">{audio.price}</p>
                 <p className="desc">{audio.text}</p>
               </div>
-              <a href="/">{audio.linkTo}</a>
+              <Link to={`/products/${audio.id}`}>learn more ...</Link>
             </div>
           </div>
         ))}

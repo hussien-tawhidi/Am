@@ -1,5 +1,6 @@
-import React from "react";
+import {useDispatch} from "react-redux";
 import { Link } from "react-router-dom";
+import { setAddItemToCard } from "../../../../store/cardSlice";
 
 export default function MacKindCard({
   image,
@@ -7,7 +8,6 @@ export default function MacKindCard({
   color2,
   color3,
   newText,
-  productName,
   chipMode,
   price,
   bgBlue,
@@ -38,8 +38,14 @@ export default function MacKindCard({
   inHightClass,
   sosHightClass,
   cameraHightClass,
-  linkTo
+  title,
+  id,
 }) {
+  const dispatch = useDispatch();
+  const onAddToCard = () => {
+    const item = { id, title, image, price };
+    dispatch(setAddItemToCard(item));
+  };
   return (
     <div className="mac-kind-card">
       <div className={`mainContainer ${iphoneClassBg}`}>
@@ -54,17 +60,17 @@ export default function MacKindCard({
         <div>
           <p className="newText">{newText}</p>
 
-          <h6 className="name">{productName}</h6>
+          <h6 className="name">{title}</h6>
 
           <p className="chipName">{chipMode}</p>
 
           <p className="price">{price}</p>
 
           <div className="buttons">
-            <Link to={`/products/$`} href="/" className={`buyNow ${bgBlue}`}>
+            <div className={`buyNow ${bgBlue}`} onClick={onAddToCard}>
               buy
-            </Link>
-            <Link to={`/products/${linkTo}`}  className="more">
+            </div>
+            <Link to={`/products/${id}`} className="more">
               <span>learn more</span>{" "}
               <div className="icon">
                 <i className="fa-solid fa-angle-right"></i>

@@ -1,30 +1,48 @@
-import React from "react";
+import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import { setAddItemToCard } from "../../../../store/cardSlice";
 
-export default function IphoneCard({ iphoneCardInfo }) {
+export default function IphoneCard({
+  id,
+  bg,
+  textClass,
+  card3TextClass,
+  newText,
+  model,
+  textGradeint,
+  title,
+  priceText,
+  buyNow,
+  image,
+  price
+}) {
+  const dispatch = useDispatch();
+  const onAddToCard = () => {
+    const item = { id, title, image, price };
+    dispatch(setAddItemToCard(item));
+  };
+
   return (
     <>
-      {iphoneCardInfo.map((card) => (
-        <Link to={`/products/${card.LinkTo}`} className={`iphone-card ${card.bg}`} key={card.id}>
-          <div className={`texts ${card.textClass} ${card.card3TextClass}`}>
-            <span>{card.newText}</span>
-            <p className="model">{card.model}</p>
-            <h2 className={`title ${card.textGradeint}`}>{card.title}</h2>
-            <p className="price">{card.price}</p>
-            <div className="buttons">
-              <a href="/" className={card.buyNow}>
-                {card.buy}
-              </a>
-              <a href="/" className="more">
-                <span>learn more</span>{" "}
-                <div className="icon">
-                  <i className="fa-solid fa-angle-right"></i>
-                </div>
-              </a>
+      <div className={`iphone-card ${bg}`} id={id}>
+        <div className={`texts ${textClass} ${card3TextClass}`}>
+          <span>{newText}</span>
+          <p className="model">{model}</p>
+          <h2 className={`title ${textGradeint}`}>{title}</h2>
+          <p className="price">{priceText}</p>
+          <div className="buttons">
+            <div className={` ${buyNow}`} onClick={onAddToCard}>
+             {buyNow}
             </div>
+            <Link to={`/products/${id}`} className="more">
+              <span>learn more</span>{" "}
+              <div className="icon">
+                <i className="fa-solid fa-angle-right"></i>
+              </div>
+            </Link>
           </div>
-        </Link>
-      ))}
+        </div>
+      </div>
     </>
   );
 }

@@ -31,7 +31,7 @@ export const microsoftSubHeader = [
 
 export const SurfaceNine1 = [
   {
-    id: 1,
+    id: "surface-nine-pro-0004",
     image: "/assets/microsoft/pro9.webp",
     title: "Surface Pro 9",
     desc: "Blazing-fast performance to power through local games, creative apps, or stay on top of work with professional software built on the Intel® Evo platform.",
@@ -44,12 +44,13 @@ export const SurfaceNine1 = [
     portDetails: "2x Thunderbolt™ 4",
     bestFor: "Best for",
     bestForDetails: "Professional software and local gaming",
+    price: "1388.70",
   },
 ];
 
 export const SurfaceNine2 = [
   {
-    id: 2,
+    id: "surface-nine-light-0004",
     image: "/assets/microsoft/9.webp",
     title: "Surface Pro 9 with 5G",
     desc: "For on-the-go flexibility, unlock 5G speed, and long battery life with the Microsoft SQ® 3, the latest-generation Microsoft processor built in partnership with Qualcomm.6 ",
@@ -62,50 +63,56 @@ export const SurfaceNine2 = [
     bestFor: "Best for",
     bestForDetails:
       "Go-anywhere productivity, cloud gaming, and AI-enabled enhanced camera effects",
+    price: "1099.99",
   },
 ];
 
 export const kindOfSurfaceSlide = [
   {
-    id: 1,
+    id: "surface-laptop-studio-0004",
     image: "/assets/microsoft/surfaceLaptopS.webp",
     title: "Surface Laptop Studio",
     text: "The most powerful Surface for heavy workloads. The best pen experience. Optional NVIDIA",
     learnMore: "Shop Surface Laptop Studio",
+    price: "1399.99",
   },
   {
-    id: 2,
+    id: "surface-laptop-go-2",
     image: "/assets/microsoft/surfaceLaptopG2.webp",
     title: "Surface Laptop Go 2",
     text: "The most portable Surface Laptop, with 12.4” touchscreen and great typing experience, now with improved HD camera and a performance boost.",
     learnMore: "Shop Surface Laptop Go 2",
+    price: "855.99",
   },
   {
-    id: 3,
+    id: "surface-pro-9",
     image: "/assets/microsoft/surfacePro9.webp",
     title: "Surface Pro 9",
     text: "Work, stream, and play  with the flexibility of a tablet with the performance of a laptop – all in one.",
     learnMore: "Shop Surface Pro 9",
+    price: "1899.88",
   },
   {
-    id: 4,
+    id: "surface-pro-7+",
     image: "/assets/microsoft/surfacePro7+.webp",
     title: "Surface Pro 7+",
     text: "Classic Pro features, more speed, and premium laptop performance for your favorite apps, games, and accessories.",
     learnMore: "Shop Surface Pro 7+",
+    price: "999.99",
   },
   {
-    id: 5,
+    id: "surface-studio-2+",
     image: "/assets/microsoft/surfacePro2+.webp",
     title: "Surface Studio 2+",
     text: "Elevate your creativity with the most versatile, 28” PixelSense™ touchscreen all-in-one.",
     learnMore: "Shop Surface Studio 2+",
+    price: "250.70",
   },
 ];
 
 export const surfaceVideoBanner = [
   {
-    id: 1,
+    id: "surface-nine-pro-0004",
     slogan:
       "Discover stylish and customizable accessories that elevate your device and amplify your look.",
     linkTo: "Learn more",
@@ -119,59 +126,63 @@ export const surfaceVideoBanner = [
 
 export const audioAccessories = [
   {
-    id: 1,
+    id: "microsoft-audio-dock-0004",
     image: "/assets/microsoft/RE4oced.webp",
     title: "MicroSoft Audio Dock",
     text: "Reduce cord clutter, simplify your desktop, and upgrade your audio for meetings and...",
     price: "$249.99",
+    linkTo: "learn more about...",
   },
   {
-    id: 2,
+    id: "microsoft-presenter-0004",
     image: "/assets/microsoft/RWTgv9.webp",
     title: "Microsoft Presenter+",
     text: "Confidently deliver engaging presentations and participate in meetings, in person or...",
     price: "$79.99",
+    linkTo: "learn more about...",
   },
   {
-    id: 3,
+    id: "microsoft-headphone-2plus-0004",
     image: "/assets/microsoft/RE4LLFK.webp",
     title: "Surface HeadPhone 2+ for business",
     text: "Certified for Microsoft Teams¹'² and featuring 13 levels of active noise cancellation....",
     price: "$299.99",
+    linkTo: "learn more about...",
   },
   {
-    id: 4,
+    id: "microsoft-headphone-0004",
     image: "/assets/microsoft/RE4oced (1).webp",
     title: "Surface HeadPhone 2 for business",
     text: "Finetune your focus in virtual meetings with crystal-clear audio and adjustable noise...",
     price: "$249.99",
+    linkTo: "learn more about...",
   },
 ];
 
 export const allPhonesAccessories = [
   {
-    id: 1,
+    id: "poly-ccx-400",
     image: "/assets/microsoft/RE4IgFT.jpg",
     title: "Poly CCX 400 Business Phone for Microsoft Teams",
     text: "Stay in touch with the intuitive design of this LCD touchscreen business media phone...",
     price: "$309.00",
   },
   {
-    id: 2,
+    id: "polycom-savi-8220",
     image: "/assets/microsoft/RE4I7cR.webp",
     title: "Polycom Savi 8220 UC Headset for Microsoft Teams ",
     text: "Select Polycom Savi 8220 UC Headset for Microsoft Teams  for more information.",
     price: "$399.99",
   },
   {
-    id: 3,
+    id: "otterbox-dou-sleev-0004",
     image: "/assets/microsoft/RE4ETfK.webp",
     title: "OtterBox Surface Duo Ocity Series Sleeve",
     text: "OtterBox Surface Duo Ocity Series Sleeve",
     price: "$49.99",
   },
   {
-    id: 4,
+    id: "jabra-elite-65t",
     image: "/assets/microsoft/RWuFUX.webp",
     title: "Jabra Elite 65t Wireless Earbuds",
     text: "Experience exceptional clarity in your music, calls, and podcasts with these wire-free...",
@@ -181,40 +192,42 @@ export const allPhonesAccessories = [
 
 export const soundBanner = [
   {
-    id: 1,
-    image:
+    id: "shop-surface-headphones-2",
+    image: "/assets/microsoft/6680116730_1648631924.jpg",
+    heroImage:
       "/assets/microsoft/Highlight-Surface-Headphones-Black-Earbuds-Glacier-FY23HOL_VP5-1596x600.webp",
     title: "A sound gift",
     text: "From silent nights to party playlists, they’ll never miss a beat with premium audio from Surface",
-    earbuds: "Shop Surface Earbuds",
+    earbuds: "See More Accessories",
     headPhone: " Shop Surface Headphones 2",
+    price: "240.20",
   },
 ];
 
 export const forBusiness = [
   {
-    id: 1,
+    id: "surface-pro-9",
     image: "/assets/microsoft/Content-Card-Surface-Pro-9-LIfestyle-M2.webp",
     title: "Surface Pro 9 for Business",
     text: "Empower flexible, all-day impact with tablet portability and laptop performance. Questions? Book an online consultation.",
     linkTo: "Learn more",
   },
   {
-    id: 2,
+    id: "microsoft-team",
     image: "/assets/microsoft/gldn-CP-Microsoft-Teams-Commercial.webp",
     title: "Get Microsoft Teams for free",
     text: "Online meetings, chat, and shared cloud storage—all in one place.",
     linkTo: "sing up for free",
   },
   {
-    id: 3,
+    id: "windows-cloud-365",
     image: "/assets/microsoft/JIC-DPS-CP01.webp",
     title: "Welcome to your Windows 365 Cloud PC",
     text: "Securely stream your Windows experience from the Microsoft cloud to any device.",
     linkTo: "Get it today",
   },
   {
-    id: 4,
+    id: "thrive-hydride-0004",
     image: "/assets/microsoft/Content-Card-Brand-Hybrid-Work.webp",
     title: "Thrive in a hybrid world",
     text: "Discover tools, resources, and strategies to help your employees succeed in the new world of flexible work.",

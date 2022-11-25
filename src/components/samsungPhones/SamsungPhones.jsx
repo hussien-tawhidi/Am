@@ -18,6 +18,7 @@ import GalaxyFlipVideo from "./samsungSubFiles/GalaxyFlipVideo";
 import SamsungMobile from "./samsungSubFiles/samsungSlide/SamsungMobile";
 import MobileCategory from "./samsungSubFiles/mobileCategory/MobileCategory";
 import SamsungServices from "./samsungSubFiles/services/SamsungServices";
+import Footer from "../homePage/footer/Footer";
 export default function SamsungPhones() {
   return (
     <div>
@@ -25,10 +26,34 @@ export default function SamsungPhones() {
       <SubHeaderDescktop subHeaderDescktop={samsungHeaderData} />
       <SubHeaderMobile subHeaderMobile={samsungHeaderData} />
       <GetDailyOff />
-      <LastOnOurStore latesOnStoreData={latesOnSamsungData} />
-      <IphoneCard iphoneCardInfo={samsungCardIntroData} />
-      <IphoneCard iphoneCardInfo={samsungCardIntroData2} />
+      {samsungCardIntroData.map((data) => (
+        <IphoneCard
+          key={data.id}
+          id={data.id}
+          bg={data.bg}
+          textClass={data.textClass}
+          newText={data.newText}
+          model={data.model}
+          textGradeint={data.textGradeint}
+          title={data.title}
+          price={data.price}
+        />
+      ))}
+      {samsungCardIntroData2.map((data) => (
+        <IphoneCard
+          key={data.id}
+          id={data.id}
+          bg={data.bg}
+          textClass={data.textClass}
+          newText={data.newText}
+          model={data.model}
+          textGradeint={data.textGradeint}
+          title={data.title}
+          price={data.price}
+        />
+      ))}
       <GalaxyFlipVideo samsungBannerData={flipVideoBanner} />
+      <LastOnOurStore latesOnStoreData={latesOnSamsungData} />
       <SamsungMobile />
       <MobileCategory />
       <GalaxyFlipVideo samsungBannerData={flipImageBanner} />
@@ -37,13 +62,12 @@ export default function SamsungPhones() {
         {finishedPara.map((para) => (
           <div className="container" key={para.id}>
             <div className="para">
-              <p className="para" >
-                {para.text}
-              </p>
+              <p className="para">{para.text}</p>
             </div>
           </div>
         ))}
       </div>
+      <Footer pageName="Samsung mobiles" />
     </div>
   );
 }

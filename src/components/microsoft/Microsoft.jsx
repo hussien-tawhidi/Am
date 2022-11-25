@@ -15,6 +15,8 @@ import SurfaceSlide from "./subFiles/slides/SurfaceSlide";
 import GalaxyFlipVideo from "../samsungPhones/samsungSubFiles/GalaxyFlipVideo";
 import AudioAccessories from "./subFiles/slides/AudioAccessories";
 import SoundGiftBanner from "./subFiles/banner/SoundGiftBanner";
+import Footer from "../homePage/footer/Footer";
+import IntroBg from "./subFiles/hero/IntroBg";
 export default function Microsoft() {
   return (
     <div>
@@ -22,6 +24,7 @@ export default function Microsoft() {
       <SubHeaderDescktop subHeaderDescktop={microsoftSubHeader} />
       <SubHeaderMobile subHeaderMobile={microsoftSubHeader} />
       <GetDailyOff />
+      <IntroBg/>
       <SurfaceIntro />
       <GalaxyFlipVideo samsungBannerData={surfaceVideoBanner} />
       <SoundGiftBanner/>
@@ -48,6 +51,7 @@ export default function Microsoft() {
         </div>
         </div>
       ))}
+      <Footer pageName="microsoft products"/>
     </div>
   );
 }

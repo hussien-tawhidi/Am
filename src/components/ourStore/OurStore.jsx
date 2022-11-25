@@ -14,18 +14,29 @@ import {
 import StoreTitle from "./storeSubFiles/storUtilitis/StoreTitle";
 import AppleExperience from "./storeSubFiles/appleExperience/AppleExperience";
 import StoreEndingPara from "./storeSubFiles/endPoint/StoreEndingPara";
+import Footer from "../homePage/footer/Footer";
+import MacService from "../Services/Service";
+import { Link } from "react-router-dom";
 export default function OurStore() {
   return (
     <div className="">
       <Title title="Am | Our Store" />
       <StoreHeader />
       <StoreMenu />
-      <LastOnOurStore  latesOnStoreData={latesOnStoreData}/>
+      <LastOnOurStore latesOnStoreData={latesOnStoreData} />
       <StoreCards />
       <StoreTitle
         dark="Accessories."
         light=" Essentials that pair perfectly with your favorite devices."
       />
+      <div className="linkTo">
+        <Link to="/accessories">
+          <span className="link">more accessories </span>
+          <span className="icon">
+            <i className="fa-solid fa-angle-right"></i>
+          </span>
+        </Link>
+      </div>
       <StoreAccessories
         accessoriesData={accessoriesData}
         intoTitle="In with the new."
@@ -39,6 +50,14 @@ export default function OurStore() {
         dark="Loud and clear."
         light="  Unparalleled choices for rich, high-quality sound."
       />
+      <div className="linkTo">
+        <Link to="/airpods">
+          <span className="link">more ...</span>
+          <span className="icon">
+            <i className="fa-solid fa-angle-right"></i>
+          </span>
+        </Link>
+      </div>
       <StoreAccessories
         accessoriesData={loadAndClear}
         image="/assets/store/loud.jpg"
@@ -57,7 +76,9 @@ export default function OurStore() {
         light=" Exclusive savings for businesses, school, and more."
       />
       <AppleExperience experience={specialStore} />
-      <StoreEndingPara/>
+      <MacService />
+      <StoreEndingPara />
+      <Footer pageName="our store" />
     </div>
   );
 }

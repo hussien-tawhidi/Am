@@ -1,3 +1,4 @@
+
 export const headerData = [
   { id: 1, title: "store", linkTo: "/store" },
   { id: 2, title: "Mac", linkTo: "/mac" },
@@ -30,6 +31,22 @@ export const appleEeventCard = [
   },
 ];
 
+export const heroAirpod = [
+  {
+    id: "apple-airpod-pro-0004",
+    appleIcon: <i class="fa-brands fa-apple"></i>,
+    title: "The best Aipods",
+    desc: "feel the best music quality like your in the cincert",
+    image: "/assets/homeImages/SeekPng.com_airpods-png_2982109.png",
+    iconsTitle: "common used in",
+    iconsDesc: "connect only with bluethooth",
+    call: <i class="fa-solid fa-phone"></i>,
+    music: <i class="fa-solid fa-music"></i>,
+    mic: <i class="fa-solid fa-microphone"></i>,
+    price: 449.0,
+  },
+];
+
 export const s22title = [
   {
     id: 1,
@@ -45,8 +62,7 @@ export const s22title = [
 export const s22backCamera = [
   {
     id: 1,
-    desc:
-      "With the massive pixel sensors and shape-shifting pixels, this phone has our most advanced Pro-grade Camera yet, packing the power of a professional's kit in one handheld device. Shoot into the night without sacrificing quality.",
+    desc: "With the massive pixel sensors and shape-shifting pixels, this phone has our most advanced Pro-grade Camera yet, packing the power of a professional's kit in one handheld device. Shoot into the night without sacrificing quality.",
     frontCameraP: "40MP",
     frontCameraText: "selfie camera",
     frontCameraImage:
@@ -56,7 +72,7 @@ export const s22backCamera = [
 
 export const s22fronCamera = [
   {
-    id: 1,
+    id: "samsung-s22-256",
     camera1title: "12MP",
     camera1text: "Ultra Wide Camera",
     camera2title: "108MP",
@@ -72,68 +88,88 @@ export const s22fronCamera = [
 ];
 
 export const heroIntroCardData = [
-  { id: 1123, price: "$203.99", linkTo: "headphone-detials" },
+  {
+    id: "2323214124",
+    price: 203.99,
+    linkTo: "headphone-detials",
+    textImage: "/assets/homeImages/abg.png",
+    image: "/assets/homeImages/a.png",
+    title: "new headPhone",
+  },
 ];
 
 export const heroIpadCardData = [
-  { id: 1123, price: "$780.99", linkTo: "ipad-detials" },
+  {
+    id: "apple-ipad-pro-0004",
+    price: 780.99,
+    linkTo: "ipad-detials",
+    image: "/assets/homeImages/ipad.jpg",
+    title: "iPad Pro",
+  },
 ];
 
 export const heroCardData = [
   {
-    id: 1,
+    id: "iphone14-800400",
     title: "iphone 14",
     slogan: "big and bigger",
     model: "promax 512G",
     image: "/assets/homeImages/iphone_14.png",
     logo: "/assets/appleLogo.png",
     linkTo: "iphone14-details",
+    price: 1399.76,
   },
   {
-    id: 2,
-    title: "s22",
+    id: "samsung-s22-256",
+    title: "galaxy s22",
     slogan: "get memoey upgrade with us",
     model: "s22 256G",
     image: "/assets/homeImages/s22.png",
     linkTo: "samsung-s22-details",
+    price: 1255.06,
   },
   {
-    id: 3,
+    id: "z-flip-4-00004",
     title: "Gallaxy z flip 4",
     slogan: "cool and smarter",
     model: "z flip 4 1T",
     image: "/assets/homeImages/zFlip4.png",
     linkTo: "galaxy-z-flip-4-details",
+    price: 1230.88,
+
   },
   {
-    id: 4,
+    id: "apple-watch-ultra-0004",
     title: "Apple Watch ultra",
     slogan: "adventure awaits",
     model: "s8",
     image: "/assets/homeImages/w.jpg",
     logo: "/assets/appleLogo.png",
     linkTo: "apple=watch-ultra-details",
+    price: 679.30,
   },
   {
-    id: 5,
+    id: "airpod-3nd-0012",
     title: "AirPods",
     slogan: "3rd generation",
     model: "From $169",
     image: "/assets/homeImages/airpod.png",
     logo: "/assets/homeImages/appleLogo.png",
     linkTo: "airpod-details",
+    price: 245.80,
   },
   {
-    id: 6,
+    id: "iphone13-256-0004",
     title: "iphone 13",
     slogan: "look the worl from a mirror",
     model: "iphone13 256G",
     image: "/assets/homeImages/iphone_13.png",
     logo: "/assets/homeImages/appleLogo.png",
     linkTo: "iphone13-details",
+    price: 830.99,
   },
   {
-    id: 7,
+    id: "07",
     title: "fitness+",
     slogan: "fiteness for every one",
     model: "now you all need is a phone",
@@ -142,7 +178,7 @@ export const heroCardData = [
     linkTo: "fitness+",
   },
   {
-    id: 8,
+    id: "08",
     title: "iCard",
     slogan: "Get Up To 3% Dialy Cash Back",
     model: " width every purchase",

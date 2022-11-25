@@ -47,7 +47,7 @@ export const menu = [
 
 export const latesOnStoreData = [
   {
-    id: 1,
+    id: "iphone14-800400",
     model: "iphone 14 pro max",
     slogan: "be the pro one",
     priceDetials: "From $999.00 or $41.62/mo for 24/mo*",
@@ -56,7 +56,7 @@ export const latesOnStoreData = [
     linkto: "/iphone",
   },
   {
-    id: 2,
+    id: "apple-airpod-pro-0004",
     model: "airPod pro",
     slogan: "feel the music live",
     priceDetials: "From $249.00 or $41.50/mo for 6/mo",
@@ -64,7 +64,7 @@ export const latesOnStoreData = [
     linkto: "/airpods",
   },
   {
-    id: 3,
+    id: "galaxy-watch-0004",
     model: "galaxy watch 5",
     slogan: "future is for you",
     priceDetials: "From $255.00 or $44.50/mo for 6/mo",
@@ -73,7 +73,7 @@ export const latesOnStoreData = [
     linkto: "/watch",
   },
   {
-    id: 4,
+    id: "iphone14-800400",
     model: "iphone 14",
     slogan: "lets see the future",
     priceDetials: "From $780.00 or $66.50/mo for 24/mo",
@@ -82,7 +82,7 @@ export const latesOnStoreData = [
     linkto: "/iphone",
   },
   {
-    id: 5,
+    id: "apple-ipad-pro-0004",
     model: "ipad pro",
     slogan: "supercharged by m2",
     priceDetials: "From $799.00 or $66.58/mo for 12/mo",
@@ -90,7 +90,7 @@ export const latesOnStoreData = [
     linkto: "/mac",
   },
   {
-    id: 6,
+    id: "apple-ipad-0004",
     model: "ipad",
     slogan: "lovable, Drawable Magical",
     priceDetials: "From $449.00 or $37.00/mo for 12/mo",
@@ -99,7 +99,7 @@ export const latesOnStoreData = [
     linkto: "/mac",
   },
   {
-    id: 7,
+    id: "samsung-watchs-s-8",
     model: "watchs-s-8",
     slogan: "every where is with you",
     priceDetials: "From $399.00 or $16.00/mo for 12/mo",
@@ -107,8 +107,8 @@ export const latesOnStoreData = [
     linkto: "/watch",
   },
   {
-    id: 8,
-    model: "gallazy z fold 4",
+    id: "gallaxy-z-fold-4-0004",
+    model: "gallaxy z fold 4",
     slogan: "every where is with you",
     priceDetials: "From $1500.00 or $80.30/mo for 24/mo",
     image: "/assets/store/zfold4.jpg",
@@ -119,7 +119,7 @@ export const latesOnStoreData = [
 
 export const accessoriesData = [
   {
-    id: 1,
+    id: "iphone14-case-001",
     image: "/assets/store/iphone14Pro.png",
     new: "new",
     title: "iPhone 14 Pro Leather Case with MagSafe - Ink",
@@ -130,7 +130,7 @@ export const accessoriesData = [
     LinkTo: "iphone14-pro-details",
   },
   {
-    id: 2,
+    id: "iphone12-case-selicon-001",
     image: "/assets/store/iphone12Selicon.png",
     new: "new",
     title: "iPhone 14 Silicone Case with MagSafe - Lilac",
@@ -141,7 +141,7 @@ export const accessoriesData = [
     LinkTo: "iphone12-selicon-details",
   },
   {
-    id: 3,
+    id: "apple-ipad-accessories",
     image: "/assets/store/forIpad.png",
     new: "new",
     title: "Smart Folio for iPad (10th generation) - Sky",
@@ -152,7 +152,7 @@ export const accessoriesData = [
     LinkTo: "for-ipad-accessories-details",
   },
   {
-    id: 4,
+    id: "mk-keyboard",
     image: "/assets/store/MKeyboard.png",
     new: "new",
     title: "Folio for iPad (10th&nbsp;generation) - US English",
@@ -163,7 +163,7 @@ export const accessoriesData = [
     LinkTo: "mkeyboard-details",
   },
   {
-    id: 5,
+    id: "headphone-00e12",
     image: "/assets/store/headPhone1.png",
     new: "new",
     title: "Beats Studio3 Wireless Headphones",
@@ -177,8 +177,8 @@ export const accessoriesData = [
 
 export const loadAndClear = [
   {
+    id: "airpod-2nd-0012",
     bg: "bgLight",
-    id: 1,
     title: "airPod pro (2nd generation)",
     new: "new",
     price: "249.00$",
@@ -186,8 +186,8 @@ export const loadAndClear = [
     LinkTo: "airpod-2nd-generation-pro-details",
   },
   {
+    id: "airpod-3nd-0012",
     bg: "bgLight",
-    id: 2,
     title: "airPod pro (3nd generation) with lighting chargin case",
     new: "fee engraving",
     price: "169.00$",
@@ -195,8 +195,8 @@ export const loadAndClear = [
     LinkTo: "airpod-3nd-generation-pro-details",
   },
   {
+    id: "studio-buds-0034",
     bg: "bgLight",
-    id: 3,
     title:
       "Beats Studio Buds – True Wireless Noise Cancelling Earphones – Black",
     price: "149.99$",
@@ -205,7 +205,7 @@ export const loadAndClear = [
   },
   {
     bg: "bgLight",
-    id: 4,
+    id: "airpod-3nd-0012",
     title: "airPod pro (3nd generation) with magsafe chargin case",
     new: "fee engraving",
     price: "179.00$",
@@ -214,7 +214,7 @@ export const loadAndClear = [
   },
   {
     bg: "bgLight",
-    id: 5,
+    id: "homepod-mini-123124",
     title: "HomPod mini-blue",
     new: "new",
     price: "99.00",
@@ -222,6 +222,7 @@ export const loadAndClear = [
     LinkTo: "home-pods-details",
   },
 ];
+
 export const appleExperieonce = [
   {
     id: 1,

@@ -12,6 +12,7 @@ export default function StoreAccessories({
   exploreImage,
   exploreTitle,
   bg,
+  id
 }) {
   return (
     <div>
@@ -56,6 +57,7 @@ export default function StoreAccessories({
               newText={access.new}
               bg={access.bg}
               linkTo={access.LinkTo}
+              id={access.id}
             />
           </SwiperSlide>
         ))}

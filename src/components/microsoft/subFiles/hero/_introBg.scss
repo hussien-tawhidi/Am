@@ -1,0 +1,18 @@
+.microsolft-hero {
+  background-image: url("../../../../../public/assets/microsoft/bg.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  overflow: hidden;
+}
+@media (max-width: $lg-size) {
+  .microsolft-hero {
+    height: 60vh;
+  }
+}
+@media (max-width: $md-size) {
+  .microsolft-hero {
+    height: 50vh;
+  }
+}

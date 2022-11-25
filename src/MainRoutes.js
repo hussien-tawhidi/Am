@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router-dom";
 import OurStore from "./components/ourStore/OurStore";
 import Hero from "./components/homePage/Hero";
 import Header from "./components/homePage/header/Header";
-import Footer from "./components/homePage/footer/Footer";
 import Mac from "./components/mac/Mac";
 import IPhone from "./components/IPhone/IPhone";
 import SamsungPhones from "./components/samsungPhones/SamsungPhones";
@@ -15,7 +14,7 @@ import Support from "./components/support/Support";
 import Card from "./components/card/Card";
 import Login from "./components/log/log-in/Login";
 import LogOut from "./components/log/log-out/LogOut";
-import ProductsDetails from "./components/ProductsDetails";
+import ProductsDetails from "./components/details/ProductsDetails";
 export default function MainRoutes() {
   return (
     <div className="routes">
@@ -49,7 +48,6 @@ export default function MainRoutes() {
           />
         </Routes>
       </main>
-      <Footer />
     </div>
   );
 }

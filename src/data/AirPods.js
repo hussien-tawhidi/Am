@@ -1,41 +1,48 @@
 export const airPodsHeader = [
   {
-    id: 1,
+    id: "airpod-2nd-0012",
     newText: "new",
     title: "AirPods 2nd generation",
     image: "/assets/AirPods/airpods_2gen_light__ckwbqlgv1r9e_large.svg",
   },
   {
-    id: 2,
+    id: "airpod-3nd-0012",
     newText: "new",
     title: "AirPods 3th generation",
     image: "/assets/AirPods/airpods_3gen_light__6r7zooyk4lua_large.svg",
   },
   {
-    id: 3,
+    id: "airpod-pro-light-0012",
     title: "Airpods pro light",
     image: "/assets/AirPods/airpods_pro_light__ets5a19rt3au_large.svg",
   },
   {
-    id: 4,
+    id: "airpod-pro-max-0012",
     title: "Airpods max light",
     image: "/assets/AirPods/airpods_max_light__cvaaddhgazqu_large.svg",
   },
   {
-    id: 5,
+    id: "galaxy-buds-0004",
     title: "Samsung airPods",
     image: "/assets/samsung/vectore/airPods.png",
   },
   {
-    id: 6,
+    id: "huawei-aipods-0004",
     title: "Huawei airPods",
     image: "/assets/AirPods/audios-icon-01.svg",
   },
 ];
 
 export const intorCard = [
-  { id: 1, title: "AirPods", generation: "3rd generation", price: "From $169" },
+  {
+    id: "airpod-3nd-0012",
+    title: "AirPods",
+    generation: "3rd generation",
+    price: "269",
+    image: "/assets/AirPods/compare_airpods_pro__e9uzt0mzviem_large_2x.png",
+  },
 ];
+
 export const cardBenfit1 = [
   {
     id: 1,
@@ -44,6 +51,7 @@ export const cardBenfit1 = [
     image: "/assets/AirPods/AUDIO_HP_GBP_How-to-wear-your-samsung-earbuds.jpg",
   },
 ];
+
 export const cardBenfit2 = [
   {
     id: 1,
@@ -54,6 +62,7 @@ export const cardBenfit2 = [
       "/assets/AirPods/AUDIO_HP_GBP_Use-call-features-on-your-samsung-earbuds.webp",
   },
 ];
+
 export const cardBenfit3 = [
   {
     id: 1,
@@ -64,6 +73,7 @@ export const cardBenfit3 = [
     image: "/assets/AirPods/AUDIO_HP_GBP_Clean-your-samsung-earbuds.webp",
   },
 ];
+
 export const cardBenfit4 = [
   {
     id: 1,
@@ -75,6 +85,7 @@ export const cardBenfit4 = [
       "/assets/AirPods/AUDIO_HP_GBP_Use-wireless-powershare-on-your-galaxy-phone2.webp",
   },
 ];
+
 export const cardBenfit5 = [
   {
     id: 1,
@@ -99,37 +110,37 @@ export const airpodsBanner = [
 
 export const airpodSlide = [
   {
-    id: 1,
+    id: "airpod-2nd-0012",
     image: "/assets/AirPods/compare_airpods_2nd_gen__fw52r8rxrpyu_large_2x.png",
     new: "2nd generation",
-    title: "AirPods",
+    title: "AirPods (2nd generation)",
     price: "$129.00$",
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
   },
   {
-    id: 2,
+    id: "airpod-3nd-0012",
     image: "/assets/AirPods/compare_airpods_3rd_gen__dyuzfy04ht0m_large_2x.png",
     new: "3rd generation",
-    title: "AirPods",
+    title: "AirPods (3rd generation)",
     price: "169.00$",
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
   },
   {
-    id: 3,
+    id: "airpod-2nd-0012",
     image: "/assets/AirPods/compare_airpods_pro__e9uzt0mzviem_large_2x.png",
     new: "2nd generation",
-    title: "AirPods pro",
+    title: "AirPods pro (2nd generation)",
     price: "269.00$",
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
   },
   {
-    id: 4,
+    id: "galaxy-buds-0004",
     image: "/assets/AirPods/pngfind.com-samsung-galaxy-s8-png-3118110.png",
     new: "Audio | Wireless Earbuds",
     title: "Galaxy Buds",
@@ -139,7 +150,7 @@ export const airpodSlide = [
     color3: "/assets/store/color3.jpg",
   },
   {
-    id: 5,
+    id: "galaxy-buds-0004",
     image:
       "/assets/AirPods/in-galaxy-buds-r170-sm-r170nzwainu-frontwhite-147018151.webp",
     new: "Audio | Wireless Earbuds",

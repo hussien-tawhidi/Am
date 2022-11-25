@@ -9,11 +9,19 @@ import HealthCare from "./HealthCare";
 import AppleValues from "./AppleValues";
 import AboutUs from "./AboutUs";
 
-export default function Footer() {
+export default function Footer({ pageName }) {
   return (
     <div className="container">
       <div className="footerContainer">
-       
+        <div className="showRoutes">
+          <div className="footerLogo routeFooter">
+            <img src="/assets/titleLogo.png" alt="" />
+          </div>
+          <span className="icon routeFooter">
+            <i className="fa-solid fa-angle-right"></i>
+          </span>
+          <p className="pageName routeFooter">{pageName}</p>
+        </div>
         <div className="row">
           <div className="col-lg-2 col-md-4 col-12">
             <div className="single-footer-menu">

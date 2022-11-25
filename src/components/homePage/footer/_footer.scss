@@ -11,6 +11,29 @@
   border-top: 1px solid rgb(0, 0, 0,0.3);
   color: $dark-color;
   text-transform: capitalize;
+  .showRoutes{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    color: $dark-color;
+    .routeFooter{
+      margin-right: 1rem;
+    }
+    .footerLogo{
+      width: 25px;
+      img{
+        width: 100%;
+      }
+    }
+    .icon{
+      opacity: .4;
+    }
+    .pageName{
+      text-transform: capitalize;
+      font-weight: normal;
+      opacity: .7;
+    }
+  }
 }
 .footerCard {
   margin-top: 5px;

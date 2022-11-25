@@ -1,20 +1,29 @@
-export default function HuaweiCardOne({ huaweiCardData }) {
+import { Link } from "react-router-dom";
+
+export default function HuaweiCardOne({
+  id,
+  title,
+  image,
+  size,
+  text,
+  newText,
+  learnMore,
+  direction,
+}) {
   return (
     <div className="huawieCardOne">
-      {huaweiCardData.map((card) => (
-        <div className={`container singleCard ${card.direction}`} key={card.id}>
-          <img src={card.image} alt="" />
-          <div className="text">
-            <div className="titleTop">
-              <span>{card.newText}</span>
-              <span>{card.size}</span>
-            </div>
-            <h5>{card.title}</h5>
-            <p>{card.text}</p>
-            <a href="/">{card.learnMore}</a>
+      <div className={`container singleCard ${direction}`}>
+        <img src={image} alt="" />
+        <div className="text">
+          <div className="titleTop">
+            <span>{newText}</span>
+            <span>{size}</span>
           </div>
+          <h5>{title}</h5>
+          <p>{text}</p>
+          <Link to={`/products/${id}`}>{learnMore}</Link>
         </div>
-      ))}
+      </div>
     </div>
   );
 }

@@ -4,9 +4,12 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-
   }
   .texts {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     .title {
       margin-bottom: 2rem;
       h5 {
@@ -18,31 +21,43 @@
       p {
         margin-top: 10px;
         font-size: 14px;
-        opacity: .8;
+        opacity: 0.8;
       }
     }
-    .subTitle{
-        font-weight: 600;
-        font-size: 14px;
-        color: $dark-color;
-        opacity: .6;
-
+    .subTitle {
+      font-weight: 600;
+      font-size: 14px;
+      color: $dark-color;
+      opacity: 0.6;
     }
-    .single{
-        margin-bottom: 2rem;
+    .single {
+      margin-bottom: 2rem;
     }
     .desc {
       font-size: 25px;
       color: $dark-color;
     }
   }
-}
-@media (max-width:$lg-size) {
-  .surfaceNineCard{
-    .heroImg{
-    img{
-      width: 90%;
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 3rem;
+    .buyNow {
+      cursor: pointer;
+      opacity: 0.8;
+      &:hover {
+        opacity: 1;
+      }
     }
+  }
+}
+@media (max-width: $lg-size) {
+  .surfaceNineCard {
+    .heroImg {
+      img {
+        width: 90%;
+      }
     }
   }
 }

@@ -9,6 +9,7 @@ import AirPodsBanner from "./subAirPodsFiles/airPodBanner/AirPodsBanner";
 import StoreAccessories from "../ourStore/storeSubFiles/storeAccessories/StoreAccessories";
 import Services from "../Services/Service";
 import AirPodsBests from "./subAirPodsFiles/bests/AirPodsBests";
+import Footer from "../homePage/footer/Footer";
 export default function Airpods() {
   return (
     <div>
@@ -30,7 +31,7 @@ export default function Airpods() {
           exploreTitle="explore all accessories"
         />
       </div>
-      <AirPodsBests/>
+      <AirPodsBests />
       <Services />
 
       <div className="container">
@@ -40,6 +41,7 @@ export default function Airpods() {
           </div>
         ))}
       </div>
+      <Footer pageName="airpods" />
     </div>
   );
 }

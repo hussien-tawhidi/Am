@@ -1,26 +1,36 @@
+import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import { setAddItemToCard } from "../../../store/cardSlice";
 
-export default function AirPodIntro({ cardData }) {
+export default function AirPodIntro({
+  id,
+  price,
+  linkTo,
+  textImage,
+  image,
+  title,
+}) {
+  const dispatch = useDispatch();
+  const onAddToCard = () => {
+    const item = { id, title, image, price };
+    dispatch(setAddItemToCard(item));
+  };
   return (
     <>
-      {cardData.map((data) => (
-        <div className="airPod" key={data.id}>
-          <img src="/assets/homeImages/aBg.png" alt="" className="imageText" />
-          <img src="/assets/homeImages/a.png" alt="" className="imageAirPod" />
-          <p className="price">{data.price}</p>
-          <div className="texts">
-            <Link to="/" className="buyNow">
-              buy
-            </Link>
-            <Link to={`/products/${data.linkTo}`} className="more">
-              <span>learn more</span>{" "}
-              <div className="icon">
-                <i className="fa-solid fa-angle-right"></i>
-              </div>
-            </Link>
-          </div>
+      <div className="airPod" key={id}>
+        <img src={textImage} alt="" className="imageText" />
+        <img src={image} alt="" className="imageAirPod" />
+        <p className="price">{price}</p>
+        <div className="texts">
+          <div className="buyNow" onClick={onAddToCard}>buy</div>
+          <Link to={`/products/${linkTo}`} className="more">
+            <span>learn more</span>{" "}
+            <div className="icon">
+              <i className="fa-solid fa-angle-right"></i>
+            </div>
+          </Link>
         </div>
-      ))}
+      </div>
     </>
   );
 }

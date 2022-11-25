@@ -31,6 +31,21 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      .more,
+      .buyNow {
+        cursor: pointer;
+        opacity: 0.8;
+        transition: all 0.2s ease-in-out;
+        transform: scale(1);
+        &:hover {
+          transform: scale(1.03);
+          opacity: 1;
+        }
+      }
+    }
+    .more-accessories {
+      font-weight: bold;
+
     }
   }
 }
@@ -40,71 +55,69 @@
   font-size: 60px;
   font-weight: 700;
 }
-@media (max-width:$lg-size) {
-    .iphoneAccessories{
-       img{
-        width: 50%;
-       }
-       .texts{
-        h5{
-            font-size: 40px;
-        }
-        p{
-            width: 90%;
-            font-size: 14px;
-        }
-        .buttons{
-            flex-direction: column-reverse;
-            .more,
-            .buyNow{
-                margin: 5px;
-                padding: 5px;
-                font-size: 16px;
-            }
-        }
-       }
+@media (max-width: $lg-size) {
+  .iphoneAccessories {
+    img {
+      width: 50%;
     }
-}
-@media (max-width:$md-size) {
-    .iphone-accessoriesTitle {
-
-        font-size: 45px;
-    }
-    .iphoneAccessories{
+    .texts {
+      h5 {
+        font-size: 40px;
+      }
+      p {
+        width: 90%;
+        font-size: 14px;
+      }
+      .buttons {
         flex-direction: column-reverse;
-        padding-top: 2rem;
-        &.accessories1 {
-            flex-direction: column-reverse;
-          }
-       img{
-        width: 50%;
-       }
-       .texts{
-      width: 100%;
-        .buttons{
-            flex-direction:row;
+        .more,
+        .buyNow {
+          margin: 5px;
+          padding: 5px;
+          font-size: 16px;
         }
-       }
+      }
     }
+  }
 }
-@media (max-width:$xsm-size) {
-    .iphone-accessoriesTitle {
-
+@media (max-width: $md-size) {
+  .iphone-accessoriesTitle {
+    font-size: 45px;
+  }
+  .iphoneAccessories {
+    flex-direction: column-reverse;
+    padding-top: 2rem;
+    &.accessories1 {
+      flex-direction: column-reverse;
+    }
+    img {
+      width: 50%;
+    }
+    .texts {
+      width: 100%;
+      .buttons {
+        flex-direction: row;
+      }
+    }
+  }
+}
+@media (max-width: $xsm-size) {
+  .iphone-accessoriesTitle {
+    font-size: 35px;
+  }
+  .iphoneAccessories {
+    padding-top: 10px;
+    img {
+      margin: 0;
+    }
+    .texts {
+      h5 {
         font-size: 35px;
+      }
+      .buttons {
+        margin-top: 5px;
+        flex-direction: row;
+      }
     }
-    .iphoneAccessories{
-        padding-top: 10px;
-       img{
-       margin: 0;
-       }
-       .texts{
-        h5{
-            font-size: 35px;
-        }
-        .buttons{
-            margin-top: 5px;
-            flex-direction:row;
-        }
-       }
-    }
+  }
 }

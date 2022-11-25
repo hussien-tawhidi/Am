@@ -77,7 +77,7 @@ export const iPhoneSubHeader = [
 
 export const cardIntroData = [
   {
-    id: 1,
+    id: "iphone14-800400",
     model: "iphone 14 pro",
     title: "Big and bigger.",
     newText: "new",
@@ -86,17 +86,19 @@ export const cardIntroData = [
     textClass: "",
     textGradeint: "textGradeint",
     buy: "buy",
-    price: "From $33.29/mo. for 24 mo. or $799 before trade‑in",
+    priceText: "From $33.29/mo. for 24 mo. or $799 before trade‑in",
     buyNow: "buyNow",
     LinkTo: "iphone-14-pro",
+    price: "1289.80",
+    image: "/assets/IPhone/iphone_14.jpg",
   },
 ];
 
 export const cardIntro2Data = [
   {
+    id: "iphone14-800400",
     buyNow: "buyNow",
     textClass: "textClass",
-    id: 1,
     model: "iphone 14 light",
     title: "Pro. Beyond.",
     newText: "new",
@@ -111,12 +113,13 @@ export const cardIntro2Data = [
 
 export const cardIntro3Data = [
   {
+    id: 123324,
     card3TextClass: "card3TextClass",
-    id: 1,
     title: "Magic runs in the family.",
     price: "Explore all AirPods models and find the best ones for you.",
     textGradeint: "",
     bg: "airpods",
+    image:"/assets/"
   },
 ];
 
@@ -132,7 +135,7 @@ export const cardIntro4Data = [
 
 export const iphoneDetails = [
   {
-    id: 1,
+    id: "iphone14-800400",
     newText: "new",
     cameraHightClass: "cameraHightClass",
     inHightClass: "inHightClass",
@@ -140,7 +143,7 @@ export const iphoneDetails = [
     color1: "/assets/store/color4.jpg",
     color2: "/assets/store/color7.jpg",
     color3: "/assets/store/color9.jpg",
-    name: "iPhone 14 Pro",
+    title: "iPhone 14 Pro",
     slogan: "The ultimate iPhone.",
     price: "From $999",
     displayInch: "6.7″ or 6.1″",
@@ -166,7 +169,7 @@ export const iphoneDetails = [
     linkTo: "iphone-14-pro",
   },
   {
-    id: 2,
+    id: "iphone14-light-800400",
     sosHightClass: "sosHightClass",
     cameraHightClass: "cameraHightClass",
     inHightClass: "inHightClass",
@@ -175,7 +178,7 @@ export const iphoneDetails = [
     color1: "/assets/store/color2.jpg",
     color2: "/assets/store/color5.jpg",
     color3: "/assets/store/color8.jpg",
-    name: "iPhone 14 Light",
+    title: "iPhone 14 Light",
     slogan: "A total powerhouse.",
     price: "From $799**",
     displayInch: "6.7″ or 6.1″",
@@ -199,7 +202,7 @@ export const iphoneDetails = [
     linkTo: "iphone-14-light",
   },
   {
-    id: 3,
+    id: "iphone-13-pro",
     cameraHightClass: "cameraHightClass",
     inHightClass: "inHightClass",
     sosHightClass: "sosHightClass",
@@ -208,7 +211,7 @@ export const iphoneDetails = [
     color1: "/assets/store/color10.jpg",
     color2: "/assets/store/color6.jpg",
     color3: "/assets/store/color5.jpg",
-    name: "iPhone 13",
+    title: "iPhone 13",
     slogan: "As amazing as ever.",
     price: "From $599**",
     displayInch: "6.1″ or 5.4″",
@@ -231,7 +234,7 @@ export const iphoneDetails = [
     linkTo: "iphone-13",
   },
   {
-    id: 4,
+    id: "iphone-se-0004",
     cameraHightClass: "cameraHightClass",
     inHightClass: "inHightClass",
     sosHightClass: "sosHightClass",
@@ -240,7 +243,7 @@ export const iphoneDetails = [
     color1: "/assets/store/color11.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color1.jpg",
-    name: "iPhone SE",
+    title: "iPhone SE",
     slogan: "Serious power. Serious value.",
     price: "From $429**",
     displayInch: "4.7″",
@@ -317,20 +320,23 @@ export const iphoneBannerData = [
 
 export const iphoneAccessoriesData = [
   {
-    id: 1,
+    id: "magsaf-0004",
     title: "MagSafe",
     text: "Snap on a magnetic case, wallet, or both. And get faster wireless charging.",
     image: "/assets/IPhone/accessories1.jpg",
     linkTo: "Shop MagSafe Accessories",
     accessories1: "accessories1",
+    buyNow: "buy",
+    price: "50.99",
   },
   {
-    id: 2,
+    id: "airtag-0004",
     title: "AirTag",
     text: "Attach one to your keys. Put another in your backpack. If they’re misplaced, just use the Find My app.",
     image: "/assets/IPhone/accessories2.jpg",
     linkTo: "Learn more",
     buyNow: "buy",
+    price: "80.70",
   },
 ];
 

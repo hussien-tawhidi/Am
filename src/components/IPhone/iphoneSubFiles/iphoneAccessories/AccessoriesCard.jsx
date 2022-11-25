@@ -1,31 +1,46 @@
-import React from "react";
+import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
+import { setAddItemToCard } from "../../../../store/cardSlice";
 
-export default function AccessoriesCard({ iphoneAccessoriesData }) {
+export default function AccessoriesCard({
+  id,
+  accessories1,
+  image,
+  title,
+  text,
+  buyNow,
+  price,
+}) {
+  const dispatch = useDispatch();
+  const onAddToCard = () => {
+    const item = { id, title, image, price };
+    dispatch(setAddItemToCard(item));
+  };
   return (
     <div className="row">
-      {iphoneAccessoriesData.map((accessories) => (
-        <div className="col-12" key={accessories.id}>
-          <div className={`iphoneAccessories ${accessories.accessories1}`}>
-          <img src={accessories.image} alt="" className="heroImage" />
-            <div className="texts">
-              <h5>{accessories.title}</h5>
-              <p>{accessories.text}</p>
-              <div className="buttons">
-                <a href="/" className={`buyNow `}>
-                  {accessories.buyNow}
-                  
-                </a>
-                <a href="/" className="more">
-                  <span>{accessories.linkTo}</span>{" "}
-                  <span className="icon">
-                    <i className="fa-solid fa-angle-right"></i>
-                  </span>
-                </a>
+      <div className="col-12" key={id}>
+        <div className={`iphoneAccessories ${accessories1}`}>
+          <img src={image} alt="" className="heroImage" />
+          <div className="texts">
+            <h5>{title}</h5>
+            <p>{text}</p>
+            <div className="buttons">
+              <div className={`buyNow `} onClick={onAddToCard}>
+                {buyNow}
               </div>
+              <Link to={`/products/${id}`} className="more">
+                <span>learn more ...</span>{" "}
+              </Link>
             </div>
+            <Link to="/accessories" className="more-accessories more">
+              <span>all accessories</span>{" "}
+              <span className="icon">
+                <i className="fa-solid fa-angle-right"></i>
+              </span>
+            </Link>
           </div>
         </div>
-      ))}
+      </div>
     </div>
   );
 }

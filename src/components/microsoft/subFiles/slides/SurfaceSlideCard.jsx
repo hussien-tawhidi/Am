@@ -1,55 +1,36 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-export default function SurfaceSlideCard({ surfaceSlideData }) {
+import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
+import { setAddItemToCard } from "../../../../store/cardSlice";
+
+export default function SurfaceSlideCard({
+  id,
+  image,
+  title,
+  text,
+  learnMore,
+  price,
+}) {
+  const dispatch = useDispatch();
+  const onAddToCard = () => {
+    const item = { id, title, image, price };
+    dispatch(setAddItemToCard(item));
+  };
   return (
-    <Swiper
-      spaceBetween={10}
-      hashNavigation={{
-        watchState: true,
-      }}
-      className="mySwiper"
-      breakpoints={{
-        300: {
-          slidesPerView: 1,
-          centeredSlides: true,
-        },
-
-        500: {
-          centeredSlides: true,
-          slidesPerView: 2,
-        },
-
-        768: {
-          centeredSlides: true,
-          slidesPerView: 3,
-        },
-
-        1200: {
-          slidesPerView: 4,
-        },
-      }}
-    >
-      {surfaceSlideData.map((surface) => (
-        <SwiperSlide key={surface.id}>
-          <div className="single-surafce">
-            <img src={surface.image} alt="" />
-            <div className="texts">
-              <div>
-                <h4>{surface.title}</h4>
-                <p>{surface.text}</p>
-              </div>
-              <a href="/">
-                {surface.learnMore}{" "}
-                <span>
-                  <i className="fa-solid fa-angle-right"></i>
-                </span>
-              </a>
-            </div>
-          </div>
-        </SwiperSlide>
-      ))}
-    </Swiper>
+    <div className="single-surafce" key={id}>
+      <img src={image} alt="" />
+      <div className="texts">
+        <div>
+          <h4>{title}</h4>
+          <p>{text}</p>
+        </div>
+        <Link to={`/products/${id}`}>
+          {learnMore}{" "}
+          <span>
+            <i className="fa-solid fa-angle-right"></i>
+          </span>
+        </Link>
+        <div className="buyNow" onClick={onAddToCard}>buy now</div>
+      </div>
+    </div>
   );
 }

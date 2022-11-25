@@ -1,42 +1,56 @@
 import { Link } from "react-router-dom";
-
-export default function MobileCategoryCard({ samsungMobiels }) {
+import { useDispatch } from "react-redux";
+import { setAddItemToCard } from "../../../../store/cardSlice";
+export default function MobileCategoryCard({
+  id,
+  newText,
+  compare,
+  image,
+  color1,
+  color2,
+  color3,
+  title,
+  beforePrice,
+  nowPrice,
+  buyNow,
+  learnMore,
+  price
+}) {
+  const dispatch = useDispatch();
+  const onAddToCard = () => {
+    const item = { id, title, image, price };
+    dispatch(setAddItemToCard(item));
+  };
   return (
-    <div className="row">
-      {samsungMobiels.map((mobile) => (
-        <div className="col-sm-4 col-12 mb-4" key={mobile.id}>
-          <div className="samsung-category-card shadow">
-            <div className="icons">
-              <p className="newText">{mobile.newText}</p>
-              <p className="compare">{mobile.compare}</p>
-            </div>
-            <img src={mobile.image} alt="" className="card-img heroImg" />
-            <div className="colors">
-              <img src={mobile.color1} alt="" />
-              <img src={mobile.color2} alt="" />
-              <img src={mobile.color3} alt="" />
-            </div>
-            <div className="card-footer custome-footer">
-              <h6>{mobile.title}</h6>
-              <div className="price">
-                <del>{mobile.beforePrice}</del>
-                <p>{mobile.nowPrice}</p>
-              </div>
-              <div className="buttons">
-                <a href="/" className={`buyNow `}>
-                  {mobile.buyNow}
-                </a>
-                <Link to={`/products/${mobile.linkTo}`} className="more">
-                  <span>{mobile.learnMore}</span>{" "}
-                  <span className="icon">
-                    <i className="fa-solid fa-angle-right"></i>
-                  </span>
-                </Link>
-              </div>
-            </div>
-          </div>
+    <div className="samsung-category-card shadow">
+      <div className="icons">
+        <p className="newText">{newText}</p>
+        <p className="compare">{compare}</p>
+      </div>
+      <img src={image} alt="" className="card-img heroImg" />
+      <div className="colors">
+        <img src={color1} alt="" />
+        <img src={color2} alt="" />
+        <img src={color3} alt="" />
+      </div>
+      <div className="card-footer custome-footer">
+        <h6>{title}</h6>
+        <div className="price">
+          <del>{beforePrice}</del>
+          <p>${nowPrice}</p>
         </div>
-      ))}
+        <div className="buttons">
+          <div className={`buyNow `} onClick={onAddToCard}>
+            {buyNow}
+          </div>
+          <Link to={`/products/${id}`} className="more">
+            <span>{learnMore}</span>{" "}
+            <span className="icon">
+              <i className="fa-solid fa-angle-right"></i>
+            </span>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }

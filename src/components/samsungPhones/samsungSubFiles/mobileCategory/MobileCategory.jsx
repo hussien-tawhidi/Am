@@ -15,6 +15,8 @@ export default function MobileCategory() {
     });
     setDataFile(result);
   };
+
+  
   return (
     <div className="samsungMobileCate">
       <div className="row">
@@ -30,7 +32,28 @@ export default function MobileCategory() {
         </div>
         <div className="col-md-9 col-12">
           <div className="customeCard">
-            <MobileCategoryCard samsungMobiels={dataFile} />
+            <div className="row">
+              {dataFile.map((data) => (
+                <div className="col-sm-4 col-12 mb-4">
+                  <MobileCategoryCard
+                    key={data.id}
+                    id={data.id}
+                    newText={data.newText}
+                    compare={data.compare}
+                    color1={data.color1}
+                    color2={data.color2}
+                    color3={data.color3}
+                    title={data.title}
+                    beforePrice={data.beforePrice}
+                    nowPrice={data.nowPrice}
+                    buyNow={data.buyNow}
+                    learnMore={data.learnMore}
+                    image={data.image}
+                    price={data.nowPrice}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
