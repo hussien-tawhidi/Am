@@ -28,9 +28,7 @@ import {
   allPhonesAccessories,
   audioAccessories,
   forBusiness,
-  kindOfSurfaceSlide,
   SurfaceNine1,
-  SurfaceNine2,
 } from "../../data/Microsoft";
 import {
   accessoriesSlide,
@@ -66,9 +64,7 @@ export default function ProductsDetails() {
     ...samsungCardIntroData,
     ...samsungMobile,
     ...filterSamsungMobiel,
-    ...SurfaceNine2,
     ...SurfaceNine1,
-    ...kindOfSurfaceSlide,
     ...audioAccessories,
     ...allPhonesAccessories,
     ...forBusiness,
@@ -118,11 +114,11 @@ export default function ProductsDetails() {
       <div className="container">
         <ImageGallery galleryData={post.images} />
         <ProductsDecrpitions />
-          <p className="box-title">what's on the box</p>
+        <p className="box-title">what's on the box</p>
         <div className="boxImageContent">
           <ProdcutsAccessories boxImage={post.boxImage} />
         </div>
-          <p className="box-title">story about </p>
+        <p className="box-title">story about </p>
         <Story homeStoryData={post.story} />
       </div>
       <Footer pageName="products detials" />

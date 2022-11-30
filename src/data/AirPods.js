@@ -141,7 +141,7 @@ export const airpodSlide = [
   
   },
   {
-    id: "galaxy-buds-0004",
+    id: "huawie-accessories",
     image: "/assets/AirPods/pngfind.com-samsung-galaxy-s8-png-3118110.png",
     new: "Audio | Wireless Earbuds",
     title: "Galaxy Buds",
@@ -152,9 +152,10 @@ export const airpodSlide = [
     name:"galaxy buds",
     mainPageLinks:"/airpods",
     mainPageName:"buds",
+
   },
   {
-    id: "galaxy-buds-0004",
+    id: "huawie-accessories",
     image:
       "/assets/AirPods/in-galaxy-buds-r170-sm-r170nzwainu-frontwhite-147018151.webp",
     new: "Audio | Wireless Earbuds",

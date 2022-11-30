@@ -121,7 +121,7 @@ export const SurfaceNine1 = [
 
 export const SurfaceNine2 = [
   {
-    id: "surface-nine-pro-0004000",
+    id: "surface-nine-pro-0004",
     image: "/assets/microsoft/9.webp",
     title: "Surface Pro 9 with 5G",
     desc: "For on-the-go flexibility, unlock 5G speed, and long battery life with the Microsoft SQ® 3, the latest-generation Microsoft processor built in partnership with Qualcomm.6 ",
@@ -143,7 +143,7 @@ export const SurfaceNine2 = [
 
 export const kindOfSurfaceSlide = [
   {
-    id: "surface-laptop-studio-0004",
+    id: "surface-nine-pro-0004",
     image: "/assets/microsoft/surfaceLaptopS.webp",
     title: "Surface Laptop Studio",
     text: "The most powerful Surface for heavy workloads. The best pen experience. Optional NVIDIA",
@@ -154,7 +154,7 @@ export const kindOfSurfaceSlide = [
     mainPageName: "suraface",
   },
   {
-    id: "surface-laptop-go-2",
+    id: "surface-nine-pro-0004",
     image: "/assets/microsoft/surfaceLaptopG2.webp",
     title: "Surface Laptop Go 2",
     text: "The most portable Surface Laptop, with 12.4” touchscreen and great typing experience, now with improved HD camera and a performance boost.",
@@ -165,7 +165,7 @@ export const kindOfSurfaceSlide = [
     mainPageName: "suraface",
   },
   {
-    id: "surface-pro-9",
+    id: "surface-nine-pro-0004",
     image: "/assets/microsoft/surfacePro9.webp",
     title: "Surface Pro 9",
     text: "Work, stream, and play  with the flexibility of a tablet with the performance of a laptop – all in one.",
@@ -176,7 +176,7 @@ export const kindOfSurfaceSlide = [
     mainPageName: "suraface",
   },
   {
-    id: "surface-pro-7+",
+    id: "surface-nine-pro-0004",
     image: "/assets/microsoft/surfacePro7+.webp",
     title: "Surface Pro 7+",
     text: "Classic Pro features, more speed, and premium laptop performance for your favorite apps, games, and accessories.",
@@ -187,7 +187,7 @@ export const kindOfSurfaceSlide = [
     mainPageName: "suraface",
   },
   {
-    id: "surface-studio-2+",
+    id: "surface-nine-pro-0004",
     image: "/assets/microsoft/surfacePro2+.webp",
     title: "Surface Studio 2+",
     text: "Elevate your creativity with the most versatile, 28” PixelSense™ touchscreen all-in-one.",
@@ -224,9 +224,65 @@ export const audioAccessories = [
     name: "Audio Dock",
     mainPageLinks: "/suraface",
     mainPageName: "suraface",
+    boxImage: [
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/microsoft/headphone/1.png",
+        title: "phone",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/airpodMax/a3.jpg",
+        title: "Lightning to USB-C Cable",
+      },
+    ],
+    images: [
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/microsoft/headphone/1.webp",
+        name: "dark",
+      },
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/microsoft/headphone/2.webp",
+        name: "light",
+      },
+    ],
+    story: [
+      {
+        id: "2323214124",
+        image: "/assets/microsoft/headphone/s1.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 28 2022 10:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/microsoft/headphone/s2.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 20 2022 19:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/microsoft/headphone/s3.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 23 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/microsoft/headphone/s4.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/microsoft/headphone/s5.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+    ],
   },
   {
-    id: "microsoft-presenter-0004",
+    id: "microsoft-audio-dock-0004",
     image: "/assets/microsoft/RWTgv9.webp",
     title: "Microsoft Presenter+",
     text: "Confidently deliver engaging presentations and participate in meetings, in person or...",
@@ -237,7 +293,7 @@ export const audioAccessories = [
     mainPageName: "suraface",
   },
   {
-    id: "microsoft-headphone-2plus-0004",
+    id: "microsoft-audio-dock-0004",
     image: "/assets/microsoft/RE4LLFK.webp",
     title: "Surface HeadPhone 2+ for business",
     text: "Certified for Microsoft Teams¹'² and featuring 13 levels of active noise cancellation....",
@@ -248,7 +304,7 @@ export const audioAccessories = [
     mainPageName: "suraface",
   },
   {
-    id: "microsoft-headphone-0004",
+    id: "microsoft-audio-dock-0004",
     image: "/assets/microsoft/RE4oced (1).webp",
     title: "Surface HeadPhone 2 for business",
     text: "Finetune your focus in virtual meetings with crystal-clear audio and adjustable noise...",
@@ -262,7 +318,7 @@ export const audioAccessories = [
 
 export const allPhonesAccessories = [
   {
-    id: "poly-ccx-400",
+    id: "microsoft-accessories",
     image: "/assets/microsoft/RE4IgFT.jpg",
     title: "Poly CCX 400 Business Phone for Microsoft Teams",
     text: "Stay in touch with the intuitive design of this LCD touchscreen business media phone...",
@@ -272,7 +328,7 @@ export const allPhonesAccessories = [
     mainPageName: "suraface",
   },
   {
-    id: "polycom-savi-8220",
+    id: "microsoft-accessories",
     image: "/assets/microsoft/RE4I7cR.webp",
     title: "Polycom Savi 8220 UC Headset for Microsoft Teams ",
     text: "Select Polycom Savi 8220 UC Headset for Microsoft Teams  for more information.",
@@ -282,7 +338,7 @@ export const allPhonesAccessories = [
     mainPageName: "suraface",
   },
   {
-    id: "otterbox-dou-sleev-0004",
+    id: "microsoft-accessories",
     image: "/assets/microsoft/RE4ETfK.webp",
     title: "OtterBox Surface Duo Ocity Series Sleeve",
     text: "OtterBox Surface Duo Ocity Series Sleeve",
@@ -292,7 +348,7 @@ export const allPhonesAccessories = [
     mainPageName: "suraface",
   },
   {
-    id: "jabra-elite-65t",
+    id: "microsoft-accessories",
     image: "/assets/microsoft/RWuFUX.webp",
     title: "Jabra Elite 65t Wireless Earbuds",
     text: "Experience exceptional clarity in your music, calls, and podcasts with these wire-free...",
@@ -319,7 +375,7 @@ export const soundBanner = [
 
 export const forBusiness = [
   {
-    id: "surface-pro-9",
+    id: "surface-nine-pro-0004",
     image: "/assets/microsoft/Content-Card-Surface-Pro-9-LIfestyle-M2.webp",
     title: "Surface Pro 9 for Business",
     text: "Empower flexible, all-day impact with tablet portability and laptop performance. Questions? Book an online consultation.",

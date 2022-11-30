@@ -38,14 +38,16 @@ export default function MainRoutes() {
           <Route path="/products/:id" element={<ProductsDetails />} />
           {/* ************************************************* */}
           {/* sub links  */}
+          <Route path="/products/accessories" element={<Accessories />} />
           <Route
-            path="/products/accessories"
+            path="/products/microsoft-accessories"
             element={<Accessories />}
           />
           <Route
-            path="/products/watches"
-            element={<Watch />}
+            path="/products/huawie-accessories"
+            element={<Accessories />}
           />
+          <Route path="/products/watches" element={<Watch />} />
         </Routes>
       </main>
     </div>

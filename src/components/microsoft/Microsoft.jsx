@@ -41,7 +41,6 @@ export default function Microsoft() {
       />
       <AudioAccessories
         title="for business"
-        // numberOfproduct="Showing 1 through 4 of 6 items"
         audioSlideData={forBusiness}
       />
        {endingPart.map((para) => (

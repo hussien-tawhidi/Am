@@ -73,7 +73,7 @@ export const introCard = [
 
 export const samsungCardData = [
   {
-    id: "galaxy-watch-0004",
+    id: "apple-watch-ultra-0004",
     image: "/assets/watches/galaxy-watch5-os-model.jpg",
     imageTop: "/assets/watches/galaxy-watch5-os-smart-swich-on-silver.png",
     imageBottom:
@@ -104,7 +104,7 @@ export const appleWatchS8 = [
 
 export const applWatchVideo = [
   {
-    id: "galaxy-watch-0004",
+    id: "apple-watch-ultra-0004",
     subTitle: "Accessories for all, tailored for you",
     slogan:
       "Discover stylish and customizable accessories that elevate your device and amplify your look.",
