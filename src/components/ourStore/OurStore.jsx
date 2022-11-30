@@ -23,7 +23,7 @@ export default function OurStore() {
       <Title title="Am | Our Store" />
       <StoreHeader />
       <StoreMenu />
-      <LastOnOurStore latesOnStoreData={latesOnStoreData} />
+      <LastOnOurStore accessoriesSlide={latesOnStoreData} />
       <StoreCards />
       <StoreTitle
         dark="Accessories."

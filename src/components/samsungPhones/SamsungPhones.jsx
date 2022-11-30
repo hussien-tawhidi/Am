@@ -37,6 +37,10 @@ export default function SamsungPhones() {
           textGradeint={data.textGradeint}
           title={data.title}
           price={data.price}
+          priceText={data.priceText}
+          buyNow={data.buyNow}
+          image={data.image}
+
         />
       ))}
       {samsungCardIntroData2.map((data) => (
@@ -50,10 +54,13 @@ export default function SamsungPhones() {
           textGradeint={data.textGradeint}
           title={data.title}
           price={data.price}
+          priceText={data.priceText}
+          buyNow={data.buyNow}
+          image={data.image}
         />
       ))}
       <GalaxyFlipVideo samsungBannerData={flipVideoBanner} />
-      <LastOnOurStore latesOnStoreData={latesOnSamsungData} />
+      <LastOnOurStore accessoriesSlide={latesOnSamsungData} />
       <SamsungMobile />
       <MobileCategory />
       <GalaxyFlipVideo samsungBannerData={flipImageBanner} />

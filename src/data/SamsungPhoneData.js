@@ -1,3 +1,5 @@
+import moment from "moment";
+
 export const samsungHeaderData = [
   {
     id: 1,
@@ -74,10 +76,75 @@ export const samsungCardIntroData = [
     textClass: "",
     textGradeint: "textGradeintOrange",
     buy: "buy",
-    price: "From $17.29/mo. for 24 mo. or $619 before trade‑in",
+    priceText: "From $17.29/mo. for 24 mo. or $619 before trade‑in",
     buyNow: "buyNow",
+    price: "799.99",
     LinkTo: "galaxy-z-flip-4",
     image: "/assets/samsung/Hero.png",
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
+    name: "galaxy z fold 4",
+    boxImage: [
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/samsung/fold4/1.png",
+        title: "phone",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/airpodMax/a3.jpg",
+        title: "Lightning to USB-C Cable",
+      },
+    ],
+    images: [
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/samsung/fold4/1.webp",
+        name: "graygreen",
+      },
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/samsung/fold4/2.webp",
+        name: "black",
+      },
+      {
+        id: "airpod-pro-g2",
+        image: "/assets/samsung/fold4/3.webp",
+        name: "light",
+      },
+    ],
+    story: [
+      {
+        id: "2323214124",
+        image: "/assets/samsung/fold4/s1.jpeg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 28 2022 10:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/samsung/fold4/s2.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 20 2022 19:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/samsung/fold4/s3.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 23 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/samsung/fold4/s4.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/samsung/fold4/s5.jpeg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+    ],
   },
 ];
 
@@ -91,16 +158,17 @@ export const samsungCardIntroData2 = [
     newText: "new",
     bgBlue: "bgBlue",
     bg: "samsungIntroCard2",
-    buy: "buy",
+    price: "799.99",
     textGradeint: "",
-    price: "From $41.62/mo. for 24 mo. or $999 before trade‑in",
+    priceText: "From $41.62/mo. for 24 mo. or $999 before trade‑in",
     LinkTo: "galaxy-z-flip",
+    image: "/assets/samsung/5g.png",
   },
 ];
 
 export const latesOnSamsungData = [
   {
-    id: "z-flip-4-00004",
+    id: "galaxy-z-fold-4-0004",
     model: "Gallaxy z flip 4",
     slogan: "be the pro one",
     priceDetials:
@@ -110,6 +178,7 @@ export const latesOnSamsungData = [
   },
   {
     id: "galaxy-z-fold-4-0004",
+
     model: "Galaxy Z Fold4",
     slogan: "feel the music live",
     priceDetials: "From $899.00 or $24.50/mo for 36 months",
@@ -155,7 +224,7 @@ export const latesOnSamsungData = [
     image: "/assets/store/watchs-s-8.jpg",
   },
   {
-    id: "galaxy-z-fold-4-0004",
+    id: "gallaxy-z-fold-4-0004",
     model: "gallazy z fold 4",
     slogan: "every where is with you",
     priceDetials: "From $1500.00 or $80.30/mo for 24/mo",
@@ -208,6 +277,64 @@ export const samsungMobile = [
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
     linkTo: "galaxy-s8+-128G",
+    name: "galaxy tab s8",
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
+    boxImage: [
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/samsung/tab8/1.png",
+        title: "phone",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/airpodMax/a3.jpg",
+        title: "Lightning to USB-C Cable",
+      },
+    ],
+    images: [
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/samsung/tab8/1.webp",
+        name: "silver",
+      },
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/samsung/tab8/2.webp",
+        name: "gold",
+      },
+      {
+        id: "airpod-pro-g2",
+        image: "/assets/samsung/tab8/3.webp",
+        name: "graphite",
+      },
+    ],
+    story: [
+      {
+        id: "2323214124",
+        image: "/assets/samsung/tab8/s1.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 28 2022 10:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/samsung/tab8/s2.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 20 2022 19:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/samsung/tab8/s3.jpeg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 23 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/samsung/tab8/s4.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+    ],
   },
   {
     id: "samsung-galaxy-tab-s8",
@@ -231,6 +358,69 @@ export const samsungMobile = [
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color6.jpg",
     linkTo: "galaxy-s20-fe",
+    name: "galaxy s21",
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
+    boxImage: [
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/samsung/s20/1.png",
+        title: "phone",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/airpodMax/a3.jpg",
+        title: "Lightning to USB-C Cable",
+      },
+    ],
+    images: [
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/samsung/s20/1.jpg",
+        name: "violate",
+      },
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/samsung/s20/2.jpg",
+        name: "gray",
+      },
+      {
+        id: "airpod-pro-g2",
+        image: "/assets/samsung/s20/3.jpg",
+        name: "white",
+      },
+      {
+        id: "airpod-pro-g2",
+        image: "/assets/samsung/s20/4.jpg",
+        name: "pink",
+      },
+    ],
+    story: [
+      {
+        id: "2323214124",
+        image: "/assets/samsung/s20/s1.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 28 2022 10:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/samsung/s20/s2.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 20 2022 19:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/samsung/s20/s3.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 23 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/samsung/s20/s4.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+    ],
   },
   {
     id: "samsung-s22-256",
@@ -239,9 +429,10 @@ export const samsungMobile = [
     title: "Get up to $800 off Galaxy S22 Series from AT&amp;T",
     price: "hot offer",
     linkTo: "galaxy-s22",
+    
   },
   {
-    id: "galaxy-tab-s7",
+    id: "samsung-galaxy-tab-s8",
     image: "/assets/samsung/All-Deals-ShortCard.webp",
     new: "new",
     title:
@@ -251,6 +442,9 @@ export const samsungMobile = [
     color2: "/assets/store/color1.jpg",
     color3: "/assets/store/color8.jpg",
     linkTo: "galaxy-s7-tab",
+    name: "galaxy tab s7",
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
   },
 ];
 
@@ -287,7 +481,6 @@ export const filterSamsungMobiel = [
     color2: "/assets/store/color3.jpg",
     color3: "/assets/store/color6.jpg",
     linkTo: "galaxy-z-fold",
-
   },
   {
     id: "z-flip-4-00004",
@@ -306,7 +499,7 @@ export const filterSamsungMobiel = [
     linkTo: "galaxy-z-flip-4",
   },
   {
-    id: "samsung-galaxy-a73",
+    id: "samsung-s22-256",
     category: "serieA",
     newText: "new",
     compare: "Compare",
@@ -320,6 +513,9 @@ export const filterSamsungMobiel = [
     color2: "/assets/store/color5.jpg",
     color3: "/assets/store/color9.jpg",
     linkTo: "galaxy-a73",
+    name: "galaxy A73",
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
   },
   {
     id: "z-flip-4-00004",
@@ -354,7 +550,7 @@ export const filterSamsungMobiel = [
     linkTo: "galaxy-s22",
   },
   {
-    id: "samsung-s21-fe",
+    id: "samsung-galaxy-s21-0004",
     category: "serieS",
     newText: "",
     compare: "Compare",
@@ -368,9 +564,12 @@ export const filterSamsungMobiel = [
     color2: "/assets/store/color8.jpg",
     color3: "/assets/store/color9.jpg",
     linkTo: "galaxy-s21-fe-5g",
+    name: "galaxy s21 fe",
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
   },
   {
-    id: "samsung-s22-ultra",
+    id: "samsung-s22-256",
     category: "serieS",
     newText: "new",
     compare: "Compare",
@@ -384,9 +583,12 @@ export const filterSamsungMobiel = [
     color2: "/assets/store/color8.jpg",
     color3: "/assets/store/color9.jpg",
     linkTo: "galaxy-s22-ultra",
+    name: "galaxy s22 ultra",
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
   },
   {
-    id: "samsung-s22+",
+    id: "samsung-s22-256",
     category: "serieS",
     newText: "new",
     compare: "Compare",
@@ -399,6 +601,9 @@ export const filterSamsungMobiel = [
     color1: "/assets/store/color4.jpg",
     color2: "/assets/store/color5.jpg",
     linkTo: "galaxy-s22+",
+    name: "galaxy s22+",
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
   },
   {
     id: "z-flip-4-00004",
@@ -432,7 +637,7 @@ export const filterSamsungMobiel = [
     linkTo: "galaxy-z-fold",
   },
   {
-    id: "samsung-s21+-5g",
+    id: "samsung-galaxy-s21-0004",
     category: "serieS",
     newText: "",
     compare: "Compare",
@@ -446,9 +651,12 @@ export const filterSamsungMobiel = [
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
     linkTo: "galaxy-s21+-5g-256gb",
+    name: "galaxy s21+",
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
   },
   {
-    id: "samsung-galaxy-s21-5g",
+    id: "samsung-galaxy-s21-0004",
     category: "serieS",
     newText: "",
     compare: "Compare",
@@ -464,7 +672,7 @@ export const filterSamsungMobiel = [
     linkTo: "galaxy-s21-5g-128gb",
   },
   {
-    id: "galaxy-s20-fe-5g",
+    id: "samsung-galaxy-s21-0004",
     category: "serieS",
     newText: "",
     compare: "Compare",
@@ -479,9 +687,12 @@ export const filterSamsungMobiel = [
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
     linkTo: "galaxy-s20-se-5g",
+    name: "galaxy s20",
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
   },
   {
-    id: "galaxy-a53-5g",
+    id: "samsung-galaxy-s21-0004",
     category: "serieA",
     newText: "",
     compare: "Compare",
@@ -495,9 +706,12 @@ export const filterSamsungMobiel = [
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
     linkTo: "galaxy-a53-5g",
+    name: "galaxy A53",
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
   },
   {
-    id: "galaxy-a42-5g",
+    id: "samsung-galaxy-s21-0004",
     category: "serieA",
     newText: "",
     compare: "Compare",
@@ -511,9 +725,12 @@ export const filterSamsungMobiel = [
     color2: "/assets/store/color9.jpg",
     color3: "/assets/store/color10.jpg",
     linkTo: "galaxy-a42-5g",
+    name: "galaxy A42",
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
   },
   {
-    id: "galaxy-a13-5g",
+    id: "samsung-galaxy-s21-0004",
     category: "serieA",
     newText: "",
     compare: "Compare",
@@ -527,9 +744,12 @@ export const filterSamsungMobiel = [
     color2: "/assets/store/color11.jpg",
     color3: "/assets/store/color5.jpg",
     linkTo: "galaxy-a13-5g",
+    name: "galaxy A13",
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
   },
   {
-    id: "galaxy-a13",
+    id: "samsung-galaxy-s21-0004",
     category: "serieA",
     newText: "",
     compare: "Compare",
@@ -545,7 +765,7 @@ export const filterSamsungMobiel = [
     linkTo: "galaxy-a13",
   },
   {
-    id: "samsung-galaxy-a12",
+    id: "samsung-galaxy-s21-0004",
     category: "serieA",
     newText: "",
     compare: "Compare",
@@ -559,9 +779,12 @@ export const filterSamsungMobiel = [
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
     linkTo: "galaxy-a12",
+    name: "galaxy A12",
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
   },
   {
-    id: "samsung-galaxy-a03s",
+    id: "samsung-galaxy-s21-0004",
     category: "serieA",
     newText: "",
     compare: "Compare",
@@ -575,9 +798,12 @@ export const filterSamsungMobiel = [
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
     linkTo: "galaxy-a03s",
+    name: "galaxy A03s",
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
   },
   {
-    id: "samsung-galaxy-as20-5g",
+    id: "samsung-galaxy-s21-0004",
     category: "serieS",
     newText: "",
     compare: "Compare",
@@ -593,7 +819,7 @@ export const filterSamsungMobiel = [
     linkTo: "galaxy-s20-5g-128gb",
   },
   {
-    id: "samsung-galaxy-s20+-5g",
+    id: "samsung-galaxy-s21-0004",
     category: "serieS",
     newText: "",
     compare: "Compare",
@@ -609,7 +835,7 @@ export const filterSamsungMobiel = [
     linkTo: "galaxy-s20+-5g-128gb",
   },
   {
-    id: "samsung-galaxy-20-ultra-5g",
+    id: "samsung-galaxy-s21-0004",
     category: "serieS",
     newText: "",
     compare: "Compare",
@@ -625,7 +851,7 @@ export const filterSamsungMobiel = [
     linkTo: "galaxy-s20-ultra-5g-128gb",
   },
   {
-    id: "samsung-galaxy-21-ultra",
+    id: "samsung-galaxy-s21-0004",
     category: "serieS",
     newText: "",
     compare: "Compare",

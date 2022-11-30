@@ -38,7 +38,6 @@ export default function KindOfMac() {
 
         <div className="Links">
           <a href="/">Compare all Mac models</a>
-          <a href="/">Shop Mac</a>
         </div>
       </div>
     </div>

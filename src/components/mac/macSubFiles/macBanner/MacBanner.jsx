@@ -9,7 +9,7 @@ export default function MacBanner({
   bannerThree,
   icon,
   link,
-
+  id,
 }) {
   return (
     <div className="container">

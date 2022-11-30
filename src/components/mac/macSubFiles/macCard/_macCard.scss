@@ -28,14 +28,14 @@
       color: $orange-color;
       font-weight: 700;
     }
-    
+
     .model {
       font-size: 50px;
       font-weight: 900;
     }
-    .slogan{
-        font-size: 25px ;
-        font-weight: 900;
+    .slogan {
+      font-size: 25px;
+      font-weight: 900;
     }
     .price {
       font-size: 20px;
@@ -45,6 +45,9 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      .buyNow {
+        cursor: pointer;
+      }
     }
   }
 }

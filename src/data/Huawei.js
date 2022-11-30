@@ -18,6 +18,9 @@ export const huaweiCardOne = [
     direction: "",
     size: "11-inch",
     price: "1180.77",
+    name:"huawei mad pro",
+    mainPageLinks:"/huawei",
+    mainPageName:"huawei",
   },
   {
     id: "huawie-mad-pro-0003",
@@ -29,6 +32,9 @@ export const huaweiCardOne = [
     direction: "directionReverse",
     size: " 12.6-inch",
     price: "1099.90",
+    name:"huawei mad pro",
+    mainPageLinks:"/huawei",
+    mainPageName:"huawei",
   },
 ];
 
@@ -42,6 +48,9 @@ export const huaweiCardPhone = [
     image: "/assets/huawei/mate50.png",
     direction: "column",
     price: "499.77",
+    name:"huawei mad ",
+    mainPageLinks:"/huawei",
+    mainPageName:"huawei",
   },
   {
     id: "huawei-matepad-pro-0004",
@@ -52,6 +61,9 @@ export const huaweiCardPhone = [
     image: "/assets/huawei/porsche-design-mate50-rs.png",
     direction: "column",
     price: "866.77",
+    name:"huawei mad ",
+    mainPageLinks:"/huawei",
+    mainPageName:"huawei",
   },
   {
     id: "huawei-mate-xs-2",
@@ -62,6 +74,9 @@ export const huaweiCardPhone = [
     image: "/assets/huawei/mate-xs2.png",
     direction: "column",
     price: "980.99",
+    name:"huawei mad ",
+    mainPageLinks:"/huawei",
+    mainPageName:"huawei",
   },
   {
     id: "huawie-mate-x-2",
@@ -72,6 +87,9 @@ export const huaweiCardPhone = [
     image: "/assets/huawei/mate-x2.png",
     direction: "column",
     price: "700.99",
+    name:"huawei mad ",
+    mainPageLinks:"/huawei",
+    mainPageName:"huawei",
   },
   {
     id: "huawei-p50-pro",
@@ -82,6 +100,9 @@ export const huaweiCardPhone = [
     image: "/assets/huawei/P50-Pro-black.png",
     direction: "column",
     price: "1199.99",
+    name:"huawei p50",
+    mainPageLinks:"/huawei",
+    mainPageName:"huawei",
   },
   {
     id: "huawei-p50-0004",
@@ -92,6 +113,9 @@ export const huaweiCardPhone = [
     image: "/assets/huawei/p50-black.png",
     direction: "column",
     price: "900.99",
+    name:"huawei p50",
+    mainPageLinks:"/huawei",
+    mainPageName:"huawei",
   },
 ];
 
@@ -104,6 +128,10 @@ export const accessoriesSlide = [
     bg: "light",
     imageNotFull: "imageNotFull",
     price: "330.70",
+    mainPageLinks: "/watch",
+    mainPageName: "Watch",
+    name: "watch gt3 ",
+    
   },
   {
     id: "huawei-freebuds-4",
@@ -113,6 +141,9 @@ export const accessoriesSlide = [
     bg: "light",
     imageNotFull: "imageNotFull",
     price: "255.99",
+    name:"huawei freebuds",
+    mainPageLinks:"/airpods",
+    mainPageName:"airpods",
   },
   {
     id: "huawei-matbook-x-pro-0004",
@@ -122,6 +153,9 @@ export const accessoriesSlide = [
     bg: "light",
     imageNotFull: "imageNotFull",
     price: "1288.88",
+    name:"huawei matbook",
+    mainPageLinks:"/huawei",
+    mainPageName:"huawei",
   },
   {
     id: "huawei-matepade-pro-0004",
@@ -131,5 +165,8 @@ export const accessoriesSlide = [
     bg: "light",
     imageNotFull: "imageNotFull",
     price: "1366.56",
+    name:"huawei matpade",
+    mainPageLinks:"/huawei",
+    mainPageName:"huawei",
   },
 ];

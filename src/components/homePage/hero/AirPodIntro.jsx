@@ -23,7 +23,7 @@ export default function AirPodIntro({
         <p className="price">{price}</p>
         <div className="texts">
           <div className="buyNow" onClick={onAddToCard}>buy</div>
-          <Link to={`/products/${linkTo}`} className="more">
+          <Link to={`/products/${id}`} className="more">
             <span>learn more</span>{" "}
             <div className="icon">
               <i className="fa-solid fa-angle-right"></i>

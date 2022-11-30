@@ -138,6 +138,7 @@ export const airpodSlide = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
+  
   },
   {
     id: "galaxy-buds-0004",
@@ -148,6 +149,9 @@ export const airpodSlide = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
+    name:"galaxy buds",
+    mainPageLinks:"/airpods",
+    mainPageName:"buds",
   },
   {
     id: "galaxy-buds-0004",
@@ -159,6 +163,7 @@ export const airpodSlide = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
+   
   },
 ];
 

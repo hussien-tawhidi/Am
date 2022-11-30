@@ -17,7 +17,7 @@ export default function Huawei() {
       <GetDialyOff />
       <HuaweiBanner/>
       <HuaweiCardContainer />
-      <LastOnOurStore/>
+      <LastOnOurStore accessoriesSlide={accessoriesSlide}/>
       <HuaweiPhones />
       <Footer pageName="huawei products"/>
     </div>

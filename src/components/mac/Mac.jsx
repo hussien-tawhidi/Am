@@ -19,16 +19,41 @@ import MacBannerContainer from "./macSubFiles/macBanner/MacBannerContainer";
 import MacCard from "./macSubFiles/macCard/MacCard";
 import MacHeader from "./macSubFiles/macHeader/MacHeader";
 import MacCardContainer from "./macSubFiles/macPost/MacCardContainer";
-import Title from "../homePage/header/Title"
+import Title from "../homePage/header/Title";
 import Footer from "../homePage/footer/Footer";
 export default function Mac() {
   return (
     <div>
-      <Title title="AM |Mac Prodcuts"/>
+      <Title title="AM |Mac Prodcuts" />
       <MacHeader />
       <GetDiallyOff />
-      <MacCard cardIntroData={cardIntroData1} />
-      <MacCard cardIntroData={cardIntroData} />
+      {cardIntroData1.map((data) => (
+        <MacCard
+          key={data.id}
+          id={data.id}
+          title={data.title}
+          image={data.image}
+          price={data.price}
+          colorDark={data.colorDark}
+          newText={data.newText}
+          slogan={data.slogan}
+          bgBlue={data.bgBlue}
+        />
+      ))}
+      {cardIntroData.map((data) => (
+        <MacCard
+          key={data.id}
+          id={data.id}
+          title={data.title}
+          image={data.image}
+          price={data.price}
+          colorDark={data.colorDark}
+          newText={data.newText}
+          slogan={data.slogan}
+          bgBlue={data.bgBlue}
+        />
+      ))}
+
       <KindOfMac />
       <MacBannerContainer />
       <MacCardContainer />
@@ -50,13 +75,13 @@ export default function Mac() {
       <MacBanner2 bannerThree={macBanner2} />
       <MacBanner2 bannerThree={macBanner3} />
       {macEndingParaData.map((para) => (
-        <div className="container" key={para.id} >
+        <div className="container" key={para.id}>
           <div className="para">
-          <p>{para.desc}</p>
-        </div>
+            <p>{para.desc}</p>
+          </div>
         </div>
       ))}
-      <Footer pageName="Mac"/>
+      <Footer pageName="Mac" />
     </div>
   );
 }

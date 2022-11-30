@@ -1,3 +1,5 @@
+import moment from "moment";
+
 export const iPhoneSubHeader = [
   {
     id: 1,
@@ -106,7 +108,8 @@ export const cardIntro2Data = [
     bg: "darkBg",
     buy: "buy",
     textGradeint: "",
-    price: "FFrom $299.99 with eligible trade-inᶿ or $8.33/mo for 36 months",
+    priceText: "FFrom $299.99 with eligible trade-inᶿ or $8.33/mo for 36 months",
+    price: "1289.80",
     LinkTo: "iphone-14-light",
   },
 ];
@@ -119,7 +122,7 @@ export const cardIntro3Data = [
     price: "Explore all AirPods models and find the best ones for you.",
     textGradeint: "",
     bg: "airpods",
-    image:"/assets/"
+    image: "/assets/",
   },
 ];
 
@@ -145,7 +148,7 @@ export const iphoneDetails = [
     color3: "/assets/store/color9.jpg",
     title: "iPhone 14 Pro",
     slogan: "The ultimate iPhone.",
-    price: "From $999",
+    price: "999",
     displayInch: "6.7″ or 6.1″",
     displayModel:
       "Super Retina XDR display2,ProMotion technology, Always-On display",
@@ -169,7 +172,7 @@ export const iphoneDetails = [
     linkTo: "iphone-14-pro",
   },
   {
-    id: "iphone14-light-800400",
+    id: "iphone14-800400",
     sosHightClass: "sosHightClass",
     cameraHightClass: "cameraHightClass",
     inHightClass: "inHightClass",
@@ -180,7 +183,7 @@ export const iphoneDetails = [
     color3: "/assets/store/color8.jpg",
     title: "iPhone 14 Light",
     slogan: "A total powerhouse.",
-    price: "From $799**",
+    price: "799",
     displayInch: "6.7″ or 6.1″",
     displayModel: "Super Retina XDR display",
     sosLogo: "/assets/IPhone/sos.png",
@@ -200,9 +203,12 @@ export const iphoneDetails = [
     bgBlue: "bgBlue",
     iphoneClassBg: "iphoneClassBg",
     linkTo: "iphone-14-light",
+    name: "iphone 14 light",
+    mainPageLinks: "/iphone",
+    mainPageName: "iphone",
   },
   {
-    id: "iphone-13-pro",
+    id: "iphone13-256-0004",
     cameraHightClass: "cameraHightClass",
     inHightClass: "inHightClass",
     sosHightClass: "sosHightClass",
@@ -213,7 +219,7 @@ export const iphoneDetails = [
     color3: "/assets/store/color5.jpg",
     title: "iPhone 13",
     slogan: "As amazing as ever.",
-    price: "From $599**",
+    price: "599",
     displayInch: "6.1″ or 5.4″",
     displayModel: "Super Retina XDR display",
     sosLogo: "/assets/IPhone/sos.png",
@@ -232,6 +238,9 @@ export const iphoneDetails = [
     bgBlue: "bgBlue",
     iphoneClassBg: "iphoneClassBg",
     linkTo: "iphone-13",
+    name: "iphone 13 light",
+    mainPageLinks: "/iphone",
+    mainPageName: "iphone",
   },
   {
     id: "iphone-se-0004",
@@ -245,7 +254,7 @@ export const iphoneDetails = [
     color3: "/assets/store/color1.jpg",
     title: "iPhone SE",
     slogan: "Serious power. Serious value.",
-    price: "From $429**",
+    price: "429",
     displayInch: "4.7″",
     displayModel: "Super Retina XDR display",
     sosLogo: "/assets/IPhone/sos.png",
@@ -263,6 +272,64 @@ export const iphoneDetails = [
     bgBlue: "bgBlue",
     iphoneClassBg: "iphoneClassBg",
     linkTo: "iphone-se-2020",
+    name: "iphone se 2020",
+    mainPageLinks: "/iphone",
+    mainPageName: "iphone",
+    boxImage: [
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/IPhone/se/1.png",
+        title: "iphone",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/airpodMax/a3.jpg",
+        title: "cable charger",
+      },
+    ],
+    images: [
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/IPhone/se/1.jpg",
+        name: "midnight",
+      },
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/IPhone/se/2.jpg",
+        name: "starlight",
+      },
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/IPhone/se/4.jpg",
+        name: "red",
+      },
+    ],
+    story: [
+      {
+        id: "2323214124",
+        image: "/assets/IPhone/se/s1.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 28 2022 10:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/IPhone/se/s2.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 20 2022 19:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/IPhone/se/s3.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 23 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/IPhone/se/s4.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+    ],
   },
 ];
 
@@ -328,15 +395,79 @@ export const iphoneAccessoriesData = [
     accessories1: "accessories1",
     buyNow: "buy",
     price: "50.99",
+    name: "magsafe",
+    mainPageName: "accessories",
+    mainPageLinks: "/accessories",
+    boxImage: [
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/IPhone/magsafe/1.png",
+        title: "iphone",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/airpodMax/a3.jpg",
+        title: "cable charger",
+      },
+    ],
+    images: [
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/IPhone/magsafe/1.jpg",
+      },
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/IPhone/magsafe/2.jpg",
+      },
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/IPhone/magsafe/3.jpg",
+      },
+    ],
+    story: [
+      {
+        id: "2323214124",
+        image: "/assets/IPhone/magsafe/s1.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 28 2022 10:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/IPhone/magsafe/s2.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 20 2022 19:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/IPhone/magsafe/s3.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 23 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/IPhone/magsafe/s4.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/IPhone/magsafe/s5.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+    ],
   },
   {
-    id: "airtag-0004",
+    id: "magsaf-0004",
     title: "AirTag",
     text: "Attach one to your keys. Put another in your backpack. If they’re misplaced, just use the Find My app.",
     image: "/assets/IPhone/accessories2.jpg",
     linkTo: "Learn more",
     buyNow: "buy",
     price: "80.70",
+    name: "airtag",
+    mainPageName: "accessories",
+    mainPageLinks: "/accessories",
   },
 ];
 

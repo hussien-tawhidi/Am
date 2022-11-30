@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function SamsungWatchCard({ cardData }) {
   return (
@@ -22,7 +23,7 @@ export default function SamsungWatchCard({ cardData }) {
               <p className="miniTitle">{data.miniTitle}</p>
               <h3 className="lgTitle">{data.lgTitle}</h3>
               <p className="cardDesc">{data.cardDesc}</p>
-              <button type="button">{data.btnTitle}</button>
+              <Link to={`/products/${data.id}`} className="button">{data.btnTitle}</Link>
             </div>
           </div>
         </div>

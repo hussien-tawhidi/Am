@@ -4,8 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import StoreTitle from "../storUtilitis/StoreTitle";
-import { accessoriesSlide } from "../../../../data/Huawei";
-export default function LatesOnStore() {
+export default function LatesOnStore({accessoriesSlide}) {
   return (
     <div className="latesOnStore">
       <StoreTitle

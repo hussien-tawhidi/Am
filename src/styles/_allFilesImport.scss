@@ -9,8 +9,9 @@
 @import "../components/homePage/hero/hero";
 @import "../components/homePage/hero/products/heroCard";
 @import "../components/homePage/footer/footer";
-@import "../components/homePage//hero/applEvent/appleEvent";
-@import "../components/homePage//hero/s22Card/s22Card";
+@import "../components/homePage/hero/applEvent/appleEvent";
+@import "../components/homePage/hero/s22Card/s22Card";
+@import "../components/homePage/hero/story/story";
 // *********************************************************************************
 @import "../components/ourStore/storeSubfiles/ourStoreTitle/_storeHeader";
 @import "../components/ourStore/storeSubfiles/storeMenu/_storeMenu";
@@ -67,3 +68,7 @@
 @import "../components/support/supportParts/support";
 // *********************************************************************************
 @import "../components/card/shoppingCard.scss";
+// *********************************************************************************
+@import "../components/details/productsDetails";
+@import "../components/details/detialsDesc";
+// *********************************************************************************

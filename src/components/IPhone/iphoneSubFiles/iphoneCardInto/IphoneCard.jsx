@@ -14,7 +14,9 @@ export default function IphoneCard({
   priceText,
   buyNow,
   image,
-  price
+  price,
+  
+
 }) {
   const dispatch = useDispatch();
   const onAddToCard = () => {
@@ -32,14 +34,15 @@ export default function IphoneCard({
           <p className="price">{priceText}</p>
           <div className="buttons">
             <div className={` ${buyNow}`} onClick={onAddToCard}>
-             {buyNow}
+              buy
             </div>
-            <Link to={`/products/${id}`} className="more">
-              <span>learn more</span>{" "}
+            <Link to="/accessories" className="more">
+              <span>more accessories for</span>{" "}
               <div className="icon">
                 <i className="fa-solid fa-angle-right"></i>
               </div>
             </Link>
+           
           </div>
         </div>
       </div>

@@ -64,7 +64,7 @@ export default function MacKindCard({
 
           <p className="chipName">{chipMode}</p>
 
-          <p className="price">{price}</p>
+          <p className="price">${price}</p>
 
           <div className="buttons">
             <div className={`buyNow ${bgBlue}`} onClick={onAddToCard}>

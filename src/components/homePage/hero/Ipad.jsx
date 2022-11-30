@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { setAddItemToCard } from "../../../store/cardSlice";
 
-export default function Ipad({ id, linkTo, title, image,price}) {
+export default function Ipad({ id, title, image,price}) {
   const dispatch = useDispatch();
   const onAddToCard = () => {
     const item = { id, title, image, price };

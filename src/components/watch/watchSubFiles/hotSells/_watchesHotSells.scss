@@ -64,6 +64,7 @@
         border-radius: 5px;
         transition: all .2s ease-in-out;
         border: 1px solid $blue-color;
+        cursor: pointer;
         &:hover{
             background: transparent;
             color: $blue-color;

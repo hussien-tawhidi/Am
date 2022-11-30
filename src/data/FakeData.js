@@ -1,3 +1,4 @@
+import moment from "moment";
 
 export const headerData = [
   { id: 1, title: "store", linkTo: "/store" },
@@ -33,7 +34,7 @@ export const appleEeventCard = [
 
 export const heroAirpod = [
   {
-    id: "apple-airpod-pro-0004",
+    id: "airpod-3nd-0012",
     appleIcon: <i class="fa-brands fa-apple"></i>,
     title: "The best Aipods",
     desc: "feel the best music quality like your in the cincert",
@@ -54,8 +55,7 @@ export const s22title = [
     camerIcon: <i className="fa-solid fa-angle-down"></i>,
     lgTitle: "Make nights epic with Nightography",
     mdTitle: "Get the big picture",
-    cameraImage:
-      "/assets/homeImages/galaxy-s22-ultra_highlights_pro-grade.webp",
+    cameraImage: "/assets/homeImages/galaxy-s22-ultra_highlights_pro-grade.png",
   },
 ];
 
@@ -89,12 +89,91 @@ export const s22fronCamera = [
 
 export const heroIntroCardData = [
   {
-    id: "2323214124",
+    id: "headphone-0004-0004",
     price: 203.99,
     linkTo: "headphone-detials",
     textImage: "/assets/homeImages/abg.png",
     image: "/assets/homeImages/a.png",
     title: "new headPhone",
+    mainPageLinks: "/airpods",
+    mainPageName: "airpods",
+    name: "airpod pro",
+    boxImage: [
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/homeImages/airpodMax/a1.jpg",
+        title: "airpod max",
+      },
+      {
+        id: "airpod-pro-g2",
+        image: "/assets/homeImages/airpodMax/a2.jpg",
+        title: "Smart Case",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/airpodMax/a3.jpg",
+        title: "Lightning to USB-C Cable",
+      },
+    ],
+    images: [
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/airpodMax/blue.png",
+        name: "blue",
+      },
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/homeImages/airpodMax/black.png",
+        name: "black",
+      },
+      {
+        id: "airpod-pro-g2",
+        image: "/assets/homeImages/airpodMax/red.png",
+        name: "red",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/airpodMax/green.png",
+        name: "green",
+      },
+      {
+        id: "airpod-pro-g5",
+        image: "/assets/homeImages/airpodMax/silver.png",
+        name: "silver",
+      },
+    ],
+    story: [
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/airpodMax/1.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 28 2022 10:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/airpodMax/2.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 20 2022 19:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/airpodMax/3.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 23 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/airpodMax/4.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/airpodMax/5.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 27 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+    ],
   },
 ];
 
@@ -105,6 +184,71 @@ export const heroIpadCardData = [
     linkTo: "ipad-detials",
     image: "/assets/homeImages/ipad.jpg",
     title: "iPad Pro",
+    mainPageLinks: "/mac",
+    mainPageName: "ipad",
+    name: "ipad pro",
+    boxImage: [
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/homeImages/ipad/a1.png",
+        title: "airpod cover",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/airpodMax/a3.jpg",
+        title: "cable charger",
+      },
+    ],
+    images: [
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/ipad/2.png",
+      },
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/ipad/3.png",
+      },
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/ipad/4.png",
+      },
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/ipad/1.png",
+      },
+    ],
+    story: [
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/ipad/s1.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 28 2022 10:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/ipad/s2.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 20 2022 19:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/ipad/s3.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 23 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/ipad/s4.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/ipad/s5.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+    ],
   },
 ];
 
@@ -118,6 +262,75 @@ export const heroCardData = [
     logo: "/assets/appleLogo.png",
     linkTo: "iphone14-details",
     price: 1399.76,
+    mainPageLinks: "/iphone",
+    mainPageName: "iphone",
+    name: "iPhone 14",
+    boxImage: [
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/homeImages/iphone14/1.jpg",
+        title: "airpod max",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/airpodMax/a3.jpg",
+        title: "Lightning to USB-C Cable",
+      },
+    ],
+    images: [
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/iphone14/1.png",
+        name: "deep purple",
+      },
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/homeImages/iphone14/2.png",
+        name: "gold",
+      },
+      {
+        id: "airpod-pro-g2",
+        image: "/assets/homeImages/iphone14/3.png",
+        name: "black",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/iphone14/4.png",
+        name: "silver",
+      },
+    ],
+    story: [
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/iphone14/s1.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 28 2022 10:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/iphone14/s2.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 20 2022 19:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/iphone14/s3.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 23 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/iphone14/s4.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/iphone14/s5.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 27 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+    ],
   },
   {
     id: "samsung-s22-256",
@@ -127,6 +340,70 @@ export const heroCardData = [
     image: "/assets/homeImages/s22.png",
     linkTo: "samsung-s22-details",
     price: 1255.06,
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
+    name: "galaxy s22",
+    boxImage: [
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/homeImages/s22/1.jpg",
+        title: "phone",
+      },
+
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/airpodMax/a3.jpg",
+        title: "Lightning to USB-C Cable",
+      },
+    ],
+    images: [
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/s22/1.jpg",
+        name: "sliver",
+      },
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/homeImages/s22/2.jpg",
+        name: "black",
+      },
+      {
+        id: "airpod-pro-g2",
+        image: "/assets/homeImages/s22/3.jpg",
+        name: "coffee",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/s22/4.jpg",
+        name: "white",
+      },
+    ],
+    story: [
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/s22/s1.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 28 2022 10:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/s22/s2.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 20 2022 19:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/s22/s3.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 23 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/s22/s4.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+    ],
   },
   {
     id: "z-flip-4-00004",
@@ -136,7 +413,69 @@ export const heroCardData = [
     image: "/assets/homeImages/zFlip4.png",
     linkTo: "galaxy-z-flip-4-details",
     price: 1230.88,
-
+    mainPageLinks: "/samsung",
+    mainPageName: "samsung",
+    name: "galaxy z flip 4",
+    boxImage: [
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/homeImages/flip/1.png",
+        title: "phone",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/airpodMax/a3.jpg",
+        title: "Lightning to USB-C Cable",
+      },
+    ],
+    images: [
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/flip/1.webp",
+        name: "blue",
+      },
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/homeImages/flip/2.webp",
+        name: "gold",
+      },
+      {
+        id: "airpod-pro-g2",
+        image: "/assets/homeImages/flip/3.webp",
+        name: "black",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/flip/4.webp",
+        name: "purple",
+      },
+    ],
+    story: [
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/flip/s1.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 28 2022 10:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/flip/s2.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 20 2022 19:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/flip/s3.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 23 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/flip/s4.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+    ],
   },
   {
     id: "apple-watch-ultra-0004",
@@ -146,7 +485,96 @@ export const heroCardData = [
     image: "/assets/homeImages/w.jpg",
     logo: "/assets/appleLogo.png",
     linkTo: "apple=watch-ultra-details",
-    price: 679.30,
+    price: 679.3,
+    mainPageLinks: "/watch",
+    mainPageName: "watches",
+    name: "apple watch s8",
+    boxImage: [
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/homeImages/watch/b1.jpg",
+        title: "watch",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/watch/b2.jpg",
+        title: "handle",
+      },
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/watch/b3.jpg",
+        title: "Apple Watch Magnetic Fast Charger to USB-C Cable (1m)",
+      },
+    ],
+    images: [
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/watch/1.jpg",
+        name: "color 1",
+      },
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/homeImages/watch/2.jpg",
+        name: "color 2",
+      },
+      {
+        id: "airpod-pro-g2",
+        image: "/assets/homeImages/watch/3.jpg",
+        name: "color 3",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/watch/4.jpg",
+        name: "color 4",
+      },
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/watch/5.jpg",
+        name: "color 5",
+      },
+      {
+        id: "airpod-pro-g6",
+        image: "/assets/homeImages/watch/6.jpg",
+        name: "color 6",
+      },
+      {
+        id: "airpod-pro-g7",
+        image: "/assets/homeImages/watch/7.jpg",
+        name: "color 7",
+      },
+    ],
+    story: [
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/watch/s1.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 28 2022 10:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/watch/s2.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 20 2022 19:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/watch/s3.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 23 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/watch/s4.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/watch/s5.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+    ],
   },
   {
     id: "airpod-3nd-0012",
@@ -156,7 +584,72 @@ export const heroCardData = [
     image: "/assets/homeImages/airpod.png",
     logo: "/assets/homeImages/appleLogo.png",
     linkTo: "airpod-details",
-    price: 245.80,
+    price: 245.8,
+    mainPageLinks: "/airpods",
+    mainPageName: "airpods",
+    name: "airpod",
+    boxImage: [
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/homeImages/airpod/a1.png",
+        title: "airpod cover",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/airpodMax/a3.jpg",
+        title: "cable charger",
+      },
+    ],
+    images: [
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/airpod/2.jpg",
+      },
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/airpod/3.jpg",
+      },
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/airpod/4.jpg",
+      },
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/airpod/5.jpg",
+      },
+    ],
+    story: [
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/airpod/s1.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 28 2022 10:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/airpod/s2.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 20 2022 19:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/airpod/s3.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 23 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/airpod/s4.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/airpod/s5.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+    ],
   },
   {
     id: "iphone13-256-0004",
@@ -167,6 +660,74 @@ export const heroCardData = [
     logo: "/assets/homeImages/appleLogo.png",
     linkTo: "iphone13-details",
     price: 830.99,
+    mainPageLinks: "/iphone",
+    mainPageName: "iphone",
+    name: "iphone 13",
+    boxImage: [
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/homeImages/iphone13/1.png",
+        title: "airpod cover",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/airpodMax/a3.jpg",
+        title: "cable charger",
+      },
+    ],
+    images: [
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/iphone13/1.png",
+        name: "blue",
+      },
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/iphone13/2.png",
+        name: "pink",
+      },
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/iphone13/3.png",
+        name: "black",
+      },
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/iphone13/4.png",
+        name: "light",
+      },
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/homeImages/iphone13/5.png",
+name: "red",
+      },
+    ],
+    story: [
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/iphone13/s1.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 28 2022 10:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/iphone13/s2.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 20 2022 19:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/iphone13/s3.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 23 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/homeImages/iphone13/s4.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+    ],
   },
   {
     id: "07",
@@ -294,4 +855,36 @@ export const aboutUs = [
   { id: 5, title: "Ethics & Compliance", linkTo: "" },
   { id: 6, title: "Events", linkTo: "" },
   { id: 7, title: "Contact Apple", linkTo: "" },
+];
+
+export const homeStoryData = [
+  {
+    id: "iphone14-800400",
+    title: "about iphone 8",
+    image: "/assets/homeImages/iPhone-X.png",
+    text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+    time: moment("Mo Nov 27 2022 18:33:03 UTC+3:30").fromNow(),
+  },
+  {
+    id: "iphone13-256-0004",
+    title: "about iphone 13",
+    image: "/assets/homeImages/iphone13.jpg",
+    text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+    time: moment("Mo Nov 27 2022 12:20:03 UTC+3:30").fromNow(),
+  },
+  {
+    id: "airpod-3nd-0012",
+    title: "about airpod pro",
+    image:
+      "/assets/homeImages/portrait-joiyful-carefree-happy-charming-european-woman-with-curly-hairstyle-laughing-out-lou.jpg",
+    text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+    time: moment("Mo Nov 27 2022 12:20:03 UTC+3:30").fromNow(),
+  },
+  {
+    id: "samsung-s22-256",
+    title: "about galaxy s22 ultra",
+    image: "/assets/homeImages/s22-ultra.jpg",
+    text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+    time: moment("Mo Nov 27 2022 12:20:03 UTC+3:30").fromNow(),
+  },
 ];

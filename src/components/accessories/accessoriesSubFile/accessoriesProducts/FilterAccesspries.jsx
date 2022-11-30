@@ -22,7 +22,7 @@ export default function FilterAccesspries({ fiterCategory, title }) {
               <div className="texts">
                 <span>{item.newText}</span>
                 <h6>{item.title}</h6>
-                <p>{item.price}</p>
+                <p>${item.price}</p>
               </div>
             </Link>
           </div>

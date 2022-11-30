@@ -1,30 +1,48 @@
-import { Link } from 'react-router-dom'
-export default function Card({cardIntroData}) {
+import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
+import { setAddItemToCard } from "../../../../store/cardSlice";
+export default function Card({
+  id,
+  title,
+  image,
+  price,
+  colorDark,
+  newText,
+  model,
+  slogan,
+  bgBlue,
+}) {
+  const dispatch = useDispatch();
+  const onAddToCard = () => {
+    const item = {
+      id,
+      title,
+      image,
+      price,
+    };
+    dispatch(setAddItemToCard(item));
+  };
   return (
-    <div >
-      {cardIntroData.map((c ,index) => (
-        <Link to={`/products/${c.LinkTo}`} className={`macCard ${c.colorDark}`} key={index}>
-          <img src={c.image} alt=""/>
-          <div className="texts">
-            <p className="new">{c.newText}</p>
-            <span className="model">{c.model}</span>
-            <h6 className='model'>{c.title}</h6>
-            <h6 className='slogan'>{c.slogan}</h6>
-            <p className="price">{c.price}</p>
-            <div className="buttons">
-              <a href="/" className={`buyNow ${c.bgBlue}`}>
-                buy
-              </a>
-              <a href="/" className="more">
-                <span>learn more</span>{" "}
-                <div className="icon">
-                  
-                </div>
-              </a>
+    <div>
+      <div className={`macCard ${colorDark}`}>
+        <img src={image} alt="" />
+        <div className="texts">
+          <p className="new">{newText}</p>
+          <span className="model">{model}</span>
+          <h6 className="model">{title}</h6>
+          <h6 className="slogan">{slogan}</h6>
+          <p className="price">${price}</p>
+          <div className="buttons">
+            <div className={`buyNow ${bgBlue}`} onClick={onAddToCard}>
+              buy
             </div>
+
+            <Link to={`/products/${id}`} className="more">
+              <span>learn more</span> <div className="icon"></div>
+            </Link>
           </div>
-        </Link>
-      ))}
+        </div>
+      </div>
     </div>
-  )
+  );
 }

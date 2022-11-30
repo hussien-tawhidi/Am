@@ -61,7 +61,7 @@ export const watchHeaderData = [
 
 export const introCard = [
   {
-    id: 1,
+    id: "apple-watch-ultra-0004",
     miniLogo: "/assets/watches/miniLogo.png",
     title: "Adventure awaits.",
     price: "$179.00",
@@ -73,7 +73,7 @@ export const introCard = [
 
 export const samsungCardData = [
   {
-    id: 1,
+    id: "galaxy-watch-0004",
     image: "/assets/watches/galaxy-watch5-os-model.jpg",
     imageTop: "/assets/watches/galaxy-watch5-os-smart-swich-on-silver.png",
     imageBottom:
@@ -85,7 +85,7 @@ export const samsungCardData = [
     lgTitle: "Don't waste those workouts",
     cardDesc:
       "Keep fitness data from previous Galaxy Watches with Smart Switch.",
-    btnTitle: "MAKE THE SWITCH",
+    btnTitle: "MORE ABOUT THE WATCH",
   },
 ];
 
@@ -104,7 +104,7 @@ export const appleWatchS8 = [
 
 export const applWatchVideo = [
   {
-    id: 1,
+    id: "galaxy-watch-0004",
     subTitle: "Accessories for all, tailored for you",
     slogan:
       "Discover stylish and customizable accessories that elevate your device and amplify your look.",
@@ -119,52 +119,61 @@ export const applWatchVideo = [
 
 export const watchesHotSells = [
   {
-    id: 1,
+    id: "apple-watch-ultra-0004",
     newText: "New",
     image: "/assets/watches/hotSells/ultra.png",
-    name: "Apple Watch Ultra",
-    price: "$799",
+    title: "Apple Watch Ultra",
+    price: "799",
     buyNow: "buyNow",
   },
   {
-    id: 2,
+    id: "galaxy-watch-0004",
     newText: "New",
     image: "/assets/watches/hotSells/watch5Pro.png",
-    name: "Galaxy Watch5 Pro",
-    price: "$549",
+    title: "Galaxy Watch5 Pro",
+    price: "549",
     buyNow: "buyNow",
   },
   {
-    id: 3,
+    id: "galaxy-watch-0004",
     newText: "New",
     image: "/assets/watches/hotSells/watch5.png",
-    name: "Galaxy Watch5 Pro",
-    price: "$799",
+    title: "Galaxy Watch5 Pro",
+    price: "799",
     buyNow: "buyNow",
   },
   {
-    id: 4,
+    id: "apple-watch-0004",
     newText: "",
     image: "/assets/watches/hotSells/se.png",
-    name: "Apple Watch SE",
-    price: "$249",
+    title: "Apple Watch SE",
+    price: "249",
     buyNow: "buyNow",
+    name:"huawei watch",
+    mainPageLinks:"/watch",
+    mainPageName:"watch",
   },
   {
-    id: 5,
+    id: "apple-watch-0003",
     newText: "New",
     image: "/assets/watches/hotSells/s8.png",
-    name: "Apple Watch Series 8",
-    price: "$399",
+    title: "Apple Watch Series 8",
+    price: "399",
     buyNow: "buyNow",
+    name:"huawei watch",
+    mainPageLinks:"/watch",
+    mainPageName:"watch",
   },
   {
-    id: 6,
+    id: "huawei-watch-0004",
     newText: "New",
     image: "/assets/watches/hotSells/gt3.png",
-    name: "HUAWEI WATCH GT 3 Pro",
-    price: "$344",
+    title: "HUAWEI WATCH GT 3 Pro",
+    price: "344",
     buyNow: "buyNow",
+    name:"huawei watch",
+    mainPageLinks:"/watch",
+    mainPageName:"watch",
   },
 ];
 

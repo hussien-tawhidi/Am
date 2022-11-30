@@ -4,12 +4,11 @@ import MacKindCard from "../MacKindCard";
 export default function Descktop({ noteBookeDetailsData }) {
   return (
     <div className="row">
-        {noteBookeDetailsData
-          .filter((item) => item.cataegory === "descktop")
-          .map((filterItem) => (
-            <div className="col-md-3 col-6" key={filterItem.id}>
+      {noteBookeDetailsData
+        .filter((item) => item.cataegory === "descktop")
+        .map((filterItem) => (
+          <div className="col-md-3 col-6" key={filterItem.id}>
             <MacKindCard
-              
               image={filterItem.image}
               color1={filterItem.color1}
               color2={filterItem.color2}
@@ -43,9 +42,11 @@ export default function Descktop({ noteBookeDetailsData }) {
               fingerPrint={filterItem.fingerPrint}
               fingerPrintImage={filterItem.fingerPrintImage}
               linkTo={filterItem.linkTo}
+              id={filterItem.id}
+              title={filterItem.title}
             />
-      </div>
-          ))}
+          </div>
+        ))}
     </div>
   );
 }

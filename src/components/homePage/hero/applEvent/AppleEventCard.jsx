@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { heroAirpod } from "../../../../data/FakeData";
+import { heroAirpod, heroIpadCardData } from "../../../../data/FakeData";
+import Ipad from "../Ipad";
 import AirpodHero from "./AirpodHero";
 export default function AppleEventCard({ cardData }) {
   return (
@@ -19,7 +20,15 @@ export default function AppleEventCard({ cardData }) {
           <img src={data.image} alt="" className="heroImages" />
         </div>
       ))}
-
+      {heroIpadCardData.map((data) => (
+        <Ipad
+          id={data.id}
+          key={data.id}
+          image={data.image}
+          title={data.title}
+          price={data.price}
+        />
+      ))}
       {heroAirpod.map((data) => (
         <AirpodHero
           id={data.id}

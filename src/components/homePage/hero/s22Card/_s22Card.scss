@@ -1,17 +1,15 @@
 .bgDark {
-  background-color: #000;
   color: $light-color;
+  background-color: #000;
 }
-
-// s22Title
 .s22Title {
+  background-color: #000;
   width: 100%;
   height: 100%;
   padding-top: 5rem;
   overflow: hidden;
-
+color: $light-color;
   .texts {
-    color: $dark-color;
     padding-left: 5rem;
     .miniTitle {
       font-size: 20px;

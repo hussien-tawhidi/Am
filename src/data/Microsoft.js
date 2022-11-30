@@ -1,3 +1,5 @@
+import moment from "moment";
+
 export const microsoftSubHeader = [
   {
     id: 1,
@@ -45,12 +47,81 @@ export const SurfaceNine1 = [
     bestFor: "Best for",
     bestForDetails: "Professional software and local gaming",
     price: "1388.70",
+    name: "Surface Pro 9",
+    mainPageLinks: "/suraface",
+    mainPageName: "suraface",
+    boxImage: [
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/microsoft/pro9/1.png",
+        title: "phone",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/homeImages/airpodMax/a3.jpg",
+        title: "Lightning to USB-C Cable",
+      },
+    ],
+    images: [
+      {
+        id: "airpod-pro-g4",
+        image: "/assets/microsoft/pro9/1.webp",
+        name: "Platinum",
+      },
+      {
+        id: "airpod-pro-g1",
+        image: "/assets/microsoft/pro9/2.webp",
+        name: "Sapphire",
+      },
+      {
+        id: "airpod-pro-g2",
+        image: "/assets/microsoft/pro9/3.webp",
+        name: "Forest",
+      },
+      {
+        id: "airpod-pro-g3",
+        image: "/assets/microsoft/pro9/4.webp",
+        name: "Graphite",
+      },
+    ],
+    story: [
+      {
+        id: "2323214124",
+        image: "/assets/microsoft/pro9/s1.webp",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 28 2022 10:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/microsoft/pro9/s2.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 20 2022 19:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/microsoft/pro9/s3.jpeg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 23 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/microsoft/pro9/s4.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+      {
+        id: "2323214124",
+        image: "/assets/microsoft/pro9/s5.jpg",
+        text: "It's being rumored that the upcoming iPhone 8 will feature a stainless steel band around the smartphone. This is something which Apple brought to the table with the iPhone 4 and iPhone 4s. It looks sleek and would definitely fit well with fans who have been loyal to Apple since the early days.",
+        time: moment("Mo Nov 10 2022 18:33:03 UTC+3:30").fromNow(),
+      },
+    ],
   },
 ];
 
 export const SurfaceNine2 = [
   {
-    id: "surface-nine-light-0004",
+    id: "surface-nine-pro-0004000",
     image: "/assets/microsoft/9.webp",
     title: "Surface Pro 9 with 5G",
     desc: "For on-the-go flexibility, unlock 5G speed, and long battery life with the Microsoft SQ® 3, the latest-generation Microsoft processor built in partnership with Qualcomm.6 ",
@@ -64,6 +135,9 @@ export const SurfaceNine2 = [
     bestForDetails:
       "Go-anywhere productivity, cloud gaming, and AI-enabled enhanced camera effects",
     price: "1099.99",
+    name: "Surface light 9",
+    mainPageLinks: "/suraface",
+    mainPageName: "suraface",
   },
 ];
 
@@ -75,6 +149,9 @@ export const kindOfSurfaceSlide = [
     text: "The most powerful Surface for heavy workloads. The best pen experience. Optional NVIDIA",
     learnMore: "Shop Surface Laptop Studio",
     price: "1399.99",
+    name: "Surface Laptop",
+    mainPageLinks: "/suraface",
+    mainPageName: "suraface",
   },
   {
     id: "surface-laptop-go-2",
@@ -83,6 +160,9 @@ export const kindOfSurfaceSlide = [
     text: "The most portable Surface Laptop, with 12.4” touchscreen and great typing experience, now with improved HD camera and a performance boost.",
     learnMore: "Shop Surface Laptop Go 2",
     price: "855.99",
+    name: "Surface Laptop",
+    mainPageLinks: "/suraface",
+    mainPageName: "suraface",
   },
   {
     id: "surface-pro-9",
@@ -91,6 +171,9 @@ export const kindOfSurfaceSlide = [
     text: "Work, stream, and play  with the flexibility of a tablet with the performance of a laptop – all in one.",
     learnMore: "Shop Surface Pro 9",
     price: "1899.88",
+    name: "Surface Laptop",
+    mainPageLinks: "/suraface",
+    mainPageName: "suraface",
   },
   {
     id: "surface-pro-7+",
@@ -99,6 +182,9 @@ export const kindOfSurfaceSlide = [
     text: "Classic Pro features, more speed, and premium laptop performance for your favorite apps, games, and accessories.",
     learnMore: "Shop Surface Pro 7+",
     price: "999.99",
+    name: "Surface Laptop",
+    mainPageLinks: "/suraface",
+    mainPageName: "suraface",
   },
   {
     id: "surface-studio-2+",
@@ -107,6 +193,9 @@ export const kindOfSurfaceSlide = [
     text: "Elevate your creativity with the most versatile, 28” PixelSense™ touchscreen all-in-one.",
     learnMore: "Shop Surface Studio 2+",
     price: "250.70",
+    name: "Surface Laptop",
+    mainPageLinks: "/suraface",
+    mainPageName: "suraface",
   },
 ];
 
@@ -132,6 +221,9 @@ export const audioAccessories = [
     text: "Reduce cord clutter, simplify your desktop, and upgrade your audio for meetings and...",
     price: "$249.99",
     linkTo: "learn more about...",
+    name: "Audio Dock",
+    mainPageLinks: "/suraface",
+    mainPageName: "suraface",
   },
   {
     id: "microsoft-presenter-0004",
@@ -140,6 +232,9 @@ export const audioAccessories = [
     text: "Confidently deliver engaging presentations and participate in meetings, in person or...",
     price: "$79.99",
     linkTo: "learn more about...",
+    name: "Presenter+",
+    mainPageLinks: "/suraface",
+    mainPageName: "suraface",
   },
   {
     id: "microsoft-headphone-2plus-0004",
@@ -148,6 +243,9 @@ export const audioAccessories = [
     text: "Certified for Microsoft Teams¹'² and featuring 13 levels of active noise cancellation....",
     price: "$299.99",
     linkTo: "learn more about...",
+    name: "Presenter+",
+    mainPageLinks: "/suraface",
+    mainPageName: "suraface",
   },
   {
     id: "microsoft-headphone-0004",
@@ -156,6 +254,9 @@ export const audioAccessories = [
     text: "Finetune your focus in virtual meetings with crystal-clear audio and adjustable noise...",
     price: "$249.99",
     linkTo: "learn more about...",
+    name: "Presenter+",
+    mainPageLinks: "/suraface",
+    mainPageName: "suraface",
   },
 ];
 
@@ -165,28 +266,40 @@ export const allPhonesAccessories = [
     image: "/assets/microsoft/RE4IgFT.jpg",
     title: "Poly CCX 400 Business Phone for Microsoft Teams",
     text: "Stay in touch with the intuitive design of this LCD touchscreen business media phone...",
-    price: "$309.00",
+    price: "309.00",
+    name: "Poly CCX 400",
+    mainPageLinks: "/suraface",
+    mainPageName: "suraface",
   },
   {
     id: "polycom-savi-8220",
     image: "/assets/microsoft/RE4I7cR.webp",
     title: "Polycom Savi 8220 UC Headset for Microsoft Teams ",
     text: "Select Polycom Savi 8220 UC Headset for Microsoft Teams  for more information.",
-    price: "$399.99",
+    price: "399.99",
+    name: "Polycom Savi 8220",
+    mainPageLinks: "/suraface",
+    mainPageName: "suraface",
   },
   {
     id: "otterbox-dou-sleev-0004",
     image: "/assets/microsoft/RE4ETfK.webp",
     title: "OtterBox Surface Duo Ocity Series Sleeve",
     text: "OtterBox Surface Duo Ocity Series Sleeve",
-    price: "$49.99",
+    price: "49.99",
+    name: "OtterBox Surface",
+    mainPageLinks: "/suraface",
+    mainPageName: "suraface",
   },
   {
     id: "jabra-elite-65t",
     image: "/assets/microsoft/RWuFUX.webp",
     title: "Jabra Elite 65t Wireless Earbuds",
     text: "Experience exceptional clarity in your music, calls, and podcasts with these wire-free...",
-    price: "$79.99",
+    price: "79.99",
+    name: "Jabra Elite 65t",
+    mainPageLinks: "/suraface",
+    mainPageName: "suraface",
   },
 ];
 
