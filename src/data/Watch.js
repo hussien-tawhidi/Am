@@ -127,7 +127,7 @@ export const watchesHotSells = [
     buyNow: "buyNow",
   },
   {
-    id: "galaxy-watch-0004",
+    id: "apple-watch-ultra-0004",
     newText: "New",
     image: "/assets/watches/hotSells/watch5Pro.png",
     title: "Galaxy Watch5 Pro",
@@ -135,7 +135,7 @@ export const watchesHotSells = [
     buyNow: "buyNow",
   },
   {
-    id: "galaxy-watch-0004",
+    id: "apple-watch-ultra-0004",
     newText: "New",
     image: "/assets/watches/hotSells/watch5.png",
     title: "Galaxy Watch5 Pro",
@@ -143,7 +143,7 @@ export const watchesHotSells = [
     buyNow: "buyNow",
   },
   {
-    id: "apple-watch-0004",
+    id: "apple-watch-ultra-0004",
     newText: "",
     image: "/assets/watches/hotSells/se.png",
     title: "Apple Watch SE",
@@ -154,7 +154,7 @@ export const watchesHotSells = [
     mainPageName:"watch",
   },
   {
-    id: "apple-watch-0003",
+    id: "apple-watch-ultra-0004",
     newText: "New",
     image: "/assets/watches/hotSells/s8.png",
     title: "Apple Watch Series 8",
@@ -165,7 +165,7 @@ export const watchesHotSells = [
     mainPageName:"watch",
   },
   {
-    id: "huawei-watch-0004",
+    id: "apple-watch-ultra-0004",
     newText: "New",
     image: "/assets/watches/hotSells/gt3.png",
     title: "HUAWEI WATCH GT 3 Pro",

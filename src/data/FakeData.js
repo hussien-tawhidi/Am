@@ -98,6 +98,24 @@ export const heroIntroCardData = [
     mainPageLinks: "/airpods",
     mainPageName: "airpods",
     name: "airpod pro",
+    // detial show on detail page
+    detialTitle: "airpod pro max",
+    newText: "new",
+    partOneImage: "/assets/homeImages/airpodMax/partOneImage.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "Crafted with acoustically engineered memory foam, the ear cushions gently create an immersive seal that is the foundation of incredible sound.",
+    desc1:
+      "The over-ear headphone has been completely reimagined. From cushion to canopy, AirPods Max are designed for an uncompromising fit that creates the optimal acoustic seal for many different head shapes — fully immersing you in every sound.",
+    videoBg: "/assets/homeImages/airpodMax/videoBg.mp4",
+    videoTitle1: "hight quality",
+    videoTitle2: "active nois concellation with transparency mode",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/homeImages/airpodMax/photo1.jpg",
+    photos2: "/assets/homeImages/airpodMax/photo2.jpg",
+    photos3: "/assets/homeImages/airpodMax/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -187,6 +205,24 @@ export const heroIpadCardData = [
     mainPageLinks: "/mac",
     mainPageName: "ipad",
     name: "ipad pro",
+    // *****************************************
+    detialTitle: "apple ipad pro",
+    newText: "new",
+    partOneImage: "/assets/homeImages/ipad/a1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "iPhone 14 Pro has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
+    desc1:
+      "iOS 16 lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
+    videoBg: "/assets/homeImages/ipad/videoBg.mp4",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/homeImages/ipad/photo1.webp",
+    photos2: "/assets/homeImages/ipad/photo2.jpg",
+    photos3: "/assets/homeImages/ipad/photo3.webp",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -253,6 +289,7 @@ export const heroIpadCardData = [
 ];
 
 export const heroCardData = [
+  // iphone 14
   {
     id: "iphone14-800400",
     title: "iphone 14",
@@ -265,11 +302,29 @@ export const heroCardData = [
     mainPageLinks: "/iphone",
     mainPageName: "iphone",
     name: "iPhone 14",
+    // *****************************************
+    detialTitle: "iphone 14 pro",
+    newText: "new",
+    partOneImage: "/assets/homeImages/iphone14/partOneImage.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "iPhone 14 Pro has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
+    desc1:
+      "iOS 16 lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
+    videoBg: "/assets/homeImages/iphone14/videoBg.mp4",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/homeImages/iphone14/photo1.jpg",
+    photos2: "/assets/homeImages/iphone14/photo2.jpeg",
+    photos3: "/assets/homeImages/iphone14/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
-        image: "/assets/homeImages/iphone14/1.jpg",
-        title: "airpod max",
+        image: "/assets/homeImages/iphone14/1.png",
+        title: "iphone 14",
       },
       {
         id: "airpod-pro-g3",
@@ -332,6 +387,7 @@ export const heroCardData = [
       },
     ],
   },
+  // samsung galaxy s22
   {
     id: "samsung-s22-256",
     title: "galaxy s22",
@@ -343,6 +399,24 @@ export const heroCardData = [
     mainPageLinks: "/samsung",
     mainPageName: "samsung",
     name: "galaxy s22",
+    // *********************************************
+    detialTitle: "samsung galaxy s22 25G",
+    newText: "new",
+    partOneImage: "/assets/homeImages/s22/photo.webp",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/homeImages/s22/logo.png",
+    partOneText:
+      "samsung galaxy s22 has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
+    desc1:
+      "iOS 16 lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
+    videoBg: "/assets/homeImages/s22/videoBg.mp4",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/homeImages/s22/photo1.jpg",
+    photos2: "/assets/homeImages/s22/photo2.jpg",
+    photos3: "/assets/homeImages/s22/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -405,6 +479,7 @@ export const heroCardData = [
       },
     ],
   },
+  // samsung galaxy z flip 4
   {
     id: "z-flip-4-00004",
     title: "Gallaxy z flip 4",
@@ -416,6 +491,24 @@ export const heroCardData = [
     mainPageLinks: "/samsung",
     mainPageName: "samsung",
     name: "galaxy z flip 4",
+    // *********************************************
+    imageBg: "/assets/homeImages/flip/imageBg.webp",
+    detialTitle: "samsung galaxy z flip 4",
+    newText: "new",
+    partOneImage: "/assets/homeImages/flip/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/homeImages/s22/logo.png",
+    partOneText:
+      "Galaxy devices give you more ways to connect and the freedom to make your experience exactly how you want it..",
+    desc1:
+      "Flexibility has never been so strong. An IPX8 rating makes Flip4 the only water-resistant foldable smartphone.2 Its scratch-defying front and back covers are made of the toughest glass on a foldable device: Corning® Gorilla® Glass Victus™+. Meanwhile, the hinge is caged in lightweight Armor Aluminum, the strongest in the mobile industry, and Ultra Thin Glass protects the Main Screen, fold after fold.",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/homeImages/flip/photo1.webp",
+    photos2: "/assets/homeImages/flip/photo2.jpg",
+    photos3: "/assets/homeImages/s22/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -477,6 +570,7 @@ export const heroCardData = [
       },
     ],
   },
+  // apple watch ultra
   {
     id: "apple-watch-ultra-0004",
     title: "Apple Watch ultra",
@@ -489,6 +583,24 @@ export const heroCardData = [
     mainPageLinks: "/watch",
     mainPageName: "watches",
     name: "apple watch s8",
+    // *********************************************
+    imageBg: "/assets/homeImages/watch/imageBg.jpg",
+    detialTitle: "apple watch ultra",
+    newText: "new",
+    partOneImage: "/assets/homeImages/watch/watch.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "Galaxy devices give you more ways to connect and the freedom to make your experience exactly how you want it..",
+    desc1:
+      "Flexibility has never been so strong. An IPX8 rating makes Flip4 the only water-resistant foldable smartphone.2 Its scratch-defying front and back covers are made of the toughest glass on a foldable device: Corning® Gorilla® Glass Victus™+. Meanwhile, the hinge is caged in lightweight Armor Aluminum, the strongest in the mobile industry, and Ultra Thin Glass protects the Main Screen, fold after fold.",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/homeImages/watch/photo1.jpg",
+    photos2: "/assets/homeImages/watch/photo2.webp",
+    photos3: "/assets/homeImages/watch/photo3.png",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -502,7 +614,7 @@ export const heroCardData = [
       },
       {
         id: "airpod-pro-g4",
-        image: "/assets/homeImages/watch/b3.jpg",
+        image: "/assets/homeImages/airpodMax/a3.jpg",
         title: "Apple Watch Magnetic Fast Charger to USB-C Cable (1m)",
       },
     ],
@@ -576,6 +688,7 @@ export const heroCardData = [
       },
     ],
   },
+  // apple airpod 3nd generation
   {
     id: "airpod-3nd-0012",
     title: "AirPods",
@@ -588,10 +701,28 @@ export const heroCardData = [
     mainPageLinks: "/airpods",
     mainPageName: "airpods",
     name: "airpod",
+    // *********************************************
+    videoBg: "/assets/homeImages/airpod/videoBg.mp4",
+    detialTitle: "apple airpod 3nd (generation)",
+    newText: "new",
+    partOneImage: "/assets/homeImages/airpod/a2.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "Galaxy devices give you more ways to connect and the freedom to make your experience exactly how you want it..",
+    desc1:
+      "Flexibility has never been so strong. An IPX8 rating makes Flip4 the only water-resistant foldable smartphone.2 Its scratch-defying front and back covers are made of the toughest glass on a foldable device: Corning® Gorilla® Glass Victus™+. Meanwhile, the hinge is caged in lightweight Armor Aluminum, the strongest in the mobile industry, and Ultra Thin Glass protects the Main Screen, fold after fold.",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/homeImages/airpod/photo1.jpg",
+    photos2: "/assets/homeImages/airpod/photo2.jpg",
+    photos3: "/assets/homeImages/airpod/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
-        image: "/assets/homeImages/airpod/a1.png",
+        image: "/assets/homeImages/airpod/a2.png",
         title: "airpod cover",
       },
       {
@@ -651,6 +782,7 @@ export const heroCardData = [
       },
     ],
   },
+  // iphone 13
   {
     id: "iphone13-256-0004",
     title: "iphone 13",
@@ -663,11 +795,29 @@ export const heroCardData = [
     mainPageLinks: "/iphone",
     mainPageName: "iphone",
     name: "iphone 13",
+    // *****************************************
+    detialTitle: "iphone 13",
+    newText: "new",
+    partOneImage: "/assets/homeImages/iphone14/partOneImage.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "iPhone 14 Pro has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
+    desc1:
+      "iOS 16 lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
+    videoBg: "/assets/homeImages/iphone13/videoBg.mp4",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/homeImages/iphone13/photo1.jpg",
+    photos2: "/assets/homeImages/iphone13/photo2.jpg",
+    photos3: "/assets/homeImages/iphone13/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
         image: "/assets/homeImages/iphone13/1.png",
-        title: "airpod cover",
+        title: "iphone",
       },
       {
         id: "airpod-pro-g3",
@@ -699,7 +849,7 @@ export const heroCardData = [
       {
         id: "airpod-pro-g4",
         image: "/assets/homeImages/iphone13/5.png",
-name: "red",
+        name: "red",
       },
     ],
     story: [

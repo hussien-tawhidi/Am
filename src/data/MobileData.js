@@ -108,7 +108,8 @@ export const cardIntro2Data = [
     bg: "darkBg",
     buy: "buy",
     textGradeint: "",
-    priceText: "FFrom $299.99 with eligible trade-inᶿ or $8.33/mo for 36 months",
+    priceText:
+      "FFrom $299.99 with eligible trade-inᶿ or $8.33/mo for 36 months",
     price: "1289.80",
     LinkTo: "iphone-14-light",
   },
@@ -137,6 +138,7 @@ export const cardIntro4Data = [
 ];
 
 export const iphoneDetails = [
+  // iphone 14
   {
     id: "iphone14-800400",
     newText: "new",
@@ -171,6 +173,7 @@ export const iphoneDetails = [
     sosHightClass: "sosHightClass",
     linkTo: "iphone-14-pro",
   },
+  // iphone 14 pro
   {
     id: "iphone14-800400",
     sosHightClass: "sosHightClass",
@@ -207,6 +210,7 @@ export const iphoneDetails = [
     mainPageLinks: "/iphone",
     mainPageName: "iphone",
   },
+  // iphone 13
   {
     id: "iphone13-256-0004",
     cameraHightClass: "cameraHightClass",
@@ -242,6 +246,7 @@ export const iphoneDetails = [
     mainPageLinks: "/iphone",
     mainPageName: "iphone",
   },
+  // iphone se
   {
     id: "iphone-se-0004",
     cameraHightClass: "cameraHightClass",
@@ -275,6 +280,23 @@ export const iphoneDetails = [
     name: "iphone se 2020",
     mainPageLinks: "/iphone",
     mainPageName: "iphone",
+    // detial show on detail page
+    detialTitle: "iphone se",
+    partOneImage: "/assets/IPhone/se/4.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "Crafted with acoustically engineered memory foam, the ear cushions gently create an immersive seal that is the foundation of incredible sound.",
+    desc1:
+      "The over-ear headphone has been completely reimagined. From cushion to canopy, AirPods Max are designed for an uncompromising fit that creates the optimal acoustic seal for many different head shapes — fully immersing you in every sound.",
+    imageBg: "/assets/IPhone/se/imageBg.jpg",
+    videoTitle1: "hight quality",
+    videoTitle2: "active nois concellation with transparency mode",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/IPhone/se/photo1.jpg",
+    photos2: "/assets/IPhone/se/photo2.jpg",
+    photos3: "/assets/IPhone/se/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -398,16 +420,34 @@ export const iphoneAccessoriesData = [
     name: "magsafe",
     mainPageName: "accessories",
     mainPageLinks: "/accessories",
+    // detial show on detail page
+    detialTitle: "magsafe charger",
+    newText: "new",
+    partOneImage: "/assets/IPhone/magsafe/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "Crafted with acoustically engineered memory foam, the ear cushions gently create an immersive seal that is the foundation of incredible sound.",
+    desc1:
+      "The Magsafe Charger has been completely reimagined. From cushion to canopy, AirPods Max are designed for an uncompromising fit that creates the optimal acoustic seal for many different head shapes — fully immersing you in every sound.",
+    videoBg: "/assets/homeImages/airpodMax/videoBg.mp4",
+    videoTitle1: "hight quality",
+    videoTitle2: "active nois concellation with transparency mode",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/IPhone/magsafe/s3.webp",
+    photos2: "/assets/IPhone/magsafe/s2.jpg",
+    photos3: "/assets/IPhone/magsafe/s1.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
         image: "/assets/IPhone/magsafe/1.png",
-        title: "iphone",
+        title: "magsafe charger",
       },
       {
         id: "airpod-pro-g3",
         image: "/assets/homeImages/airpodMax/a3.jpg",
-        title: "cable charger",
+        title: "Charger Cable",
       },
     ],
     images: [

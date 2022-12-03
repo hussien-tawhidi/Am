@@ -33,7 +33,6 @@ import {
 import {
   accessoriesSlide,
   huaweiCardOne,
-  huaweiCardPhone,
 } from "../../data/Huawei";
 import { airPodsHeader, airpodSlide } from "../../data/AirPods";
 import { accessoriesProducts } from "../../data/Accessories";
@@ -70,7 +69,6 @@ export default function ProductsDetails() {
     ...forBusiness,
     ...huaweiCardOne,
     ...accessoriesSlide,
-    ...huaweiCardPhone,
     ...airpodSlide,
     ...airPodsHeader,
     ...accessoriesProducts,
@@ -111,10 +109,29 @@ export default function ProductsDetails() {
         </div>
       </div>
       {/* ************************************************** */}
-      <div className="container">
-        <ImageGallery galleryData={post.images} />
-        <ProductsDecrpitions />
-        <p className="box-title">what's on the box</p>
+      <div className="">
+        <ImageGallery
+          galleryData={post.images}
+          detialTitle={post.detialTitle}
+          newText={post.newText}
+          price={post.price}
+          desc1={post.desc1}
+        />
+        <ProductsDecrpitions
+          partOneImage={post.partOneImage}
+          partOneTitle={post.partOneTitle}
+          partOneLogo={post.partOneLogo}
+          partOneText={post.partOneText}
+          videoBg={post.videoBg}
+          imageBg={post.imageBg}
+          videoTitle1={post.videoTitle1}
+          videoTitle2={post.videoTitle2}
+          videoTitle3={post.videoTitle3}
+          photos1={post.photos1}
+          photos2={post.photos2}
+          photos3={post.photos3}
+        />
+
         <div className="boxImageContent">
           <ProdcutsAccessories boxImage={post.boxImage} />
         </div>

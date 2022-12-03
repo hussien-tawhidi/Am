@@ -22,7 +22,7 @@ export default function HuaweiPhoneCard({
               </div>
               <h5>{title}</h5>
               <p>{text}</p>
-              <Link to={`/products/${id}`}>{learnMore}</Link>
+              <Link to={learnMore}>More Phones</Link>
             </div>
           </div>
         </div>

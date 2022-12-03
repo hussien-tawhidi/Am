@@ -79,6 +79,23 @@ export const cardIntroData1 = [
     name: "macbook air",
     mainPageLinks: "/mac",
     mainPageName: "mac",
+    // ***********************************
+    detialTitle: "macbook air",
+    partOneImage: "/assets/mac/mac/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "macbook air has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
+    desc1:
+      "lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
+    videoBg: "/assets/mac/mac/videoBg.mp4",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/mac/mac/photo1.jpg",
+    photos2: "/assets/mac/mac/photo2.jpg",
+    photos3: "/assets/mac/mac/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",

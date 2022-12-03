@@ -84,6 +84,23 @@ export const samsungCardIntroData = [
     mainPageLinks: "/samsung",
     mainPageName: "samsung",
     name: "galaxy z fold 4",
+    // detial show on detail page
+    detialTitle: "galaxy z fold 4",
+    partOneImage: "/assets/samsung/fold4/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/homeImages/s22/logo.png",
+    partOneText:
+      "Crafted with acoustically engineered memory foam, the ear cushions gently create an immersive seal that is the foundation of incredible sound.",
+    desc1:
+      "The Samsung Galaxy s22 has been completely reimagined. From cushion to canopy, AirPods Max are designed for an uncompromising fit that creates the optimal acoustic seal for many different head shapes — fully immersing you in every sound.",
+    imageBg: "/assets/samsung/fold4/imageBg.webp",
+    videoTitle1: "hight quality",
+    videoTitle2: "active nois concellation with transparency mode",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/samsung/fold4/photo1.jpg",
+    photos2: "/assets/samsung/fold4/photo2.jpg",
+    photos3: "/assets/samsung/fold4/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -267,6 +284,7 @@ export const flipImageBanner = [
 ];
 
 export const samsungMobile = [
+  // samsung galaxy tab s8
   {
     id: "samsung-galaxy-tab-s8",
     image: "/assets/samsung/samsung-galaxy-tab-s8.png",
@@ -280,6 +298,24 @@ export const samsungMobile = [
     name: "galaxy tab s8",
     mainPageLinks: "/samsung",
     mainPageName: "samsung",
+    // *********************************************
+    detialTitle: "samsung galaxy tab s8",
+    newText: "new",
+    partOneImage: "/assets/samsung/tab8/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/homeImages/s22/logo.png",
+    partOneText:
+      "samsung galaxy tab s8 has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
+    desc1:
+      "Anderiod lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
+    imageBg: "/assets/samsung/tab8/imageBg.webp",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/samsung/tab8/photo1.jpg",
+    photos2: "/assets/samsung/tab8/photo2.jpg",
+    photos3: "/assets/samsung/tab8/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -348,12 +384,13 @@ export const samsungMobile = [
     color3: "/assets/store/color5.jpg",
     linkTo: "galaxy-s8-128G",
   },
+  // samsung galaxy s21
   {
     id: "samsung-galaxy-s21-0004",
     image: "/assets/samsung/Short-Card.webp",
     new: "new",
     title: "Get up to $100 off Galaxy S20 FE 5G or S21 FE 5G",
-    price: "hot offer",
+    price: "599.99",
     color1: "/assets/store/color5.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color6.jpg",
@@ -361,11 +398,29 @@ export const samsungMobile = [
     name: "galaxy s21",
     mainPageLinks: "/samsung",
     mainPageName: "samsung",
+    // **********************************************
+    detialTitle: "samsung galaxy s21",
+    newText: "",
+    partOneImage: "/assets/samsung/s20/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/homeImages/s22/logo.png",
+    partOneText:
+      "samsung galaxy tab s8 has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
+    desc1:
+      "Anderiod lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
+    imageBg: "/assets/samsung/s21/imageBg.jpg",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/samsung/s21/photo1.jpg",
+    photos2: "/assets/samsung/s21/photo2.jpg",
+    photos3: "/assets/samsung/s21/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
         image: "/assets/samsung/s20/1.png",
-        title: "phone",
+        title: "mobile",
       },
       {
         id: "airpod-pro-g3",
@@ -429,7 +484,6 @@ export const samsungMobile = [
     title: "Get up to $800 off Galaxy S22 Series from AT&amp;T",
     price: "hot offer",
     linkTo: "galaxy-s22",
-    
   },
   {
     id: "samsung-galaxy-tab-s8",

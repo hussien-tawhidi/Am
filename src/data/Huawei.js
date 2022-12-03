@@ -10,6 +10,7 @@ export const huaweiHeaderMenu = [
 ];
 
 export const huaweiCardOne = [
+  // matepad pro 
   {
     id: "huawei-mad-pro-0004",
     title: "HUAWEI MatePad Pro",
@@ -23,6 +24,22 @@ export const huaweiCardOne = [
     name: "huawei mad pro",
     mainPageLinks: "/huawei",
     mainPageName: "huawei",
+    // ***********************************
+    detialTitle: "HUAWEI Mate pro",
+    partOneImage: "/assets/huawei/MatePadPro/2.png",
+    partOneTitle: "exclusive products",
+    partOneText:
+      "MatePad pro  has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
+    desc1:
+      " lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
+    imageBg: "/assets/huawei/MatePadPro/imageBg.jpg",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/huawei/MatePadPro/s1.jpg",
+    photos2: "/assets/huawei/MatePadPro/s3.jpg",
+    photos3: "/assets/huawei/MatePadPro/s4.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -114,7 +131,7 @@ export const huaweiCardPhone = [
     id: "huawie-accessories",
     title: "HUAWEI Mate 50",
     text: "Ultra Aperture XMAGE Camera | IP68 Water and Dust Resistance | HUAWEI SuperCharge, SuperHub, SuperStorage",
-    learnMore: "learn more",
+    learnMore: "samsung",
     newText: "new",
     image: "/assets/huawei/mate50.png",
     direction: "column",
@@ -122,13 +139,12 @@ export const huaweiCardPhone = [
     name: "huawei mad ",
     mainPageLinks: "/huawei",
     mainPageName: "huawei",
-    
   },
   {
     id: "huawie-accessories",
     title: "HUAWEI MatePad Pro",
     text: "CeraBicolor Ceramic Technique | Ultra Aperture XMAGE Camera, SuperTeleMacro Camera | Durable Kunlun Glass 6-Metre Water Resistance",
-    learnMore: "learn more",
+    learnMore: "samsung",
     newText: "new",
     image: "/assets/huawei/porsche-design-mate50-rs.png",
     direction: "column",
@@ -141,7 +157,7 @@ export const huaweiCardPhone = [
     id: "huawie-accessories",
     title: "HUAWEI Mate Xs 2",
     text: "Ultra Light, Ultra Flat, Super Durable | True-Chroma Foldable Display | True-Chroma Camera System",
-    learnMore: "learn more",
+    learnMore: "samsung",
     newText: "hot",
     image: "/assets/huawei/mate-xs2.png",
     direction: "column",
@@ -154,7 +170,7 @@ export const huaweiCardPhone = [
     id: "huawie-accessories",
     title: "HUAWEI Mate X 2",
     text: "5 nm Kirin 9000 5G SoC | Seamless Foldable Form | Interactive and Immersive Experience",
-    learnMore: "learn more",
+    learnMore: "samsung",
     newText: "hot",
     image: "/assets/huawei/mate-x2.png",
     direction: "column",
@@ -167,7 +183,7 @@ export const huaweiCardPhone = [
     id: "huawie-accessories",
     title: "HUAWEI P50 Pro",
     text: "True-Form Dual-Matrix Camera | 6.6-inch True-Chroma Display, 120 Hz | Dual HUAWEI SuperCharge, IP68",
-    learnMore: "learn more",
+    learnMore: "samsung",
     newText: "hot",
     image: "/assets/huawei/P50-Pro-black.png",
     direction: "column",
@@ -180,20 +196,18 @@ export const huaweiCardPhone = [
     id: "huawie-accessories",
     title: "HUAWEI P50",
     text: "True-Form Dual-Matrix Camera | 6.5-inch True-Chroma Display, 90 Hz | 66 W HUAWEI SuperCharge, IP68",
-    learnMore: "learn more",
+    learnMore: "samsung",
     newText: "hot",
     image: "/assets/huawei/p50-black.png",
     direction: "column",
     price: "900.99",
-    name: "huawei p50",
-    mainPageLinks: "/huawei",
-    mainPageName: "huawei",
+   
   },
 ];
 
 export const accessoriesSlide = [
   {
-    id: "huawie-accessories",
+    id: "watches",
     model: "HUAWEI WATCH GT3",
     slogan: "Never mess a minute in your life",
     image: "/assets/huawei/watch-gt3-46-active-edition.png",
@@ -205,7 +219,7 @@ export const accessoriesSlide = [
     name: "watch gt3 ",
   },
   {
-    id: "huawie-accessories",
+    id: "airpods",
     model: "HUAWEI freebuds 4",
     slogan: "Just listen to music with this quality",
     image: "/assets/huawei/freebuds4.png",
@@ -217,7 +231,7 @@ export const accessoriesSlide = [
     mainPageName: "airpods",
   },
   {
-    id: "huawie-accessories",
+    id: "laptop",
     model: "HUAWEI matebook x pro",
     slogan: "Cool Design",
     image: "/assets/huawei/gray.png",
@@ -229,7 +243,7 @@ export const accessoriesSlide = [
     mainPageName: "huawei",
   },
   {
-    id: "huawie-accessories",
+    id: "laptop",
     model: "HUAWEI matepade pro",
     slogan: "best just for bests",
     image: "/assets/huawei/matepad-pro-12-6.png",

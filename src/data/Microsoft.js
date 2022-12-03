@@ -50,6 +50,24 @@ export const SurfaceNine1 = [
     name: "Surface Pro 9",
     mainPageLinks: "/suraface",
     mainPageName: "suraface",
+    // **********************************************
+    detialTitle: "surface pro 9",
+    newText: "new",
+    partOneImage: "/assets/microsoft/pro9/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/microsoftLogo.png",
+    partOneText:
+      "surface pro  has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
+    desc1:
+      " lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
+    imageBg: "/assets/microsoft/pro9/imageBg.jpg",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/microsoft/pro9/photo2.jpg",
+    photos2: "/assets/microsoft/pro9/photo3.jpg",
+    photos3: "/assets/microsoft/pro9/photo1.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -224,6 +242,24 @@ export const audioAccessories = [
     name: "Audio Dock",
     mainPageLinks: "/suraface",
     mainPageName: "suraface",
+    // detial show on detail page
+    detialTitle: "Audio Dock",
+    newText: "new",
+    partOneImage: "/assets/microsoft/headphone/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/microsoftLogo.png",
+    partOneText:
+      "Crafted with acoustically engineered memory foam, the ear cushions gently create an immersive seal that is the foundation of incredible sound.",
+    desc1:
+      "The Audio Dock has been completely reimagined. From cushion to canopy, AirPods Max are designed for an uncompromising fit that creates the optimal acoustic seal for many different head shapes — fully immersing you in every sound.",
+    videoBg: "/assets/homeImages/airpodMax/videoBg.mp4",
+    videoTitle1: "hight quality",
+    videoTitle2: "active nois concellation with transparency mode",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/microsoft/headphone/s1.jpg",
+    photos2: "/assets/microsoft/headphone/s2.jpg",
+    photos3: "/assets/microsoft/headphone/s4.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",

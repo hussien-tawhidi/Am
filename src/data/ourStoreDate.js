@@ -126,6 +126,7 @@ export const latesOnStoreData = [
 ];
 
 export const accessoriesData = [
+  // iphone 14 case
   {
     id: "iphone14-case-001",
     image: "/assets/store/iphone14Pro.png",
@@ -139,11 +140,29 @@ export const accessoriesData = [
     mainPageLinks: "/accessories",
     mainPageName: "accessories",
     name: "iphone 14 case",
+    // ******************************************************
+    detialTitle: "iphone 14 case",
+    newText: "new",
+    partOneImage: "/assets/store/iphone14case/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "iPhone 14 case has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
+    desc1:
+      "iOS 16 lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
+    imageBg: "/assets/store/iphone14case/imageBg.jpg",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/homeImages/iphone14/photo1.jpg",
+    photos2: "/assets/homeImages/iphone14/photo2.jpeg",
+    photos3: "/assets/homeImages/iphone14/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
         image: "/assets/store/iphone14case/1.png",
-        name: "iphone case",
+        title: "iphone case",
       },
     ],
     images: [
@@ -206,6 +225,7 @@ export const accessoriesData = [
       },
     ],
   },
+  // iphone 14 case slicon
   {
     id: "iphone12-case-selicon-001",
     image: "/assets/store/iphone12Selicon.png",
@@ -219,6 +239,24 @@ export const accessoriesData = [
     mainPageLinks: "/accessories",
     mainPageName: "accessories",
     name: "iphone 14 selicon case",
+    // ************************************
+    detialTitle: "iphone 14 case",
+    newText: "new",
+    partOneImage: "/assets/store/iphone14case/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "iPhone 14 case has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
+    desc1:
+      "iOS 16 lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
+    imageBg: "/assets/store/iphone14silicone/imageBg.jpg",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/homeImages/iphone14/photo1.jpg",
+    photos2: "/assets/homeImages/iphone14/photo2.jpeg",
+    photos3: "/assets/homeImages/iphone14/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -301,6 +339,7 @@ export const accessoriesData = [
       },
     ],
   },
+  // apple ipad porflio
   {
     id: "apple-ipad-accessories",
     image: "/assets/store/forIpad.png",
@@ -314,6 +353,24 @@ export const accessoriesData = [
     mainPageLinks: "/accessories",
     mainPageName: "accessories",
     name: "smart folio",
+    // ***********************************
+    detialTitle: "porflio for ipad",
+    newText: "new",
+    partOneImage: "/assets/store/foripad/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "iPhone 14 case has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
+    desc1:
+      "iOS 16 lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
+    imageBg: "/assets/store/foripad/imageBg.jpg",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/store/foripad/photo1.jpg",
+    photos2: "/assets/store/foripad/photo2.jpeg",
+    photos3: "/assets/store/foripad/photo3.jpeg",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -395,6 +452,7 @@ export const accessoriesData = [
     mainPageName: "accessories",
     name: "MKeyboard",
   },
+  // head phone beat3
   {
     id: "heaphoneIntero-data-0004",
     image: "/assets/store/headPhone1.png",
@@ -408,6 +466,24 @@ export const accessoriesData = [
     mainPageLinks: "/accessories",
     mainPageName: "accessories",
     name: "Beats Studio3",
+    // ***********************************
+    detialTitle: "Beats Studio3",
+    newText: "new",
+    partOneImage: "/assets/store/beat3/partOneImage.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "This Headphone has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
+    desc1:
+      "lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
+    imageBg: "/assets/store/beat3/imageBg.jpg",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/store/beat3/photo1.jpg",
+    photos2: "/assets/store/beat3/photo2.jpg",
+    photos3: "/assets/store/beat3/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -488,6 +564,7 @@ export const accessoriesData = [
 ];
 
 export const loadAndClear = [
+  // airpod 2nd generation
   {
     id: "airpod-2nd-0012",
     bg: "bgLight",
@@ -499,11 +576,29 @@ export const loadAndClear = [
     mainPageLinks: "/airpods",
     mainPageName: "airpods",
     name: "airPod pro",
+    // ***********************************
+    detialTitle: "airpod 2nd generation",
+    newText: "new",
+    partOneImage: "/assets/store/airpod2nd/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "airpod 2nd generation has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
+    desc1:
+      "lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
+    imageBg: "/assets/store/airpod2nd/imageBg.jpg",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/store/beat3/photo1.jpg",
+    photos2: "/assets/store/beat3/photo2.jpg",
+    photos3: "/assets/store/beat3/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
         image: "/assets/store/airpod2nd/1.png",
-        title: "airpod max",
+        title: "airpod",
       },
       {
         id: "airpod-pro-g3",
@@ -594,6 +689,7 @@ export const loadAndClear = [
     image: "/assets/store/a-3g1.jpg",
     LinkTo: "airpod-3nd-generation-pro-details",
   },
+  // homepod mini
   {
     id: "homepod-mini-123124",
     bg: "bgLight",
@@ -605,11 +701,29 @@ export const loadAndClear = [
     mainPageLinks: "/accessories",
     mainPageName: "accessories",
     name: "home pod mini",
+    // ***********************************
+    detialTitle: "homepod mini",
+    newText: "new",
+    partOneImage: "/assets/store/homepod/2.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "Apple Homepod mini has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
+    desc1:
+      "lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
+    imageBg: "/assets/store/homepod/imageBg.jpg",
+    videoTitle1: "hight quality",
+    videoTitle2: "Crash Detection calls for help when you can’t.",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/store/homepod/s1.jpg",
+    photos2: "/assets/store/homepod/s2.jpg",
+    photos3: "/assets/store/homepod/s3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
         image: "/assets/store/homepod/1.png",
-        title: "airpod max",
+        title: "homepod",
       },
       {
         id: "airpod-pro-g3",

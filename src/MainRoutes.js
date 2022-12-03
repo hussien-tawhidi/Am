@@ -43,10 +43,10 @@ export default function MainRoutes() {
             path="/products/microsoft-accessories"
             element={<Accessories />}
           />
-          <Route
-            path="/products/huawie-accessories"
-            element={<Accessories />}
-          />
+          <Route path="huawei/samsung" element={<SamsungPhones />} />
+          <Route path="/products/watches" element={<Watch />} />
+          <Route path="/products/airpods" element={<Airpods />} />
+          <Route path="/products/laptop" element={<Mac />} />
           <Route path="/products/watches" element={<Watch />} />
         </Routes>
       </main>

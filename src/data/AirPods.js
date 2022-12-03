@@ -138,10 +138,9 @@ export const airpodSlide = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
-  
   },
   {
-    id: "huawie-accessories",
+    id: "airpod-2nd-0012",
     image: "/assets/AirPods/pngfind.com-samsung-galaxy-s8-png-3118110.png",
     new: "Audio | Wireless Earbuds",
     title: "Galaxy Buds",
@@ -149,13 +148,12 @@ export const airpodSlide = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
-    name:"galaxy buds",
-    mainPageLinks:"/airpods",
-    mainPageName:"buds",
-
+    name: "galaxy buds",
+    mainPageLinks: "/airpods",
+    mainPageName: "buds",
   },
   {
-    id: "huawie-accessories",
+    id: "airpod-2nd-0012",
     image:
       "/assets/AirPods/in-galaxy-buds-r170-sm-r170nzwainu-frontwhite-147018151.webp",
     new: "Audio | Wireless Earbuds",
@@ -164,7 +162,6 @@ export const airpodSlide = [
     color1: "/assets/store/color1.jpg",
     color2: "/assets/store/color2.jpg",
     color3: "/assets/store/color3.jpg",
-   
   },
 ];
 

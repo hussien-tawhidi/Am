@@ -48,6 +48,7 @@ export const bannerData = [
 ];
 
 export const accessoriesProducts = [
+  // iphone company
   {
     id: "iphone14-case-001",
     category: "iphone",
@@ -62,6 +63,7 @@ export const accessoriesProducts = [
     mainPageLinks: "/accessories",
     mainPageName: "accessories",
   },
+  // leather case for iphone
   {
     id: "iphone-leather-0004",
     category: "iphone",
@@ -75,6 +77,23 @@ export const accessoriesProducts = [
     name: "accessories",
     mainPageLinks: "/accessories",
     mainPageName: "accessories",
+    // detial show on detail page
+    detialTitle: "iphone leather wallet",
+    partOneImage: "/assets/accessories/leather/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "Crafted with acoustically engineered memory foam, the ear cushions gently create an immersive seal that is the foundation of incredible sound.",
+    desc1:
+      "The iPhone Leather has been completely reimagined. From cushion to canopy, AirPods Max are designed for an uncompromising fit that creates the optimal acoustic seal for many different head shapes — fully immersing you in every sound.",
+    imageBg: "/assets/accessories/leather/imageBg.webp",
+    videoTitle1: "hight quality",
+    videoTitle2: "active nois concellation with transparency mode",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/accessories/leather/photo1.jpg",
+    photos2: "/assets/accessories/leather/photo2.jpg",
+    photos3: "/assets/accessories/leather/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -254,6 +273,7 @@ export const accessoriesProducts = [
     newText: "New",
   },
   // *************************************************************************************************
+  // cable & charger
   {
     id: "35w-dual-usb-c-port-0004",
     category: "cable&charger",
@@ -264,6 +284,23 @@ export const accessoriesProducts = [
     name: "accessories",
     mainPageLinks: "/accessories",
     mainPageName: "accessories",
+    // detial show on detail page
+    detialTitle: "20W USB-C Power",
+    partOneImage: "/assets/accessories/usb/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "Crafted with acoustically engineered memory foam, the ear cushions gently create an immersive seal that is the foundation of incredible sound.",
+    desc1:
+      "The USB-C Power has been completely reimagined. From cushion to canopy, AirPods Max are designed for an uncompromising fit that creates the optimal acoustic seal for many different head shapes — fully immersing you in every sound.",
+    imageBg: "/assets/imageBg.jpg",
+    videoTitle1: "hight quality",
+    videoTitle2: "active nois concellation with transparency mode",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/homeImages/airpodMax/photo1.jpg",
+    photos2: "/assets/homeImages/airpodMax/photo2.jpg",
+    photos3: "/assets/homeImages/airpodMax/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -329,9 +366,6 @@ export const accessoriesProducts = [
     price: "39",
     title: "MagSafe Charger",
     newText: "New",
-    name: "MagSafe Charger",
-    mainPageLinks: "/accessories",
-    mainPageName: "accessories",
   },
   {
     id: "usb-c-lighting-cable-1m",
@@ -343,11 +377,28 @@ export const accessoriesProducts = [
     name: "accessories",
     mainPageLinks: "/accessories",
     mainPageName: "accessories",
+     // detial show on detail page
+     detialTitle: "USB-C to Lightning Cable (1 m)",
+     partOneImage: "/assets/accessories/cable/1.png",
+     partOneTitle: "exclusive products",
+     partOneLogo: "/assets/appleLogo.png",
+     partOneText:
+       "Crafted with acoustically engineered memory foam, the ear cushions gently create an immersive seal that is the foundation of incredible sound.",
+     desc1:
+       "The USB-C Power has been completely reimagined. From cushion to canopy, AirPods Max are designed for an uncompromising fit that creates the optimal acoustic seal for many different head shapes — fully immersing you in every sound.",
+     imageBg: "/assets/imageBg.jpg",
+     videoTitle1: "hight quality",
+     videoTitle2: "active nois concellation with transparency mode",
+     videoTitle3:
+       "parsonalize this products setting with your favourite setting",
+     photos1: "/assets/homeImages/airpodMax/photo1.jpg",
+     photos2: "/assets/homeImages/airpodMax/photo2.jpg",
+     photos3: "/assets/homeImages/airpodMax/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
         image: "/assets/accessories/cable/1.png",
-        title: "phone",
+        title: "charger cable",
       },
     ],
     images: [
@@ -409,11 +460,28 @@ export const accessoriesProducts = [
     name: "MagSafe Battery Pack",
     mainPageLinks: "/accessories",
     mainPageName: "accessories",
+    // detial show on detail page
+    detialTitle: "MagSafe Battery Pack",
+    partOneImage: "/assets/accessories/battery-safe/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "Crafted with acoustically engineered memory foam, the ear cushions gently create an immersive seal that is the foundation of incredible sound.",
+    desc1:
+      "The MagSafe Battery Pack has been completely reimagined. From cushion to canopy, AirPods Max are designed for an uncompromising fit that creates the optimal acoustic seal for many different head shapes — fully immersing you in every sound.",
+    imageBg: "/assets/imageBg.jpg",
+    videoTitle1: "hight quality",
+    videoTitle2: "active nois concellation with transparency mode",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/accessories/battery-safe/s1.jpg",
+    photos2: "/assets/accessories/battery-safe/s2.jpg",
+    photos3: "/assets/accessories/battery-safe/s3.webp",
     boxImage: [
       {
         id: "airpod-pro-g1",
         image: "/assets/accessories/battery-safe/1.png",
-        title: "phone",
+        title: "magsafe pack",
       },
       {
         id: "airpod-pro-g3",
@@ -471,6 +539,7 @@ export const accessoriesProducts = [
     ],
   },
   // *************************************************************************************************
+  // laptop & mac
   {
     id: "35w-dual-usb-c-port-0004",
     category: "mac",
@@ -482,6 +551,7 @@ export const accessoriesProducts = [
     mainPageLinks: "/accessories",
     mainPageName: "accessories",
   },
+  // magic keyboard
   {
     id: "huawei-magnetic-keyboard",
     category: "mac",
@@ -492,6 +562,22 @@ export const accessoriesProducts = [
     name: "Magic Keyboard",
     mainPageLinks: "/accessories",
     mainPageName: "accessories",
+    // detial show on detail page
+    detialTitle: "magic keyboard",
+    partOneImage: "/assets/accessories/keyboard/1.png",
+    partOneTitle: "exclusive products",
+    partOneText:
+      "Crafted with acoustically engineered memory foam, the ear cushions gently create an immersive seal that is the foundation of incredible sound.",
+    desc1:
+      "The magic keyboard has been completely reimagined. From cushion to canopy, AirPods Max are designed for an uncompromising fit that creates the optimal acoustic seal for many different head shapes — fully immersing you in every sound.",
+    imageBg: "/assets/imageBg.jpg",
+    videoTitle1: "hight quality",
+    videoTitle2: "active nois concellation with transparency mode",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/accessories/keyboard/1.jpg",
+    photos2: "/assets/accessories/keyboard/2.jpg",
+    photos3: "/assets/accessories/keyboard/3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -563,6 +649,23 @@ export const accessoriesProducts = [
     name: "Magic trackPack",
     mainPageLinks: "/accessories",
     mainPageName: "accessories",
+    // detial show on detail page
+    detialTitle: "Magic trackPack",
+    partOneImage: "/assets/accessories/track-pad/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "Crafted with acoustically engineered memory foam, the ear cushions gently create an immersive seal that is the foundation of incredible sound.",
+    desc1:
+      "The Magic trackPack has been completely reimagined. From cushion to canopy, AirPods Max are designed for an uncompromising fit that creates the optimal acoustic seal for many different head shapes — fully immersing you in every sound.",
+    imageBg: "/assets/accessories/track-pad/s2.webp",
+    videoTitle1: "hight quality",
+    videoTitle2: "active nois concellation with transparency mode",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/accessories/track-pad/s1.jpg",
+    photos2: "/assets/accessories/track-pad/s2.webp",
+    photos3: "/assets/accessories/track-pad/s3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -624,6 +727,23 @@ export const accessoriesProducts = [
     name: "Magic mouse",
     mainPageLinks: "/accessories",
     mainPageName: "accessories",
+    // detial show on detail page
+    detialTitle: "Magic mouse",
+    partOneImage: "/assets/accessories/mouse/1.png",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/appleLogo.png",
+    partOneText:
+      "Crafted with acoustically engineered memory foam, the ear cushions gently create an immersive seal that is the foundation of incredible sound.",
+    desc1:
+      "The Magic mouse has been completely reimagined. From cushion to canopy, AirPods Max are designed for an uncompromising fit that creates the optimal acoustic seal for many different head shapes — fully immersing you in every sound.",
+    imageBg: "/assets/accessories/mouse/imageBg.jpg",
+    videoTitle1: "hight quality",
+    videoTitle2: "active nois concellation with transparency mode",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
+    photos1: "/assets/accessories/mouse/photo1.jpg",
+    photos2: "/assets/accessories/mouse/photo2.webp",
+    photos3: "/assets/accessories/mouse/photo3.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
@@ -686,6 +806,7 @@ export const accessoriesProducts = [
     ],
   },
   // *************************************************************************************************
+  // microsoft
   {
     id: "microsoft-audio-dock-0004",
     category: "microsoft",
@@ -731,6 +852,7 @@ export const accessoriesProducts = [
     mainPageName: "accessories",
   },
   // *************************************************************************************************
+  // for samsung
   {
     id: "galaxy-z-flip-cheeseduck-0004",
     category: "samsung",
@@ -741,11 +863,28 @@ export const accessoriesProducts = [
     name: "for samsung",
     mainPageLinks: "/accessories",
     mainPageName: "accessories",
+     // detial show on detail page
+     detialTitle: "Galaxy Z Flip4 Cheeseduck",
+     partOneImage: "/assets/accessories/cheeseduck/3.webp",
+     partOneTitle: "exclusive products",
+     partOneLogo: "/assets/homeImages/s22/logo.png",
+     partOneText:
+       "Crafted with acoustically engineered memory foam, the ear cushions gently create an immersive seal that is the foundation of incredible sound.",
+     desc1:
+       "The Galaxy Z Flip4 Cheeseduck has been completely reimagined. From cushion to canopy, AirPods Max are designed for an uncompromising fit that creates the optimal acoustic seal for many different head shapes — fully immersing you in every sound.",
+     imageBg: "/assets/imageBg.jpg",
+     videoTitle1: "hight quality",
+     videoTitle2: "active nois concellation with transparency mode",
+     videoTitle3:
+       "parsonalize this products setting with your favourite setting",
+     photos1: "/assets/homeImages/flip/s3.jpg",
+     photos2: "/assets/homeImages/flip/s4.jpg",
+     photos3: "/assets/homeImages/flip/s1.jpg",
     boxImage: [
       {
         id: "airpod-pro-g1",
         image: "/assets/accessories/cheeseduck/3.webp",
-        title: "duck",
+        title: "cheeseduck",
       },
       {
         id: "airpod-pro-g3",
@@ -803,16 +942,30 @@ export const accessoriesProducts = [
     category: "samsung",
     image: "/assets/accessories/GP-TOU022AM7JW-1600x1200.webp",
     price: "22.99",
-    title: "Galaxy Z Fold4 Duck Grip, Black",
+    title: "Galaxy Z Fold4 Duck Grip",
     newText: "New",
     name: "for samsung",
     mainPageLinks: "/accessories",
     mainPageName: "accessories",
+    // **************************************************
+    detialTitle: "Galaxy Z Flip4 Duck Grip",
+    partOneImage: "/assets/accessories/cheeseduck/3.webp",
+    partOneTitle: "exclusive products",
+    partOneLogo: "/assets/homeImages/s22/logo.png",
+    partOneText:
+      "Crafted with acoustically engineered memory foam, the ear cushions gently create an immersive seal that is the foundation of incredible sound.",
+    desc1:
+      "The Galaxy Z Flip4 Duck Grip has been completely reimagined. From cushion to canopy, AirPods Max are designed for an uncompromising fit that creates the optimal acoustic seal for many different head shapes — fully immersing you in every sound.",
+    imageBg: "/assets/imageBg.jpg",
+    videoTitle1: "hight quality",
+    videoTitle2: "active nois concellation with transparency mode",
+    videoTitle3:
+      "parsonalize this products setting with your favourite setting",
     boxImage: [
       {
         id: "airpod-pro-g1",
         image: "/assets/accessories/duck/1.png",
-        title: "phone",
+        title: "duck",
       },
       {
         id: "airpod-pro-g3",
@@ -893,6 +1046,7 @@ export const accessoriesProducts = [
     mainPageName: "accessories",
   },
   // *************************************************************************************************
+  // huawei company
   {
     id: "huawei-magnetic-keyboard",
     category: "huawei",

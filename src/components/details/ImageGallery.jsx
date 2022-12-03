@@ -1,7 +1,15 @@
 import { useRef } from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-export default function ImageGallery({ galleryData }) {
+import FreeDelivery from "./utilites/FreeDelivery";
+
+export default function ImageGallery({
+  galleryData,
+  newText,
+  detialTitle,
+  price,
+  desc1,
+}) {
   const [slideIndex, setSlideIndex] = useState(1);
 
   const [width, setWidth] = useState(0);
@@ -94,24 +102,34 @@ export default function ImageGallery({ galleryData }) {
             onDragOver={dragOver}
             onDragEnd={dragEnd}
           >
-            
             <div className="row">
-                {galleryData.map((photo, index) => (
-                  <div className="col-4 mb-3">
-                    <div
-                      className={
-                        index + 1 === slideIndex
-                          ? "active singleColor"
-                          : "singleColor "
-                      }
-                      onClick={() => setSlideIndex(index + 1)}
-                    >
-                      <img src={photo.image} alt="" />
-                      <p>{photo.name}</p>
-                    </div>
+              {galleryData.map((photo, index) => (
+                <div className="col-4 mb-3">
+                  <div
+                    className={
+                      index + 1 === slideIndex
+                        ? "active singleColor"
+                        : "singleColor "
+                    }
+                    onClick={() => setSlideIndex(index + 1)}
+                  >
+                    <img src={photo.image} alt="" />
+                    <p>{photo.name}</p>
                   </div>
-                ))}
-            
+                </div>
+              ))}
+              <div className="texts">
+                <p className="newText">{newText}</p>
+                <p className="price">${price}</p>
+                <h5 className="title">{detialTitle}</h5>
+                <p className="desc">{desc1}</p>
+                <div className="seriveces">
+                  <FreeDelivery />
+                  <p>
+                    Free delivery or pick up available items at an Am Store.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

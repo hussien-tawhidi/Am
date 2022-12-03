@@ -1,29 +1,67 @@
-import FreeDelivery from "./utilites/FreeDelivery";
+import React from "react";
 
-export default function ProductsDecrpitions() {
+export default function ProductsDecrpitions({
+  partOneImage,
+  partOneTitle,
+  partOneLogo,
+  partOneText,
+  videoBg,
+  videoTitle1,
+  videoTitle2,
+  videoTitle3,
+  photos1,
+  photos2,
+  photos3,
+  imageBg
+}) {
   return (
-    <div className="productDescriptions">
-      <p className="newText">new</p>
-      <h6 className="title">title here</h6>
-      <h3 className="model">model of the products</h3>
-      <div className="battery">
-        <span className="batteryIcon">
-          <i class="fa-solid fa-battery-three-quarters"></i>
-        </span>
-        <p className="desc">about 20 hour</p>
+    <div className="details-container">
+      <div className="second-part">
+        <div className="videoConainer">
+          <div className="texts">
+            <h3 className="title">{videoTitle1}</h3>
+            <h3 className="title">{videoTitle2}</h3>
+            <h3 className="title">{videoTitle3}</h3>
+          </div>
+          <img src={imageBg} alt="" />
+          <video
+            src={videoBg}
+            autoPlay={true}
+            loop={true}
+            onMouseOver={(event) => event.target.play()}
+            onMouseOut={(event) => event.target.pause()}
+            muted={true}
+          ></video>
+        </div>
       </div>
-      <p className="price">$99999</p>
-      <div className="seriveces">
-        <FreeDelivery />
-        <p>Free delivery or pick up available items at an Am Store.</p>
+      <div className="first-part">
+        <img src={partOneImage} alt="" className="part-one-img" />
+        <div className="container-texts">
+          <div className="title-row">
+            <img src={partOneLogo} alt="" className="partOneLogo" />
+            <h4 className="title">{partOneTitle}</h4>
+          </div>
+          <p className="desc">{partOneText}</p>
+        </div>
       </div>
-      <p className="mainText">
-        Requires AirPods Max with the latest version of software, and iPhone and
-        iPod touch models with the latest version of iOS; iPad models with the
-        latest version of iPadOS; Apple Watch models with the latest version of
-        watchOS; Mac models with the latest version of macOS; or Apple TV models
-        with the latest version of tvOS.
-      </p>
+
+      <div className="part-three">
+        <div className="photos">
+          <div className="row">
+            <div className="col-8">
+              <div className="heroImg">
+                <img src={photos1} alt="" className="img-fluid"/>
+              </div>
+            </div>
+            <div className="col-4">
+              <div className="subImg">
+                <img src={photos2} alt="" className="img-fluid"/>
+                <img src={photos3} alt="" className="img-fluid"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
