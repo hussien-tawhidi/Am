@@ -63,7 +63,7 @@
 .airpodHero {
   background-color: #000;
   color: $light-color;
-  padding: 15rem 0 0 0;
+  padding: 5rem 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,63 +76,65 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-  }
-  .texts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    padding-left: 5%;
-    .buyNow {
+
+    .texts {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
       align-items: center;
-      padding: 0;
-      margin: 0;
-      .buy-now {
-        cursor: pointer;
+      width: 50%;
+      padding-left: 5%;
+      .buyNow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        .buy-now {
+          cursor: pointer;
+        }
+        .button,
+        a {
+          margin: 10px 20px;
+        }
       }
-      .button,
-      a {
-        margin: 10px 20px;
+      .appleLogo {
+        font-size: 40px;
+      }
+      .title {
+        font-size: 35px;
+        font-weight: 600;
+        margin: 0.5rem 0;
+      }
+      .text {
+        font-size: 16px;
+        font-weight: normal;
       }
     }
-    .appleLogo {
-      font-size: 40px;
-    }
-    .title {
-      font-size: 35px;
-      font-weight: 600;
-      margin: 0.5rem 0;
-    }
-    .text {
-      font-size: 16px;
-      font-weight: normal;
+
+    .icons {
+      width: 50%;
+      .iconsTitle {
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: 600;
+      }
+      .iconsDesc {
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: normal;
+      }
+      .icon {
+        margin-top: 1rem;
+        .call {
+          margin: 0 10px;
+          font-size: 20px;
+        }
+      }
     }
   }
   .heroImage {
     width: 50%;
     margin: 5rem auto 0 auto;
-  }
-  .icons {
-    width: 50%;
-    .iconsTitle {
-      font-size: 30px;
-      text-transform: capitalize;
-      font-weight: 600;
-    }
-    .iconsDesc {
-      font-size: 16px;
-      text-transform: capitalize;
-      font-weight: normal;
-    }
-    .icon {
-      margin-top: 1rem;
-      .call {
-        margin: 0 10px;
-        font-size: 20px;
-      }
-    }
   }
 }
 
@@ -178,6 +180,17 @@
       height: 55vh;
     }
   }
+  .airpodHero {
+    .content {
+      flex-direction: column;
+      .icons,
+      .texts {
+        width: 80%;
+        margin: 0 auto;
+        padding: 1rem;
+      }
+    }
+  }
 }
 
 @media (max-width: $sm-size) {
@@ -192,6 +205,15 @@
     }
     .heroImages {
       height: 45vh;
+    }
+  }
+
+  .airpodHero {
+    .content {
+      .icons,
+      .texts {
+        width: 90%;
+      }
     }
   }
 }
@@ -226,6 +248,23 @@
         margin-top: 0.7rem;
         .call {
           font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .airpodHero {
+    .content {
+      flex-direction: column;
+      .icons,
+      .texts {
+        width: 100%;
+        .buyNow {
+          .buyNow,
+          .button,
+          a {
+            font-size: 14px;
+          }
         }
       }
     }

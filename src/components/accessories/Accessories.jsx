@@ -9,13 +9,13 @@ import AccessoriesHeader from "./accessoriesSubFile/accessoriesHeader/Accessorie
 import AccesssoreisProducts from "./accessoriesSubFile/accessoriesProducts/AccesssoreisProducts";
 import AccessoriesBanner from "./accessoriesSubFile/accessoriseBanner/AccessoriesBanner";
 import Services from "../Services/Service";
-import GetDiallyOff from "../GetDiallyOff";
+
 export default function Accessories() {
   return (
     <div>
       <Title title="AM | Accessories" />
       <AccessoriesHeader subHeaderMobile={iPhoneSubHeader} />
-      <GetDiallyOff/>
+
       <AccessoriesBanner bannerData={bannerData} />
       <div className="accessories-products">
       <AccesssoreisProducts />

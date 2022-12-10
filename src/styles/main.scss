@@ -134,9 +134,9 @@ body {
 }
 .dailyOff {
   text-align: center;
-  background-color: $light-color;
-  padding: 5px;
-  color: $dark-color;
+ background-color: $dark-color;
+  padding: 10px;
+  color: $light-color;
   p {
     font-size: 12px;
   }

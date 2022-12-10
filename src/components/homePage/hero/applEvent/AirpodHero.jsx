@@ -36,7 +36,7 @@ export default function AirpodHero({
                   <i className="fa-solid fa-angle-right"></i>
                 </span>
               </Link>
-              <p className="buNow" onClick={onAddToCard}>
+              <p className="buyNow" onClick={onAddToCard}>
                 buy now
               </p>
             </div>

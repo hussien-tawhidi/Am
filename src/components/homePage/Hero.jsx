@@ -11,27 +11,28 @@ import HomeProducts from "./hero/products/HomeProducts";
 import S22Card from "./hero/s22Card/S22Card";
 import Paragraph from "./Paragraph";
 import Story from "./hero/story/Story";
+import MoreProduct from "./hero/more/MoreProduct";
 export default function Hero() {
   return (
-    <div className="hero">
+    <div className='hero'>
       <GetDialy />
+      <AppleEventCard cardData={appleEeventCard} />
+      <MoreProduct />
       {heroIntroCardData.map((data) => (
         <AirPodIntro
           key={data.id}
           price={data.price}
           textImage={data.textImage}
           image={data.image}
-          linkTo={data.linkTo}
           title={data.title}
           id={data.id}
         />
       ))}
       <HomeProducts />
-      <AppleEventCard cardData={appleEeventCard} />
       <S22Card />
       <Story homeStoryData={homeStoryData} />
       <Paragraph />
-      <Footer pageName="home" />
+      <Footer pageName='home' />
     </div>
   );
 }

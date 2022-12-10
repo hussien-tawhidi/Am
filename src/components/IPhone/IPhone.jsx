@@ -8,7 +8,6 @@ import {
 import SubHeaderDescktop from "../mac/macSubFiles/macHeader/SubHeaderDescktop";
 import SubHeaderMobile from "../mac/macSubFiles/macHeader/SubHeaderMobile";
 import IphoneCard from "./iphoneSubFiles/iphoneCardInto/IphoneCard";
-import GetDailyOff from "../GetDiallyOff";
 import Services from "../Services/Service";
 import IphoneDeatials from "./iphoneSubFiles/iPhoneDetails/IphoneDeatials";
 import WaysToBuyIphone from "./iphoneSubFiles/waysToBuyIPhone/WaysToBuyIphone";
@@ -26,7 +25,7 @@ export default function IPhone() {
       <Title title="AM | iPhone" />
       <SubHeaderDescktop subHeaderDescktop={iPhoneSubHeader} />
       <SubHeaderMobile subHeaderMobile={iPhoneSubHeader} />
-      <GetDailyOff />
+ 
       {cardIntroData.map((data) => (
         <IphoneCard
           key={data.id}

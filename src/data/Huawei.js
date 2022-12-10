@@ -10,7 +10,7 @@ export const huaweiHeaderMenu = [
 ];
 
 export const huaweiCardOne = [
-  // matepad pro 
+  // matepad pro
   {
     id: "huawei-mad-pro-0004",
     title: "HUAWEI MatePad Pro",
@@ -25,6 +25,14 @@ export const huaweiCardOne = [
     mainPageLinks: "/huawei",
     mainPageName: "huawei",
     // ***********************************
+    batteryIcon: <i class='fa-solid fa-battery-half'></i>,
+    batteryDetials: "upto 28hr",
+    ramImage: "/assets/ram.png",
+    ramDetails: "upto 64GB",
+    memoryIcons: <i class='fa-solid fa-sd-card'></i>,
+    memoryDetials1: "256GB SSD",
+    memoryDetials3: "UPTO",
+    memoryDetials4: "5TB SSD",
     detialTitle: "HUAWEI Mate pro",
     partOneImage: "/assets/huawei/MatePadPro/2.png",
     partOneTitle: "exclusive products",

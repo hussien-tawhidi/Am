@@ -35,15 +35,15 @@ export const appleEeventCard = [
 export const heroAirpod = [
   {
     id: "airpod-3nd-0012",
-    appleIcon: <i class="fa-brands fa-apple"></i>,
+    appleIcon: <i class='fa-brands fa-apple'></i>,
     title: "The best Aipods",
     desc: "feel the best music quality like your in the cincert",
     image: "/assets/homeImages/SeekPng.com_airpods-png_2982109.png",
     iconsTitle: "common used in",
     iconsDesc: "connect only with bluethooth",
-    call: <i class="fa-solid fa-phone"></i>,
-    music: <i class="fa-solid fa-music"></i>,
-    mic: <i class="fa-solid fa-microphone"></i>,
+    call: <i class='fa-solid fa-phone'></i>,
+    music: <i class='fa-solid fa-music'></i>,
+    mic: <i class='fa-solid fa-microphone'></i>,
     price: 449.0,
   },
 ];
@@ -52,7 +52,7 @@ export const s22title = [
   {
     id: 1,
     miniTitle: "camera",
-    camerIcon: <i className="fa-solid fa-angle-down"></i>,
+    camerIcon: <i className='fa-solid fa-angle-down'></i>,
     lgTitle: "Make nights epic with Nightography",
     mdTitle: "Get the big picture",
     cameraImage: "/assets/homeImages/galaxy-s22-ultra_highlights_pro-grade.png",
@@ -99,11 +99,18 @@ export const heroIntroCardData = [
     mainPageName: "airpods",
     name: "airpod pro",
     // detial show on detail page
+    batteryIcon: <i class='fa-solid fa-battery-half'></i>,
+    batteryDetials:
+      "Up to 6 hours of listening time with one charge \nUp to 30 hours of total listening time with the case",
+    memoryIcons: "Pinch-perfect control.",
+    memoryDetials2:
+      "The force sensor gives you even more control\n over your entertainment.You can press to play, \npause, and skip through songs, \nor answer and end calls.",
     detialTitle: "airpod pro max",
     newText: "new",
     partOneImage: "/assets/homeImages/airpodMax/partOneImage.png",
     partOneTitle: "exclusive products",
     partOneLogo: "/assets/appleLogo.png",
+
     partOneText:
       "Crafted with acoustically engineered memory foam, the ear cushions gently create an immersive seal that is the foundation of incredible sound.",
     desc1:
@@ -206,6 +213,14 @@ export const heroIpadCardData = [
     mainPageName: "ipad",
     name: "ipad pro",
     // *****************************************
+    batteryIcon: <i class='fa-solid fa-battery-half'></i>,
+    batteryDetials: "upto 28hr",
+    ramImage: "/assets/ram.png",
+    ramDetails: "upto 64GB",
+    memoryIcons: <i class='fa-solid fa-sd-card'></i>,
+    memoryDetials1: "256GB SSD",
+    memoryDetials3: "UPTO",
+    memoryDetials4: "5TB SSD",
     detialTitle: "apple ipad pro",
     newText: "new",
     partOneImage: "/assets/homeImages/ipad/a1.png",
@@ -303,15 +318,18 @@ export const heroCardData = [
     mainPageName: "iphone",
     name: "iPhone 14",
     // *****************************************
-    batteryIcon: <i class="fa-solid fa-battery-half"></i>,
+    batteryIcon: <i class='fa-solid fa-battery-half'></i>,
     batteryDetials: "4323 mAh",
     ramImage: "/assets/ram.png",
     ramDetails: "6GB",
-    memoryIcons: <i class="fa-solid fa-sd-card"></i>,
+    memoryIcons: <i class='fa-solid fa-sd-card'></i>,
     memoryDetials1: "64GB",
     memoryDetials2: "128GB",
     memoryDetials3: "256GB",
     memoryDetials4: "512GB",
+    cameraIcon: <i class='fa-solid fa-camera-retro'></i>,
+    camerfront: "font camera 12px",
+    camerBack: "back camera 24px",
     detialTitle: "iphone 14 pro",
     newText: "new",
     partOneImage: "/assets/homeImages/iphone14/partOneImage.png",
@@ -409,6 +427,17 @@ export const heroCardData = [
     mainPageName: "samsung",
     name: "galaxy s22",
     // *********************************************
+    batteryIcon: <i class='fa-solid fa-battery-half'></i>,
+    batteryDetials: "5000 mAh",
+    ramImage: "/assets/ram.png",
+    ramDetails: "12GB",
+    memoryIcons: <i class='fa-solid fa-sd-card'></i>,
+    memoryDetials2: "128GB",
+    memoryDetials3: "256GB",
+    memoryDetials4: "512GB",
+    cameraIcon: <i class='fa-solid fa-camera-retro'></i>,
+    camerfront: "font camera 16px",
+    camerBack: "main camera 48px",
     detialTitle: "samsung galaxy s22 25G",
     newText: "new",
     partOneImage: "/assets/homeImages/s22/photo.webp",
@@ -417,7 +446,7 @@ export const heroCardData = [
     partOneText:
       "samsung galaxy s22 has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
     desc1:
-      "iOS 16 lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
+      "Anderoid 11 lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
     videoBg: "/assets/homeImages/s22/videoBg.mp4",
     videoTitle1: "hight quality",
     videoTitle2: "Crash Detection calls for help when you can’t.",
@@ -501,8 +530,19 @@ export const heroCardData = [
     mainPageName: "samsung",
     name: "galaxy z flip 4",
     // *********************************************
+    batteryIcon: <i class='fa-solid fa-battery-half'></i>,
+    batteryDetials: "5500 mAh",
+    ramImage: "/assets/ram.png",
+    ramDetails: "12GB",
+    memoryIcons: <i class='fa-solid fa-sd-card'></i>,
+    memoryDetials2: "128GB",
+    memoryDetials3: "256GB",
+    memoryDetials4: "512GB",
+    cameraIcon: <i class='fa-solid fa-camera-retro'></i>,
+    camerfront: "font camera 16px",
+    camerBack: "main camera 48px",
     imageBg: "/assets/homeImages/flip/imageBg.webp",
-    detialTitle: "samsung galaxy z flip 4",
+    detialTitle: "Galaxy z flip 4",
     newText: "new",
     partOneImage: "/assets/homeImages/flip/1.png",
     partOneTitle: "exclusive products",
@@ -593,6 +633,10 @@ export const heroCardData = [
     mainPageName: "watches",
     name: "apple watch s8",
     // *********************************************
+    batteryIcon: <i class='fa-solid fa-battery-half'></i>,
+    batteryDetials: "Up to \n 60hrs \n on low power settings",
+    memoryIcons: <i class='fa-solid fa-droplet'></i>,
+    memoryDetials2: "Water resistance 100m*",
     imageBg: "/assets/homeImages/watch/imageBg.jpg",
     detialTitle: "apple watch ultra",
     newText: "new",
@@ -602,7 +646,7 @@ export const heroCardData = [
     partOneText:
       "Galaxy devices give you more ways to connect and the freedom to make your experience exactly how you want it..",
     desc1:
-      "Flexibility has never been so strong. An IPX8 rating makes Flip4 the only water-resistant foldable smartphone.2 Its scratch-defying front and back covers are made of the toughest glass on a foldable device: Corning® Gorilla® Glass Victus™+. Meanwhile, the hinge is caged in lightweight Armor Aluminum, the strongest in the mobile industry, and Ultra Thin Glass protects the Main Screen, fold after fold.",
+      "Meet the most rugged and capable Apple Watch ever. With a robust titanium case, precision dual-frequency GPS, up to 36 hours of battery life,1 the freedom of cellular,2 and three specialized bands made for athletes and adventurers of all kinds.",
     videoTitle1: "hight quality",
     videoTitle2: "Crash Detection calls for help when you can’t.",
     videoTitle3:
@@ -624,7 +668,7 @@ export const heroCardData = [
       {
         id: "airpod-pro-g4",
         image: "/assets/homeImages/airpodMax/a3.jpg",
-        title: "Apple Watch Magnetic Fast Charger to USB-C Cable (1m)",
+        title: "USB-C Cable (1m)",
       },
     ],
     images: [
@@ -711,8 +755,14 @@ export const heroCardData = [
     mainPageName: "airpods",
     name: "airpod",
     // *********************************************
+    batteryIcon: <i class='fa-solid fa-battery-half'></i>,
+    batteryDetials:
+      "Up to 6 hours of listening time with one charge \nUp to 30 hours of total listening time with the case",
+    memoryIcons: "Pinch-perfect control.",
+    memoryDetials2:
+      "The force sensor gives you even more control\n over your entertainment.You can press to play, \npause, and skip through songs, \nor answer and end calls.",
     videoBg: "/assets/homeImages/airpod/videoBg.mp4",
-    detialTitle: "apple airpod 3nd (generation)",
+    detialTitle: "apple airpod \n3nd (generation)",
     newText: "new",
     partOneImage: "/assets/homeImages/airpod/a2.png",
     partOneTitle: "exclusive products",
@@ -720,7 +770,7 @@ export const heroCardData = [
     partOneText:
       "Galaxy devices give you more ways to connect and the freedom to make your experience exactly how you want it..",
     desc1:
-      "Flexibility has never been so strong. An IPX8 rating makes Flip4 the only water-resistant foldable smartphone.2 Its scratch-defying front and back covers are made of the toughest glass on a foldable device: Corning® Gorilla® Glass Victus™+. Meanwhile, the hinge is caged in lightweight Armor Aluminum, the strongest in the mobile industry, and Ultra Thin Glass protects the Main Screen, fold after fold.",
+      "Music on a more personal note. Adaptive EQ automatically tunes music to your ears. Inward-facing microphones detect what you’re hearing, then adjust low and midrange frequencies to deliver the rich details in every song, customized for you in real time.",
     videoTitle1: "hight quality",
     videoTitle2: "Crash Detection calls for help when you can’t.",
     videoTitle3:
@@ -805,6 +855,18 @@ export const heroCardData = [
     mainPageName: "iphone",
     name: "iphone 13",
     // *****************************************
+    batteryIcon: <i class='fa-solid fa-battery-half'></i>,
+    batteryDetials: "4023 mAh",
+    ramImage: "/assets/ram.png",
+    ramDetails: "6GB",
+    memoryIcons: <i class='fa-solid fa-sd-card'></i>,
+    memoryDetials1: "64GB",
+    memoryDetials2: "128GB",
+    memoryDetials3: "256GB",
+    memoryDetials4: "512GB",
+    cameraIcon: <i class='fa-solid fa-camera-retro'></i>,
+    camerfront: "font camera 12px",
+    camerBack: "back camera 24px",
     detialTitle: "iphone 13",
     newText: "new",
     partOneImage: "/assets/homeImages/iphone14/partOneImage.png",

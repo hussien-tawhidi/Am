@@ -2,7 +2,6 @@ import { airPodEndPara, airPodsHeader, airpodSlide } from "../../data/AirPods";
 import Title from "../homePage/header/Title";
 import SubHeaderDescktop from "../mac/macSubFiles/macHeader/SubHeaderDescktop";
 import SubHeaderMobile from "../mac/macSubFiles/macHeader/SubHeaderMobile";
-import GetDaily from "../GetDiallyOff";
 import AirPodsIntro from "./subAirPodsFiles/airpodsIntro/AirPodsIntro";
 import BenefitsOfAirpods from "./subAirPodsFiles/benefitsOfAirPods/BenefitsOfAirpods";
 import AirPodsBanner from "./subAirPodsFiles/airPodBanner/AirPodsBanner";
@@ -16,7 +15,7 @@ export default function Airpods() {
       <Title title="AM | AirPods" />
       <SubHeaderDescktop subHeaderDescktop={airPodsHeader} />
       <SubHeaderMobile subHeaderMobile={airPodsHeader} />
-      <GetDaily />
+    
       <AirPodsIntro />
       <BenefitsOfAirpods />
       <AirPodsBanner />

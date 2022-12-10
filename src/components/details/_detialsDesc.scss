@@ -3,11 +3,10 @@
   .first-part {
     position: relative;
     height: 100vh;
-    
     .part-one-img {
       width: auto;
-      height: 100%;
       object-fit: cover;
+      height: 100%;
       position: absolute;
       top: 0;
       left: -20%;
@@ -98,7 +97,7 @@
     flex-direction: column;
     position: relative;
     padding: 3rem;
-    
+
     .photos {
       width: 100%;
       .heroImg {
@@ -149,7 +148,7 @@
       margin: 0 auto;
       display: flex;
       justify-content: center;
-      img{
+      img {
         height: 50vh;
         width: auto;
         object-fit: cover;
@@ -160,6 +159,137 @@
       font-size: 25px;
       opacity: 0.7;
       text-align: center;
+    }
+  }
+}
+
+@media (max-width: $lg-size) {
+  .box-title {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  .details-container {
+    .second-part {
+      .videoConainer {
+        .texts {
+          .title {
+            width: 80%;
+            font-size: 40px;
+          }
+        }
+      }
+    }
+
+    .first-part {
+      .first-part-image {
+        .part-one-img {
+          height: 70%;
+          top: 15%;
+        }
+      }
+      .container-texts {
+        .title-row {
+          .title {
+            font-size: 30px;
+          }
+        }
+        .desc {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .part-three {
+      padding: 3rem 0;
+      .photos {
+        .row {
+          --bs-gutter-x: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $sm-size) {
+  .box-title {
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .details-container {
+    .second-part {
+      .videoConainer {
+        .texts {
+          .title {
+            width: 80%;
+            font-size: 40px;
+          }
+        }
+      }
+    }
+
+    .first-part {
+      height: 70vh;
+      .container-texts {
+        .title-row {
+          .title {
+            font-size: 25px;
+          }
+        }
+        .desc {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .product-accessories {
+    padding: 3%;
+    .single {
+      height: 60vh;
+      .boxImages {
+        img {
+          height: 40vh;
+        }
+      }
+      .title {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: $xsm-size) {
+  .box-title {
+    font-size: 30px;
+  }
+  .product-accessories {
+    .single {
+      height: 100%;
+      .title{
+        font-size: 12px;
+      }
+      .boxImages {
+        img {
+          height: 20vh;
+        }
+      }
+    }
+  }
+  .details-container {
+    .first-part {
+      height: 50vh;
+      .container-texts {
+        .title-row {
+          flex-direction: column;
+          align-items: flex-start;
+          .title {
+            font-size: 25px;
+          }
+        }
+        .desc {
+          font-size: 12px;
+        }
+      }
     }
   }
 }

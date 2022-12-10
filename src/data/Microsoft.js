@@ -51,6 +51,14 @@ export const SurfaceNine1 = [
     mainPageLinks: "/suraface",
     mainPageName: "suraface",
     // **********************************************
+    batteryIcon: <i class='fa-solid fa-battery-half'></i>,
+    batteryDetials: "upto 28hr",
+    ramImage: "/assets/ram.png",
+    ramDetails: "upto 64GB",
+    memoryIcons: <i class='fa-solid fa-sd-card'></i>,
+    memoryDetials1: "256GB SSD",
+    memoryDetials3: "UPTO",
+    memoryDetials4: "5TB SSD",
     detialTitle: "surface pro 9",
     newText: "new",
     partOneImage: "/assets/microsoft/pro9/1.png",
@@ -243,6 +251,12 @@ export const audioAccessories = [
     mainPageLinks: "/suraface",
     mainPageName: "suraface",
     // detial show on detail page
+    batteryIcon: <i class='fa-solid fa-battery-half'></i>,
+    batteryDetials:
+      "Up to 6 hours of listening time with one charge \nUp to 30 hours of total listening time with the case",
+    memoryIcons: "Pinch-perfect control.",
+    memoryDetials2:
+      "The force sensor gives you even more control\n over your entertainment.You can press to play, \npause, and skip through songs, \nor answer and end calls.",
     detialTitle: "Audio Dock",
     newText: "new",
     partOneImage: "/assets/microsoft/headphone/1.png",

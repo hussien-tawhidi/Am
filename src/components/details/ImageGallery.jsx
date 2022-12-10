@@ -17,7 +17,10 @@ export default function ImageGallery({
   memoryDetials1,
   memoryDetials2,
   memoryDetials3,
-  memoryDetials4
+  memoryDetials4,
+  cameraIcon,
+  camerBack,
+  camerfront,
 }) {
   const [slideIndex, setSlideIndex] = useState(1);
 
@@ -75,54 +78,51 @@ export default function ImageGallery({
   }, [width, slideIndex]);
 
   return (
-    <div className="imageGallery">
-      <div className="row">
-        <div className="col-6">
-          <div className="mainImage">
+    <div className='imageGallery'>
+      <div className='row'>
+        <div className='col-md-6 col-12'>
+          <div className='mainImage'>
             {galleryData.map((photo, index) => (
               <>
                 <div
-                  className="mainImageContainer"
+                  className='mainImageContainer'
                   style={{
                     display: index + 1 === slideIndex ? "block" : "none",
-                  }}
-                >
-                  <img src={photo.image} alt="" />
+                  }}>
+                  <img src={photo.image} alt='' />
                 </div>
               </>
             ))}
-            <div className="arrows">
-              <span className="arrow-left arrow" onClick={() => pluseSide(-1)}>
+            <div className='arrows'>
+              <span className='arrow-left arrow' onClick={() => pluseSide(-1)}>
                 &#10094;
               </span>
-              <span className="arrow-right arrow" onClick={() => pluseSide(1)}>
+              <span className='arrow-right arrow' onClick={() => pluseSide(1)}>
                 &#10095;
               </span>
             </div>
           </div>
         </div>
 
-        <div className="col-md-6">
+        <div className='col-md-6 col-12'>
           <div
-            className="sliderImage"
+            className='sliderImage'
             draggable={true}
             ref={slideRef}
             onDragStart={dragStart}
             onDragOver={dragOver}
-            onDragEnd={dragEnd}
-          >
-            <div className="row">
+            onDragEnd={dragEnd}>
+            <div className='row'>
               {galleryData.map((photo, index) => (
-                <div className="col-4 mb-3">
+                <div className='col-4 mb-3'>
                   <div
                     className={
                       index + 1 === slideIndex
                         ? "active singleColor"
                         : "singleColor "
                     }
-                    onClick={() => setSlideIndex(index + 1)}
-                  >
-                    <img src={photo.image} alt="" />
+                    onClick={() => setSlideIndex(index + 1)}>
+                    <img src={photo.image} alt='' />
                     <p>{photo.name}</p>
                   </div>
                 </div>
@@ -130,37 +130,55 @@ export default function ImageGallery({
             </div>
           </div>
         </div>
-
-        <div className="texts">
-                <p className="newText">{newText}</p>
-                <p className="price">${price}</p>
-                <div className="moreDesc">
-                  <div className="desc-icon">
-                    <span>{batteryIcon}</span>
-                    <span>{batteryDetials}</span>
-                  </div>
-                  <div className="desc-icon">
-                    <img src={ramImage} alt="" />
-                    <span>{ramDetails}</span>
-                  </div>
-                  <div className="desc-icon">
-                    <div className="memory">{memoryIcons}</div>
-                    <span>{ memoryDetials1}</span>
-                    <span>{ memoryDetials2}</span>
-                    <span>{ memoryDetials3}</span>
-                    <span>{ memoryDetials4}</span>
-                  </div>
-                </div>
-                <h5 className="title">{detialTitle}</h5>
-                <div className="seriveces">
-                  <FreeDelivery />
-                  <p>
-                    Free delivery or pick up available items at an Am Store.
-                  </p>
-                </div>
-                <p className="desc">{desc1}</p>
-          </div>
       </div>
+      {/* detial text start */}
+      <p className='newText'>{newText}</p>
+      <h5 className='title'>{detialTitle}</h5>
+      <div className='detial-content'>
+        <div className='content'>
+          <p className='price'>${price}</p>
+          <div className='moreDesc'>
+            <div className='row'>
+              <div className='col-md-3 col-6'>
+                <div className='desc-icon'>
+                  <span className='icon'>{batteryIcon}</span>
+                  <span className='icon-desc'>{batteryDetials}</span>
+                </div>
+              </div>
+              <div className='col-md-3 col-6'>
+                <div className='desc-icon'>
+                  <span className='icon'>{cameraIcon}</span>
+                  <span className='icon-desc'>{camerfront}</span>
+                  <span className='icon-desc'>{camerBack}</span>
+                </div>
+              </div>
+              <div className='col-md-3 col-6'>
+                <div className='desc-icon'>
+                  <img src={ramImage} alt='' className='icon ramgImg' />
+                  <span className='icon-desc'>{ramDetails}</span>
+                </div>
+              </div>
+              <div className='col-md-3 col-6'>
+                <div className='desc-icon'>
+                  <span className='memory icon'>{memoryIcons}</span>
+                  <span className='icon-desc'>{memoryDetials1}</span>
+                  <span className='icon-desc'>{memoryDetials2}</span>
+                  <span className='icon-desc'>{memoryDetials3}</span>
+                  <span className='icon-desc'>{memoryDetials4}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='seriveces'>
+          <span>
+            <FreeDelivery />
+          </span>
+          <p>Free delivery or pick up available items at an Am Store.</p>
+        </div>
+        <p className='desc'>{desc1}</p>
+      </div>
+      {/* detial text end */}
     </div>
   );
 }

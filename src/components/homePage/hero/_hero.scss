@@ -33,7 +33,6 @@
     position: absolute;
     top: 60vh;
     bottom: 0;
-
     font-size: 25px;
     font-weight: 600;
   }
@@ -90,6 +89,7 @@
     }
   }
 }
+
 @media (max-width: $xl-size) {
   .airPod {
     height: 80vh;
@@ -100,6 +100,7 @@
     }
   }
 }
+
 @media (max-width: $lg-size) {
   .ipad {
     display: flex;
@@ -132,7 +133,6 @@
     }
   }
 }
-// ipad intro
 
 @media (max-width: $md-size) {
   .ipad {
@@ -164,6 +164,7 @@
     padding: 10px 15px;
   }
 }
+
 @media (max-width: $sm-size) {
   .buyNow {
     padding: 7px 12px;
@@ -179,6 +180,7 @@
     }
   }
 }
+
 @media (max-width: $xsm-size) {
   .ipad {
     height: 60vh;

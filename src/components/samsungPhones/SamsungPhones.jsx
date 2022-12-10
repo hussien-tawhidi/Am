@@ -11,7 +11,6 @@ import {
 import Title from "../homePage/header/Title";
 import SubHeaderDescktop from "../mac/macSubFiles/macHeader/SubHeaderDescktop";
 import SubHeaderMobile from "../mac/macSubFiles/macHeader/SubHeaderMobile";
-import GetDailyOff from "../GetDiallyOff";
 import IphoneCard from "../IPhone/iphoneSubFiles/iphoneCardInto/IphoneCard";
 import LastOnOurStore from "../ourStore/storeSubFiles/latesonOurStore/LastOnOurStore";
 import GalaxyFlipVideo from "./samsungSubFiles/GalaxyFlipVideo";
@@ -25,7 +24,7 @@ export default function SamsungPhones() {
       <Title title="AM | Samsung Smart Phones" />
       <SubHeaderDescktop subHeaderDescktop={samsungHeaderData} />
       <SubHeaderMobile subHeaderMobile={samsungHeaderData} />
-      <GetDailyOff />
+ 
       {samsungCardIntroData.map((data) => (
         <IphoneCard
           key={data.id}

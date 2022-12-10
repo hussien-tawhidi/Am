@@ -5,7 +5,6 @@ import { setAddItemToCard } from "../../../store/cardSlice";
 export default function AirPodIntro({
   id,
   price,
-  linkTo,
   textImage,
   image,
   title,

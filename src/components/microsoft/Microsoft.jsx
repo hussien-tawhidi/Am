@@ -10,7 +10,6 @@ import Title from "../homePage/header/Title";
 import SubHeaderDescktop from "../mac/macSubFiles/macHeader/SubHeaderDescktop";
 import SubHeaderMobile from "../mac/macSubFiles/macHeader/SubHeaderMobile";
 import SurfaceIntro from "./subFiles/surface9Intro/SurfaceIntro";
-import GetDailyOff from "../GetDiallyOff";
 import SurfaceSlide from "./subFiles/slides/SurfaceSlide";
 import GalaxyFlipVideo from "../samsungPhones/samsungSubFiles/GalaxyFlipVideo";
 import AudioAccessories from "./subFiles/slides/AudioAccessories";
@@ -23,7 +22,6 @@ export default function Microsoft() {
       <Title title="AM | Microsoft Products" />
       <SubHeaderDescktop subHeaderDescktop={microsoftSubHeader} />
       <SubHeaderMobile subHeaderMobile={microsoftSubHeader} />
-      <GetDailyOff />
       <IntroBg/>
       <SurfaceIntro />
       <GalaxyFlipVideo samsungBannerData={surfaceVideoBanner} />

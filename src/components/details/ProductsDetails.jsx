@@ -47,7 +47,6 @@ import ImageGallery from "./ImageGallery";
 import ProductsDecrpitions from "./ProductsDecrpitions";
 import ProdcutsAccessories from "./ProdcutsAccessories";
 import Story from "../homePage/hero/story/Story";
-import FreeDelivery from "./utilites/FreeDelivery";
 export default function ProductsDetails() {
   const location = useLocation();
   const path = location.pathname.split("/")[2];
@@ -126,6 +125,9 @@ export default function ProductsDetails() {
           memoryDetials2={post.memoryDetials2}
           memoryDetials3={post.memoryDetials3}
           memoryDetials4={post.memoryDetials4}
+          cameraIcon={post.cameraIcon}
+          camerBack={post.camerBack}
+          camerfront={post.camerfront}
         />
         <ProductsDecrpitions
           partOneImage={post.partOneImage}
@@ -141,35 +143,7 @@ export default function ProductsDetails() {
           photos2={post.photos2}
           photos3={post.photos3}
         />
-         {/* <div className="texts">
-                <p className="newText">{post.newText}</p>
-                <p className="price">${post.price}</p>
-                <div className="moreDesc">
-                  <div className="desc-icon">
-                    <span>{post.batteryIcon}</span>
-                    <span>{post.batteryDetials}</span>
-                  </div>
-                  <div className="desc-icon">
-                    <img src={post.ramImage} alt="" />
-                    <span>{post.ramDetails}</span>
-                  </div>
-                  <div className="desc-icon">
-                    <div className="memory">{post.memoryIcons}</div>
-                    <span>{ post.memoryDetials1}</span>
-                    <span>{ post.memoryDetials2}</span>
-                    <span>{ post.memoryDetials3}</span>
-                    <span>{ post.memoryDetials4}</span>
-                  </div>
-                </div>
-                <h5 className="title">{post.detialTitle}</h5>
-                <div className="seriveces">
-                  <FreeDelivery />
-                  <p>
-                    Free delivery or pick up available items at an Am Store.
-                  </p>
-                </div>
-                <p className="desc">{post.desc1}</p>
-          </div> */}
+         
         <div className="boxImageContent">
           <ProdcutsAccessories boxImage={post.boxImage} />
         </div>

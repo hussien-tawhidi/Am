@@ -1,6 +1,5 @@
 import Footer from "../homePage/footer/Footer";
 import { applWatchVideo, endingWatchPara, watchesApp, watchHeaderData } from "../../data/Watch";
-import GetDiallyOff from "../GetDiallyOff";
 import Title from "../homePage/header/Title";
 import SubHeaderDescktop from "../mac/macSubFiles/macHeader/SubHeaderDescktop";
 import SubHeaderMobile from "../mac/macSubFiles/macHeader/SubHeaderMobile";
@@ -18,8 +17,6 @@ export default function Watch() {
       <Title title="AM | Watches" />
       <SubHeaderDescktop subHeaderDescktop={watchHeaderData} />
       <SubHeaderMobile subHeaderMobile={watchHeaderData} />
-      <GetDiallyOff />
-      
       <IntroWatch />
       <SamsungWatch/>
       <AppleS8Watch/>

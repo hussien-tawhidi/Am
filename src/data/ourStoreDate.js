@@ -467,6 +467,12 @@ export const accessoriesData = [
     mainPageName: "accessories",
     name: "Beats Studio3",
     // ***********************************
+    batteryIcon: <i class='fa-solid fa-battery-half'></i>,
+    batteryDetials:
+      "Up to 6 hours of listening time with one charge \nUp to 30 hours of total listening time with the case",
+    memoryIcons: "Pinch-perfect control.",
+    memoryDetials2:
+      "The force sensor gives you even more control\n over your entertainment.You can press to play, \npause, and skip through songs, \nor answer and end calls.",
     detialTitle: "Beats Studio3",
     newText: "new",
     partOneImage: "/assets/store/beat3/partOneImage.png",
@@ -577,6 +583,12 @@ export const loadAndClear = [
     mainPageName: "airpods",
     name: "airPod pro",
     // ***********************************
+    batteryIcon: <i class='fa-solid fa-battery-half'></i>,
+    batteryDetials:
+      "Up to 6 hours of listening time with one charge \nUp to 30 hours of total listening time with the case",
+    memoryIcons: "Pinch-perfect control.",
+    memoryDetials2:
+      "The force sensor gives you even more control\n over your entertainment.You can press to play, \npause, and skip through songs, \nor answer and end calls.",
     detialTitle: "airpod 2nd generation",
     newText: "new",
     partOneImage: "/assets/store/airpod2nd/1.png",
@@ -702,6 +714,12 @@ export const loadAndClear = [
     mainPageName: "accessories",
     name: "home pod mini",
     // ***********************************
+    batteryIcon: <i class='fa-solid fa-battery-half'></i>,
+    batteryDetials:
+      "Up to 6 hours of listening time with one charge \nUp to 30 hours of total listening time with the case",
+    memoryIcons: "Pinch-perfect control.",
+    memoryDetials2:
+      "The force sensor gives you even more control\n over your entertainment.You can press to play, \npause, and skip through songs, \nor answer and end calls.",
     detialTitle: "homepod mini",
     newText: "new",
     partOneImage: "/assets/store/homepod/2.png",

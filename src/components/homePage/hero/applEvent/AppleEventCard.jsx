@@ -10,7 +10,7 @@ export default function AppleEventCard({ cardData }) {
           <div className="texts">
             <h6>{data.title}</h6>
             <p>{data.desc}</p>
-            <Link to="/" className="link">
+            <Link to="/store" className="link">
               <span className="text-link">{data.linkText}</span>
               <span className="icon">
                 <i className="fa-solid fa-angle-right"></i>

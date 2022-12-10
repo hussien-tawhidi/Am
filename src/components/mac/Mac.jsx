@@ -9,7 +9,6 @@ import {
   proAppData,
   proAppIcons,
 } from "../../data/MacData";
-import GetDiallyOff from "../GetDiallyOff";
 import MacService from "../Services/Service";
 import BuildInApp from "./macSubFiles/builApp/BuildInApp";
 import KindOfMac from "./macSubFiles/kindOfMac/KindOfMac";
@@ -26,7 +25,6 @@ export default function Mac() {
     <div>
       <Title title="AM |Mac Prodcuts" />
       <MacHeader />
-      <GetDiallyOff />
       {cardIntroData1.map((data) => (
         <MacCard
           key={data.id}
