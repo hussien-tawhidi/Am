@@ -62,18 +62,29 @@
       height: 100%;
       .arrow {
         position: absolute;
-        bottom: 50%;
-        font-size: 50px;
+        bottom: 10%;
         cursor: pointer;
         color: $dark-color;
         opacity: 0.8;
+        font-size: 30px;
+        border: 2px solid rgb(0, 0, 0, 0.1);
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all .2s ease-in-out;
         &:hover {
+          background-color: $dark-color;
+          color: $light-color;
           opacity: 1;
         }
       }
+      .arrow-left {
+        right: 20%;
+      }
       .arrow-right {
-        right: 0;
-        border-radius: 3px 0 0 3px;
+        right: 5%;
       }
     }
     .mainImage {
@@ -100,38 +111,38 @@
       display: flex;
       align-items: center;
       height: 100%;
-    .texts{
-      color: $dark-color;
-      .newText{
-        color: $orange-color;
-        font-size: 16px;
-        font-weight: 700;
-      }
-      .price{
-        font-size: 30px;
-        font-weight: bold;
-        opacity: .8;
-      }
-      .title{
-        font-size: 40px;
-        text-transform: capitalize;
-        font-weight: bold;
-      }
-      .desc{
-        font-size: 16px;
-        opacity: .8;
-      }
-      .seriveces{
-        display: flex;
-        align-items: center;
-        margin-top: 10px;
-        opacity: .6;
-        p{
+      .texts {
+        color: $dark-color;
+        .newText {
+          color: $orange-color;
           font-size: 16px;
-          font-weight: 600;
+          font-weight: 700;
+        }
+        .price {
+          font-size: 30px;
+          font-weight: bold;
+          opacity: 0.8;
+        }
+        .title {
+          font-size: 40px;
+          text-transform: capitalize;
+          font-weight: bold;
+        }
+        .desc {
+          font-size: 16px;
+          opacity: 0.8;
+        }
+        .seriveces {
+          display: flex;
+          align-items: center;
+          margin-top: 10px;
+          opacity: 0.6;
+          p {
+            font-size: 16px;
+            font-weight: 600;
+          }
         }
       }
-    }
       .singleColor {
         padding: 10px;
         opacity: 0.6;

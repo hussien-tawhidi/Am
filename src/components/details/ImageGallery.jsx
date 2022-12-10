@@ -9,6 +9,15 @@ export default function ImageGallery({
   detialTitle,
   price,
   desc1,
+  batteryIcon,
+  batteryDetials,
+  ramImage,
+  ramDetails,
+  memoryIcons,
+  memoryDetials1,
+  memoryDetials2,
+  memoryDetials3,
+  memoryDetials4
 }) {
   const [slideIndex, setSlideIndex] = useState(1);
 
@@ -82,14 +91,14 @@ export default function ImageGallery({
                 </div>
               </>
             ))}
-            {/* <div className="arrows">
+            <div className="arrows">
               <span className="arrow-left arrow" onClick={() => pluseSide(-1)}>
                 &#10094;
               </span>
               <span className="arrow-right arrow" onClick={() => pluseSide(1)}>
                 &#10095;
               </span>
-            </div> */}
+            </div>
           </div>
         </div>
 
@@ -118,21 +127,39 @@ export default function ImageGallery({
                   </div>
                 </div>
               ))}
-              <div className="texts">
+            </div>
+          </div>
+        </div>
+
+        <div className="texts">
                 <p className="newText">{newText}</p>
                 <p className="price">${price}</p>
+                <div className="moreDesc">
+                  <div className="desc-icon">
+                    <span>{batteryIcon}</span>
+                    <span>{batteryDetials}</span>
+                  </div>
+                  <div className="desc-icon">
+                    <img src={ramImage} alt="" />
+                    <span>{ramDetails}</span>
+                  </div>
+                  <div className="desc-icon">
+                    <div className="memory">{memoryIcons}</div>
+                    <span>{ memoryDetials1}</span>
+                    <span>{ memoryDetials2}</span>
+                    <span>{ memoryDetials3}</span>
+                    <span>{ memoryDetials4}</span>
+                  </div>
+                </div>
                 <h5 className="title">{detialTitle}</h5>
-                <p className="desc">{desc1}</p>
                 <div className="seriveces">
                   <FreeDelivery />
                   <p>
                     Free delivery or pick up available items at an Am Store.
                   </p>
                 </div>
-              </div>
-            </div>
+                <p className="desc">{desc1}</p>
           </div>
-        </div>
       </div>
     </div>
   );

@@ -19,6 +19,7 @@ export default function Watch() {
       <SubHeaderDescktop subHeaderDescktop={watchHeaderData} />
       <SubHeaderMobile subHeaderMobile={watchHeaderData} />
       <GetDiallyOff />
+      
       <IntroWatch />
       <SamsungWatch/>
       <AppleS8Watch/>

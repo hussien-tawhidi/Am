@@ -303,6 +303,15 @@ export const heroCardData = [
     mainPageName: "iphone",
     name: "iPhone 14",
     // *****************************************
+    batteryIcon: <i class="fa-solid fa-battery-half"></i>,
+    batteryDetials: "4323 mAh",
+    ramImage: "/assets/ram.png",
+    ramDetails: "6GB",
+    memoryIcons: <i class="fa-solid fa-sd-card"></i>,
+    memoryDetials1: "64GB",
+    memoryDetials2: "128GB",
+    memoryDetials3: "256GB",
+    memoryDetials4: "512GB",
     detialTitle: "iphone 14 pro",
     newText: "new",
     partOneImage: "/assets/homeImages/iphone14/partOneImage.png",
@@ -312,7 +321,7 @@ export const heroCardData = [
       "iPhone 14 Pro has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance.",
     desc1:
       "iOS 16 lets you customize your Lock Screen in fun new ways. Layer a photo to make it pop. Track your Activity rings. And see live updates from your favorite apps.",
-    videoBg: "/assets/homeImages/iphone14/videoBg.mp4",
+    imageBg: "/assets/homeImages/iphone14/imageBg.jpg",
     videoTitle1: "hight quality",
     videoTitle2: "Crash Detection calls for help when you can’t.",
     videoTitle3:
